@@ -270,9 +270,10 @@ Where is the current **origin**
   <b>git status</b>
 
   <em>then either</em>
-  <b>git push --set-upstream origin master</b>
+  
+  <b>git push --set-upstream</b> <em>origin master</em>
       -or-
-  <b>git push --set-upstream origin master -force</b>
+  <b>git push --set-upstream -force</b> <em>origin master</em>
 </pre>
 
 <div id='git-bisect-section'></div>
@@ -295,9 +296,9 @@ Where is the current **origin**
 ###Rename local and remote branches  
 from: https://gist.github.com/lttlrck/9628955  
 <pre>
-git branch -m old_branch new_branch         # Rename branch locally    
-git push origin :old_branch                 # Delete the old branch    
-git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote
+<b>git branch -m</b> <em>old_branch new_branch</em>         # Rename branch locally    
+<b>git push</b> <em>origin</em> :<em>old_branch</em>                 # Delete the old branch    
+<b>git push --set-upstream</b> <em>origin new_branch</em>   # Push the new branch, set local branch to track the new remote
 </pre>
 
 [gh-pages How To](#gh-pages-how-to)
@@ -355,25 +356,25 @@ alternatively you can do this on PC (these steps will aso create a README.md fil
 <b>rm --ignore-fail-on-non-empty .git</b>
 <b>git init</b>
 <b>git remote add origin https://github.com/peterpih/09_DevelopingDataProducts.git</b>
-<b>git push -u origin master</b>
+<b>git push -u</b> *origin master*
 </pre>
 
 delete the <b>.git</b> file in the PC directory
 
 ### Push files back to repository
-- **git status**
+- <em>git status</em>
 - **git add**
   + **git reset** will reset any **add**ed files before **commit**
 - **git commit**
   + **git pull** for updates if necessary first
 - **git push**
 <pre>
-$ git status (will tell you the status of the files: new, modified, deleted hilited in red
-$ git add <file name>  or git add -A (for everything)
-$ git status (will  hilite the added files in green which need to be committed)
-$ git commit -m <message for commiting>
-$ git status (message will say "use git push to commit your changes")
-$ git push
+$ <b>git status</b> <em>(will tell you the status of the files: new, modified, deleted hilited in red</em>
+$ <b>git add </b> <em>file name</em>  or <b>git add -A</b> *(for everything)*
+$ **git status** *(will hilite the added files in green which need to be committed)*
+$ <b>git commit -m</b> <em>message for commiting</em>
+$ <b>git status</b> *(message will say "use git push to commit your changes")*
+$ <b>git push</b>
 </pre>
 
 If the <b>push is rejected</b> message appears, it is because there have been other updates to the branch on GitHub  
