@@ -1,3 +1,6 @@
+###JQuery
+[Change Button Function](http://stackoverflow.com/questions/15543482/change-the-buttons-function-with-jquery)
+
 #JQuery is a library of javascript routines
 #Coffee is the rails lightweight version of javascript
 
