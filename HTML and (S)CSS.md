@@ -1,5 +1,4 @@
-[How to make a button look like a link](http://stackoverflow.com/questions/1367409/how-to-make-button-look-like-a-link)  
-*Has info on default button styling*
+[How to make a button look like a link](http://stackoverflow.com/questions/1367409/how-to-make-button-look-like-a-link)*Has info on default button styling*
 
 [SASS vs SCSS which sytax is better](http://thesassway.com/editorial/sass-vs-scss-which-syntax-is-better)
 
