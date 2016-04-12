@@ -1,2 +1,5 @@
-Useful links:
-http://vaidehijoshi.github.io/blog/2015/08/04/safely-storing-your-assets-paperclip-with-aws-plus-heroku/
+Useful links:  
+
+[Storing your assets paperclip + AWS](http://vaidehijoshi.github.io/blog/2015/08/04/safely-storing-your-assets-paperclip-with-aws-plus-heroku/)
+
+[Document Content Meta Tags in S3](https://github.com/thoughtbot/paperclip/issues/1230)
