@@ -1,4 +1,5 @@
-this is a <sup>test</sup> showing
+Some Useful Tags  
+<b>&lt;sup&gt;</b> - superscript, like <sup>this</sup>
 
 [How to make a button look like a link](http://stackoverflow.com/questions/1367409/how-to-make-button-look-like-a-link) *Has info on default button styling*
 
