@@ -4,8 +4,11 @@ Some Useful Tags
 <b>placeholder=</b> - for that greyed out text inside form fields
 <red>Hello</red>
 ```{html}
-<f.form label: "input form">
+<input label: "input form">
 ```
+<html>
+<input type="text" id="name" name="name"/>
+</html>
 
 [How to make a button look like a link](http://stackoverflow.com/questions/1367409/how-to-make-button-look-like-a-link) *Has info on default button styling*
 
