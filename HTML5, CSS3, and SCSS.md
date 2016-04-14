@@ -1,5 +1,11 @@
 Some Useful Tags  
-<b>&lt;sup&gt;</b> - superscript, like <sup>this</sup>
+<b>&lt;sup&gt;</b> - superscript, like <sup>this</sup>  
+<b>&lt;sub&gt;</b> - subscript, like <sub>this</sub>  
+<b>placeholder=</b> - for that greyed out text inside form fields
+<red>Hello</red>
+```{html}
+<f.form label: "input form">
+```
 
 [How to make a button look like a link](http://stackoverflow.com/questions/1367409/how-to-make-button-look-like-a-link) *Has info on default button styling*
 
