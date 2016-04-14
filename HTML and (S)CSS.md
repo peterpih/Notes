@@ -1,3 +1,5 @@
+this is a <sup>test</sup> showing
+
 [How to make a button look like a link](http://stackoverflow.com/questions/1367409/how-to-make-button-look-like-a-link) *Has info on default button styling*
 
 [SASS vs SCSS which sytax is better](http://thesassway.com/editorial/sass-vs-scss-which-syntax-is-better)
@@ -16,30 +18,45 @@ http://tutorials.jenkov.com/svg/image-element.html
 ###General HTML layout
 Always starts with `<!DOCTYPE html>`  
 Always has `<html>...</html>` as first and last tags  
-Always has `<head>...</head>`, and `<body>...</body>` go inside `<html>..</html>`  
+Always has `<head>...</head>`, and `<body>...</body>` which go inside `<html>..</html>`  
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+      &lt;title&gt;<em>Title of the webpage here, shows on the browser tab</em>&lt;title&gt;
+      &lt;style&gt;
+          <em>CSS styling can go here, but is in a separate file in RoR</em>
+      &lt;/style&gt;
+      <em>Google Analytics tags usually go here, just before the closing &lt;/head&gt;</em>
+    &lt/head&gt;
+    &lt;body&gt;
+      <em>The main webpage goes here</em>
+    &lt;body&gt;
+&lt;/html&gt;
+</pre>
 
 Example:  
 ```
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>
-    </title>
-    <h1>This is a big heading</h1>
-  <head>
-  <body style="background-color:red">
-    <p>This is a paragraph</p>
-    <ol>
-      <li style="color:blue">first item in ordered list</li>
-      <li style="font-size:20px">second item in ordered list</li>
-      <li style="font-family:Arial">third item in ordered list</li>
-      <li style="font-size=30px; color:orange; font-family:Verdina">fourth item in ordered list</li>
-    </ol>
-    <ul>
-      <li>first item in unordered list</li>
-      <li>second item in unordered list</li>
-    </ul>
-  </body>
+    <head>
+        <title>
+        </title>
+        <h1>This is a big heading</h1>
+    <head>
+    <body style="background-color:red">
+        <p>This is a paragraph</p>
+        <ol>
+            <li style="color:blue">first item in ordered list</li>
+            <li style="font-size:20px">second item in ordered list</li>
+            <li style="font-family:Arial">third item in ordered list</li>
+            <li style="font-size=30px; color:orange; font-family:Verdina">fourth item in ordered list</li>
+        </ol>
+        <ul>
+            <li>first item in unordered list</li>
+            <li>second item in unordered list</li>
+        </ul>
+    </body>
 </html>
 ```
 **Include a link**
