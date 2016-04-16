@@ -31,4 +31,18 @@ Ran <b>bundle</b> from ~/.rbenv/versions/2.2.4/bin and it was fixed
 <b>cd</b> <em>project-directory</em>  
 <b>rails generate rspec:install</b>
 </pre>
+<pre>
+Can be used for <b>new</b> project or <b>existing</b> project which needs rspec
+</pre>
+Add to Gemfile:
+<pre>
+<b>group :development, :test do</b>
+  <b>gem</b> 'rspec-rails', '~> 3.0'
+<b>end</b>
+</pre>
 
+###Lastly
+<pre>
+<b>gem</b> 'rails_12factor', '~> 0.0.3', <b>group: :production</b>
+</pre>
+Add to Gemfile for Heroku
