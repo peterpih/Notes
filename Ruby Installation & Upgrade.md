@@ -1,4 +1,4 @@
-[Ruby Upgrade](https://github.com/rbenv/rbenv/issues/285)
+###[Ruby Upgrade](https://github.com/rbenv/rbenv/issues/285)
 <pre>
 <b>ruby --version</b>            # <em>show the ruby version</em>  
 
@@ -25,3 +25,10 @@
 Had a problem that <b>rbenv</b> could not see <b>bundle</b>  
 Ran <b>bundle</b> from ~/.rbenv/versions/2.2.4/bin and it was fixed
 </pre>
+
+###Rspec install
+<pre>
+<b>cd</b> <em>project-directory</em>  
+<b>rails generate rspec:install</b>
+</pre>
+
