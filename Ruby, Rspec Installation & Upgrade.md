@@ -26,7 +26,7 @@ Had a problem that <b>rbenv</b> could not see <b>bundle</b>
 Ran <b>bundle</b> from ~/.rbenv/versions/2.2.4/bin and it was fixed
 </pre>
 
-###Rspec install
+###[Rspec install](https://www.launchacademy.com/codecabulary/learn-test-driven-development/rspec/setting-up-rpec)
 <pre>
 <b>cd</b> <em>project-directory</em>  
 <b>rails generate rspec:install</b>
@@ -42,6 +42,7 @@ Add to Gemfile:
 </pre>
 
 ###Lastly
+For Rails > 4.0
 <pre>
 <b>gem</b> 'rails_12factor', '~> 0.0.3', <b>group: :production</b>
 </pre>
