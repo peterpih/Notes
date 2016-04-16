@@ -1,23 +1,24 @@
 [Ruby Upgrade](https://github.com/rbenv/rbenv/issues/285)
 <pre>
-<b>ruby --version</b>            # show the ruby version  
+<b>ruby --version</b>            # <em>show the ruby version</em>  
 
-<b>rbenv versions</b>            # shows the versions of ruby available  
+<b>rbenv versions</b>            # <em>shows available versions of ruby</em>  
 
-<b>rbenv install</b> <em>2.2.4</em>       # install specific version  
-                          # if not available try upgrading ruby-build  
+<b>rbenv install</b> <em>2.2.4</em>       # <em>install a specific version</em>  
+                          # <em>if not available try upgrading <b>ruby-build</b></em>  
 
-<b>brew upgrade ruby-build</b>   # upgrade
+<b>brew upgrade ruby-build</b>   # <em>upgrade ruby-build</em>
+                          # <em>may have to run <b>brew upgrade</b> first</em>
 
-<b>rbenv install</b> <em>2.2.4</em>       # install specific version
+<b>rbenv install</b> <em>2.2.4</em>       # <em>install specific version</em>
 
-<b>rbenv global</b> <em>2.2.4</em>        # set default version number in ~/.rbenv/version
+<b>rbenv global</b> <em>2.2.4</em>        # <em>sets default version number in ~/.rbenv/version</em>
 
-<b>gem install bundler</b>       # to get <b>bundler</b> for new ruby version
+<b>gem install bundler</b>       # <em>to get <b>bundler</b> for new ruby version</em>
 
 <b>cd</b> <em>back-to-dev-directory</em>
 
-<b>bundler</b>                   # run bundler, entire list of gems will appear
+<b>bundler</b>                   # <em>run bundler, entire list of gems will appear</em>
 
 </pre>
 <pre>
