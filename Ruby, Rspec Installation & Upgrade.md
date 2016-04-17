@@ -47,3 +47,5 @@ For Rails > 4.0
 <b>gem</b> 'rails_12factor', '~> 0.0.3', <b>group: :production</b>
 </pre>
 Add to Gemfile for Heroku
+
+###Change database.yml to use postgres
