@@ -25,7 +25,7 @@ Think of <b>origin</b> not as where the code is now, but where it came from ie t
 9) [gh-pages](#gh-pages-how-to-section)    
 
 
-div id="typical-git-command-flow-section"  
+<div id="typical-git-command-flow-section">  
 
 
 ###Typical Git Command Flow
