@@ -48,3 +48,9 @@ Scroll down to Deployment and edit:
 
 
 You can clone into <em>code-blog</em> as usual
+
+<pre>
+npm install
+npm install hexo-generator-cname --save
+hexo init
+</pre>
