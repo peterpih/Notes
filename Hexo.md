@@ -18,8 +18,8 @@ To check installation
 ###Create blog directory
 <pre>
   <b>mkdir</b> <em>hexo</em>  <em>( you can put all your hexos under a root directory )</em>
-  
   <b>cd</b> <em>hexo</em>
+  
   <b>hexo init</b> <em>code-blog</em> 
   <b>cd</b> <em>code-blog</em>
   <b>npm install</b>
