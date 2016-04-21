@@ -23,9 +23,28 @@ To check installation
   <b>hexo init</b> <em>code-blog</em> 
   <b>cd</b> <em>code-blog</em>
   <b>npm install</b>
+  <b>git init</b>
 </pre>
 
-Check with the hexo local server
+Check with a local hexo server
 <pre>
   <b>hexo server</b>
 </pre>
+
+###Create new Post
+<pre>
+  <b>hexo new</b> <em>"name-of-post"</em> <em>( in quotes )</em>
+</pre>
+
+
+###Modify configuration file _config.yml.
+
+Scroll down to Deployment and edit:
+<pre>
+    <b>type: git</b>
+    <b>repo: git@github.com:</b><em>your-username/your-username</em>.github.io.git <em>( your-username necessary for github.io pages )</em>
+  <b>branch: master</b>
+</pre>
+
+
+You can clone into <em>code-blog</em> as usual
