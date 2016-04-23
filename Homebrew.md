@@ -1,7 +1,10 @@
 ###[Homebrew Repository](https://github.com/Homebrew/homebrew)
 
+http://braumeister.org
+
 <pre>
 <b>brew update</b>                      <em>update casks</em>
+<b>brew list</b>                       <em> list installed packages</em>
 
 <b>brew doctor</b>                      <em>check status of casks</em>
 </pre>
