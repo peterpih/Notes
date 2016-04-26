@@ -71,3 +71,23 @@ var circle = svgContainer.append("circle")
                          .attr("cy", 30)
                          .attr("r", 20);
 </pre>
+
+####Rectangles
+In HTML
+<pre>
+  &lt;svg width="50" height="50"&gt;
+    &lt;rect x="0" y="0" width="50" height="50" fill="green" /&gt;
+  &lt;/svg&gt;
+  
+//Make an SVG Container
+var svgContainer = d3.select("body").append("svg")
+                                    .attr("width", 200)
+                                    .attr("height", 200);
+
+//Draw the Rectangle
+var rectangle = svgContainer.append("rect")
+                            .attr("x", 10)
+                            .attr("y", 10)
+                            .attr("width", 50)
+                            .attr("height", 100);
+</pre>
