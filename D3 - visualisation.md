@@ -91,3 +91,69 @@ var rectangle = svgContainer.append("rect")
                             .attr("width", 50)
                             .attr("height", 100);
 </pre>
+
+####Ellipse
+In HTML
+<pre>
+  &lt;svg width="50" height="50"&gt;
+    &lt;ellipse cx="25" cy="25" rx="15" ry="10" fill="red" /&gt;
+  &lt;/svg&gt;
+  
+  
+//Make an SVG Container
+var svgContainer = d3.select("body").append("svg")
+                                    .attr("width", 200)
+                                    .attr("height", 200);
+
+//Draw the Ellipse
+var circle = svgContainer.append("ellipse")
+                         .attr("cx", 50)
+                         .attr("cy", 50)
+                         .attr("rx", 25)
+                         .attr("ry", 10);
+                         
+</pre>
+
+####Straight Line
+<pre>
+  &lt;svg width="50" height="50"&gt;
+    &lt;line x1="5" y1="5" x2="40" y2="40" stroke="gray" stroke-width="5"  /&gt;
+  &lt;/svg&gt;
+
+//Make an SVG Container
+var svgContainer = d3.select("body").append("svg")
+                                    .attr("width", 200)
+                                    .attr("height", 200);
+
+//Draw the line
+var circle = svgContainer.append("line")
+                         .attr("x1", 5)
+                         .attr("y1", 5)
+                         .attr("x2", 50)
+                         .attr("y2", 50);
+                         .attr("stroke-width", 2)
+                         .attr("stroke", "black");
+</pre>
+
+####Polyline
+<pre>
+<svg width="50" height="50">
+  <polyline fill="none" stroke="blue" stroke-width="2"
+    points="05,30
+            15,30
+            15,20
+            25,20
+            25,10
+            35,10" />
+</svg>
+</pre>
+
+####Polygon
+<pre>
+  <svg width="50" height="50">
+    <polygon fill="yellow" stroke="blue" stroke-width="2"
+      points="05,30
+              15,10
+              25,30" />
+  </svg>
+</pre>
