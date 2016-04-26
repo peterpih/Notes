@@ -15,22 +15,22 @@ d3.select("body").append("svg").attr("width", 50).attr("height", 50).append("cir
 
 Better readability:
 <pre>
-d3.select("body")
-  .append("svg")
-  .attr("width", 50)
-  .attr("height", 50)
-  .append("circle")
-  .attr("cx", 25)
-  .attr("cy", 25)
-  .attr("r", 25)
-  .style("fill", "purple");
- </pre>
+d3.<b>select</b>("body")
+  .<b>append</b>("svg")
+  .<b>attr</b>("width", 50)
+  .<b>attr</b>("height", 50)
+  .<b>append</b>("circle")
+  .<b>attr</b>("cx", 25)
+  .<b>attr</b>("cy", 25)
+  .<b>attr</b>("r", 25)
+  .<b>style</b>("fill", "purple");
+</pre>
  
 Best:
 <pre>
-var bodySelection = d3.select("body");
+<b>var</b> bodySelection = d3.<b>select</b>("body");
 
-var svgSelection = bodySelection.append("svg")
+<b>var</b> svgSelection = bodySelection.<b>append</b>("svg")
       .attr("width", 50)
       .attr("height", 50);
 
@@ -39,4 +39,11 @@ var circleSelection = svgSelection.append("circle")
       .attr("cy", 25)
       .attr("r", 25)
       .style("fill", "purple");
+</pre>
+
+D3 has functions to read  CSV, XML, JSON data formats
+
+####Binding data
+<pre>
+  <b>function</b> (d) { <b>return</b> d; }
 </pre>
