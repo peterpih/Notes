@@ -223,3 +223,35 @@ var rectangleAttributes = rectangles
                           .style("fill", function(d) { return d.color; });
 </pre>
 
+###Scaling
+<pre>
+var linearScale = d3.scale.linear()
+                           .domain([0,10000])  // original
+                           .range([0,100]);    // transform
+</pre>
+
+####d3.max
+<pre>
+var maxInitialData = d3.max(initialScaleData);
+</pre>
+
+####d3.min
+<pre>
+var maxInitialData = d3.min(initialScaleData);
+</pre>
+
+####Scaling types
+<pre>
+<b>Identity</b>: a special kind of linear scale, 1:1, good for pixel values. input == output  
+<b>Linear</b>: transforms one value in the domain interval into a value in the range interval  
+<b>Power and Logarithmic scales</b>: sqrt, pow, log – used for exponentially increasing values  
+<b>Quantize and Quantile scales</b>: for discrete sets of unique possible values for inputs or outputs  
+<b>Ordinal</b>: for non quantitative scales, like names, categories, etc.  
+</pre>
+
+###SVG Group Elements
+<pre>
+  &lt;g&gt;
+  ...
+  &lt;/g&gt;
+</pre>
