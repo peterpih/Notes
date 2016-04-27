@@ -158,6 +158,21 @@ var circle = svgContainer.append("line")
   &lt;/svg&gt;
 </pre>
 
+####Linear Interpolators
+<pre>
+linear - piecewise linear segments, as in a polyline. 
+step-before - alternate between vertical and horizontal segments, as in a step function. 
+step-after - alternate between horizontal and vertical segments, as in a step function. 
+basis - a B-spline, with control point duplication on the ends. 
+basis-open - an open B-spline; may not intersect the start or end. 
+basis-closed - a closed B-spline, as in a loop. 
+bundle - equivalent to basis, except the tension parameter is used to straighten the spline. 
+cardinal - a Cardinal spline, with control point duplication on the ends. 
+cardinal-open - an open Cardinal spline; may not intersect the start or end, but will intersect other control points. 
+cardinal-closed - a closed Cardinal spline, as in a loop. 
+monotone - cubic interpolation that preserves monotonicity in y. 
+</pre>
+
 ###D3 Generators
 <pre>
 <b>d3.svg.line</b> - <em>create a new line generator</em>  
