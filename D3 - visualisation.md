@@ -137,23 +137,36 @@ var circle = svgContainer.append("line")
 
 ####Polyline
 <pre>
-<svg width="50" height="50">
-  <polyline fill="none" stroke="blue" stroke-width="2"
+&lt;svg width="50" height="50"&gt;
+  &lt;polyline fill="none" stroke="blue" stroke-width="2"
     points="05,30
             15,30
             15,20
             25,20
             25,10
-            35,10" />
-</svg>
+            35,10" /&gt;
+&lt;/svg&gt;
 </pre>
 
 ####Polygon
 <pre>
-  <svg width="50" height="50">
-    <polygon fill="yellow" stroke="blue" stroke-width="2"
+  &lt;svg width="50" height="50"&gt;
+    &lt;polygon fill="yellow" stroke="blue" stroke-width="2"
       points="05,30
               15,10
-              25,30" />
-  </svg>
+              25,30" /&gt;
+  &lt;/svg&gt;
+</pre>
+
+###D3 Generators
+<pre>
+<b>d3.svg.line</b> - <em>create a new line generator</em>  
+<b>d3.svg.line.radial</b> - <em>create a new radial line generator</em>  
+<b>d3.svg.area</b> - <em>create a new area generator</em>  
+<b>d3.svg.area.radial</b> - <em>create a new radial area generator</em>  
+<b>d3.svg.arc</b> - <em>create a new arc generator</em>  
+<b>d3.svg.symbol</b> - <em>create a new symbol generator</em>  
+<b>d3.svg.chord</b> - <em>create a new chord generator</em>  
+<b>d3.svg.diagonal</b> - <em>create a new diagonal generator</em>  
+<b>d3.svg.diagonal.radial</b> - <em>create a new radial diagonal generator</em>  
 </pre>
