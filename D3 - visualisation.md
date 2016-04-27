@@ -8,7 +8,7 @@
 
 ###[Combining R and D3](http://blog.ae.be/combining-the-power-of-r-and-d3-js/)
 
-###The following 3 code blocks are equivalent
+###The following 3 code blocks are equivalent (method chaining)
 Kind of long:
 <pre>
 d3.select("body").append("svg").attr("width", 50).attr("height", 50).append("circle").attr("cx", 25).attr("cy", 25).attr("r", 25).style("fill", "purple");
@@ -50,6 +50,8 @@ D3 has functions to read  CSV, XML, JSON data formats
 </pre>
 
 ###SVG Objects
+
+These shapes seem to come from HTML definitions.
 
 ####Circles
 In HTML
