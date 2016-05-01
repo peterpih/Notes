@@ -1,5 +1,12 @@
 ###[CodeAcademy Javacript Tutorial](https://www.codecademy.com/courses/objects-ii/0/1?curriculum_id=506324b3a7dffd00020bf661)
 
+####Operators
+<pre>
+<b>+=</b> <em>plus equals</em>
+<b>-=</b> <em>minus equals</em>
+<b>&&</b> <em>logical AND</em>
+<b>||</b> <em>logical OR</em>
+</pre>
 ####Object Construction
 
 <pre>
