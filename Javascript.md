@@ -29,7 +29,10 @@
 <em>string</em>.<b>substring</b>(<em>start, end</em>);
 <em>string</em>.<b>toLowerCase()</b>
 
-<em>array</em>.<b>push>/b>( ... );
+<b>String.fromCharCode</b>( <em>character</em> );
+<b>String.charCodeAt</b>( <em>position</em> );
+
+<em>array</em>.<b>push</b>( ... );
 
 </pre>
 
