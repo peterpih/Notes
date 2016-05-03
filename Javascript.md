@@ -6,6 +6,20 @@
 <b>-=</b> <em>minus equals</em>
 <b>&&</b> <em>logical AND</em>
 <b>||</b> <em>logical OR</em>
+<b>//</b> <em>comment</em>
+</pre>
+
+####Methods
+<pre>
+<b>.length</b>
+
+</pre>
+
+####Messages
+<pre>
+<b>alert</b>( <em>message</em> )  
+<b>confirm</b>( <em>message</em> )  
+<b>prompt</b>( <em>message</em> )  
 </pre>
 ####Object Construction
 
