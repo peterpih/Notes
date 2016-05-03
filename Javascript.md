@@ -90,6 +90,29 @@ var setAge = function (newAge) {
 };
 
 Bob.setAge(50);
+
+
+var setAge = function (newAge) {
+  this.age = newAge;
+};
+
+var susan = new Object();
+susan.age = 25;
+susan.setAge = setAge;
+susan.setAge(35);
+</pre>
+
+####Modifying Objects
+<pre>
+  <b>function</b> <em>objectName</em> ( <em>arguments</em> ) {
+    <b>this</b>.<em>key</em> = <em>value</em>;
+  };
+  
+  <b>var</b> myObj = <b>new</b> <em>objectName</em>( <em>arguments</em> );
+  myObj.<b>prototype</b>.<em>methodName</em> = <b>function</b>() {
+    ...
+  };
+  myObj.<em>methodName</em>();
 </pre>
 
 ####Branching
