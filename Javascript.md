@@ -76,4 +76,6 @@ var gabby = new Person("student", true);
 <b>var</b> <em>functionName</em> = <b>function</b>(<em>argument(s)</em>){
     ...
 };
+
+<em>functionName</em>(<em>argument(s)</em>);  
 </pre>
