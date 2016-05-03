@@ -2,11 +2,19 @@
 
 ####Operators
 <pre>
+<b>+, -, /, *, %</b> <em>standard unary operators</em>
 <b>+=</b> <em>plus equals</em>
 <b>-=</b> <em>minus equals</em>
 <b>&&</b> <em>logical AND</em>
 <b>||</b> <em>logical OR</em>
 <b>//</b> <em>comment</em>
+
+<b>&gt;</b>
+<b>&lt;</b>
+<b>===</b> <em>equal to</em>
+<b>!==</b> <em>not equal to</em>
+<b>&gt;=</b>  
+<b>&lt;=</b>  
 </pre>
 
 ####Methods
@@ -17,10 +25,18 @@
 
 ####Messages
 <pre>
-<b>alert</b>( <em>message</em> )  
-<b>confirm</b>( <em>message</em> )  
-<b>prompt</b>( <em>message</em> )  
+<b>alert</b>( <em>message</em> );  
+<b>confirm</b>( <em>message</em> );  
+<b>prompt</b>( <em>message</em> );  
+<b>var</b> inputName = <b>prompt</b>("What is your name?");
 </pre>
+
+####Output
+<pre>
+    <b>console.log</b>( ... );
+</pre>
+
+
 ####Object Construction
 
 <pre>
@@ -39,4 +55,17 @@ function Person(job, married) {
 
 // create a "gabby" object using the Person constructor!
 var gabby = new Person("student", true);
+</pre>
+
+####Branching
+<pre>
+<b>if</b> ( <em>boolean</em> ){  
+    ...
+}
+<b><em>else if</b> ( <em>boolean</em> ){
+    ...
+{</em>
+<b>else</b>{
+    ...
+}
 </pre>
