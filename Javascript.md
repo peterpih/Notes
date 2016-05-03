@@ -26,7 +26,7 @@
 ####Methods
 <pre>
 <em>string</em>.<b>length</b>  <em>length of the string</em>
-<em>string</em>.<b>substring</b>(<em>start, length</em>);
+<em>string</em>.<b>substring</b>(<em>start, end</em>);
 <em>string</em>.<b>toLowerCase()</b>
 
 <em>array</em>.<b>push>/b>( ... );
