@@ -64,10 +64,10 @@ var gabby = new Person("student", true);
 
 ####Branching
 <pre>
-<b>if</b> ( <em>boolean</em> ){  
+<b>if</b> ( <em>condition</em> ){  
     ...
 }
-<b><em>else if</b> ( <em>boolean</em> ){
+<b><em>else if</b> ( <em>condition</em> ){
     ...
 {</em>
 <b>else</b>{
@@ -87,7 +87,7 @@ var gabby = new Person("student", true);
 
 ####For Loops
 <pre>
-<b>for</b> (<b>var</b> i = <em>start</em>; i < 10; i++){
+<b>for</b> (<b>var</b> i = <em>start</em>; i<10; i++){
     ...
 };
 </pre>
@@ -98,9 +98,13 @@ Start at 0 (zero) index
 <b>var</b> anArray = [1, 2, 3, 4];
 </pre>
 
-###While Loop
+###While, Do Loops
 <pre>
 <b>while</b>(<em>condition</em>){
     ...
 };
+
+<b>do</b>{
+    ...
+}<b>while</b>(<em>condition</e>);
 </pre>
