@@ -70,3 +70,10 @@ var gabby = new Person("student", true);
     ...
 }
 </pre>
+
+####Functions
+<pre>
+<b>var</b> <em>functionName</em> = <b>function</b>(<em>argument(s)</em>){
+    ...
+};
+</pre>
