@@ -7,7 +7,9 @@
 <b>-=</b> <em>minus equals</em>
 <b>&&</b> <em>logical AND</em>
 <b>||</b> <em>logical OR</em>
+
 <b>//</b> <em>comment</em>
+<b>++, --</b>
 
 <b>&gt;</b>
 <b>&lt;</b>
@@ -20,7 +22,9 @@
 ####Methods
 <pre>
 <em>string</em>.<b>length</b>  <em>length of the string</em>
-<em>string</em>.<b>substring</b>(<em>start, length</em>)
+<em>string</em>.<b>substring</b>(<em>start, length</em>);
+
+<em>array</em>.<b>push>/b>( ... );
 
 </pre>
 
@@ -75,7 +79,28 @@ var gabby = new Person("student", true);
 <pre>
 <b>var</b> <em>functionName</em> = <b>function</b>(<em>argument(s)</em>){
     ...
+    <b>return</b>( ... );
 };
 
 <em>functionName</em>(<em>argument(s)</em>);  
+</pre>
+
+####For Loops
+<pre>
+<b>for</b> (<b>var</b> i = <em>start</em>; i < 10; i++){
+    ...
+};
+</pre>
+
+####Arrays
+Start at 0 (zero) index
+<pre>
+<b>var</b> anArray = [1, 2, 3, 4];
+</pre>
+
+###While Loop
+<pre>
+<b>while</b>(<em>condition</em>){
+    ...
+};
 </pre>
