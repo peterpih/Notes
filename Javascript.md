@@ -19,7 +19,8 @@
 
 ####Methods
 <pre>
-<b>.length</b>
+<em>string</em>.<b>length</b>  <em>length of the string</em>
+<em>string</em>.<b>substring</b>(<em>start, length</em>)
 
 </pre>
 
