@@ -17,12 +17,16 @@
 <b>!==</b> <em>not equal to</em>
 <b>&gt;=</b>  
 <b>&lt;=</b>  
+
+<b>var</b> emptyObject = <b>{}</b>
+<b>var</b> emptyArray = <b>[]</b>
 </pre>
 
 ####Methods
 <pre>
 <em>string</em>.<b>length</b>  <em>length of the string</em>
 <em>string</em>.<b>substring</b>(<em>start, length</em>);
+<em>string</em>.<b>toLowerCase()</b>
 
 <em>array</em>.<b>push>/b>( ... );
 
@@ -52,14 +56,40 @@ var james = {
     married: false
 };
 
+<b>var</b> myObject = {
+  name: 'Eduardo',
+  type: 'Most excellent',
+  interests: [1,2,3]
+};
+
 // constructor construction
-function Person(job, married) {
-    this.job = job;
-    this.married = married;
+<b>function</b> functionName( <em>arguments</em> ){
+    <b>this</b>.<em>key</em> <b>=</b> <em>value</em>
+};
+
+<b>function</b> Person(job, married) {
+    <b>this</b>.job = job;
+    <b>this</b>.married = married;
 }
 
 // create a "gabby" object using the Person constructor!
 var gabby = new Person("student", true);
+
+<b>var</b> anObject = <b>function<b>( ... ) {
+    <b>this</b>.<em>key</em> = <em>value</em>;
+    <b>this</b>.<em>method</em> = <b>function</b>( <em>value</em> ) {
+        <b>this</b>.<em>key</em> = <em>value</em>;
+    };
+};
+</pre>
+
+Use a function with an object
+<pre>
+var setAge = function (newAge) {
+  this.age = newAge;
+};
+
+Bob.setAge(50);
 </pre>
 
 ####Branching
@@ -95,7 +125,10 @@ var gabby = new Person("student", true);
 ####Arrays
 Start at 0 (zero) index
 <pre>
-<b>var</b> anArray = [1, 2, 3, 4];
+<b>var</b> anArray = [1, 2, 3, 4]; <em>one-dimensional arrays</em>  
+<b>var</b> anArray = [[1,1], [2,2], [3,3]]; <em>two-dimensional arrays</em>
+<b>var</b> myArray=[1,<b>true</b>, "hello", {name: "Peter"}];  <em>mixed array</em>
+<b>var</b> newArray=[[1,1],[2,2,2,2],[3,3], [{word: "hello"}]];
 </pre>
 
 ###While, Do Loops
@@ -107,4 +140,18 @@ Start at 0 (zero) index
 <b>do</b>{
     ...
 }<b>while</b>(<em>condition</e>);
+</pre>
+
+####Switch
+<pre>
+<b>switch</b>(<em>expression</em>) {
+    <b>case</b> <em>condition1</em>:
+        ...
+        <b>break</b>;
+    <b>case</b> <em>condition2</em>:
+        ...
+        <b>break</b>;
+    <b>default</b>:
+        ...
+};
 </pre>
