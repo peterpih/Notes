@@ -1,5 +1,5 @@
 ####[Javascript Command Line Instructions](http://javascriptplayground.com/blog/2015/03/node-command-line-tool/)
-###[CodeAcademy Javacript Tutorial](https://www.codecademy.com/courses/objects-ii/0/1?curriculum_id=506324b3a7dffd00020bf661)
+###[CodeAcademy Javascript Tutorial](https://www.codecademy.com/courses/objects-ii/0/1?curriculum_id=506324b3a7dffd00020bf661)
 
 ####Operators
 <pre>
