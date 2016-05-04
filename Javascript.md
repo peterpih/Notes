@@ -27,6 +27,7 @@
 <pre>
 <em>string</em>.<b>length</b>  <em>length of the string</em>
 <em>string</em>.<b>substring</b>(<em>start, end</em>);
+<em>string</em>.<b>split</b>(<em>delimiter, count</em>);
 <em>string</em>.<b>toLowerCase()</b>
 
 <b>String.fromCharCode</b>( <em>character</em> );
