@@ -63,7 +63,8 @@ While on feature_branch, when ready to push to master branch, check for conflict
 <b>git merge</b> <em>branch</em>              # there will be no comflicts at this point
 </pre>
 
-<a href="https://www.atlassian.com/git/tutorials/making-a-pull-request/example">making a pull request</a> example  
+
+[making a pull request]("https://www.atlassian.com/git/tutorials/making-a-pull-request/example") example   
 
 We use the <b>Fork Workflow</b> method  
 
@@ -199,17 +200,17 @@ We use the <b>Fork Workflow</b> method
 
 #--- <a href="https://git-scm.com/book/en/v1/Git-Tools-Stashing"><b>STASH</b></a> --- <em>push a branch onto a saved stack</em>
 
-<b>git stash</b>                       # creates a stash  
+<b>git stash</b>                       <em>creates a stash</em>  
 <b>git stash save</b>  
 <b>git stash save</b> <em>description</em>  
 
-<b>git stash apply</b>                 # apply most recent stash
-<b>git stash apply stash@{2}</b>       # apply second stash
+<b>git stash apply</b>                 <em>apply most recent stash<em>
+<b>git stash apply stash@{2}</b>       <em>apply second stash</em>
 
-<b>git stash list</b>                  # lists stashes  
+<b>git stash list</b>                  <em>lists stashes</em>  
 
-<b>git stash drop stash@{0}</b>        <em>( delete first stash )</em>
-<b>git stash drop stash@{1}</b>        # delete second stash
+<b>git stash drop stash@{0}</b>        <em>delete first stash</em>
+<b>git stash drop stash@{1}</b>        <em>delete second stash</em>
 </pre>
 
 <div id="merging-branches-section">
