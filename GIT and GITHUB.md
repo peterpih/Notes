@@ -24,7 +24,7 @@ Think of <b>origin</b> not as where the code is now, but where it came from ie t
 8) [GitHub](#github-section)  
 9) [gh-pages](#gh-pages-how-to-section)    
 
-<div id="typical-git-command-flow-section">    
+<div id="typical-git-command-flow-section"></div>    
 ###Typical Git Command Flow
 
 <pre>
@@ -68,7 +68,7 @@ While on feature_branch, when ready to push to master branch, check for conflict
 
 We use the <b>Fork Workflow</b> method  
 
-<div id="file-commands-section">
+<div id="file-commands-section"></div>
 ###File commands
 <pre>
 --- ADD --- <em>to staging</em>
@@ -136,7 +136,7 @@ We use the <b>Fork Workflow</b> method
 <b>git log --graph --oneline --decorate --all</b>       # makes a graph of the branches
 </pre>
 
-<div id="repo-branch-section">
+<div id="repo-branch-section"></div>
 ###For Repositories and Branches
 <pre>
 <b>cd</b> <em>working-directory</em>
@@ -213,7 +213,7 @@ We use the <b>Fork Workflow</b> method
 <b>git stash drop stash@{1}</b>        <em>delete second stash</em>
 </pre>
 
-<div id="merging-branches-section">
+<div id="merging-branches-section"></div>
 
 ###Merging Branches   
 [Updating local master from origin master](http://stackoverflow.com/questions/501407/is-there-a-git-merge-dry-run-option)
@@ -249,7 +249,7 @@ Then **fetch** from the GitHub to get the README.md file
 <b>git push --set-upstream  https://github.com/</b><em>username</em><b>/</b><em>project-name</em><b>.git master</b>
 </pre>
 
-<div id="where-is-current-origin-section">
+<div id="where-is-current-origin-section"></div>
 
 ###Change Origin Repository   
 
@@ -295,7 +295,7 @@ Where is the current **origin**
 <em>( repeat )</em>
 </pre>
 
-<div id="rename-local-and-remote-branches-section">
+<div id="rename-local-and-remote-branches-section"></div>
 ###Rename local and remote branches  
 from: https://gist.github.com/lttlrck/9628955  
 <pre>
@@ -408,7 +408,7 @@ Move from one branch to another using **checkout**
 http://schacon.github.io/git/git-checkout.html  
 
 
-<div id='github-section'>
+<div id='github-section'></div>
 #Github Commands
 
 ### Create a repository on GitHub
@@ -431,7 +431,7 @@ After the repository is created, click the **+** after the repository name to cr
 - Click on **Settings** icon (right hand column)
 - Click on **Delete Repository** at bottom of page
 
-<div id='gh-pages-how-to-section'>
+<div id='gh-pages-how-to-section'></div>
 ###gh-pages in GitHub  
 
 **github.io url generator**: http://drastudio.github.io/url-generator/  
