@@ -38,6 +38,15 @@
 
 </pre>
 
+####Number Conversions
+<pre>
+parseFloat(string,radix) → convert a string (➢ for example: "3.14") to a decimal number. radix defaults to 10.
+parseInt("324")  // ⇒ 324
+
+(number).toString(radix) → convert a number to string. radix defaults to 10.
+(30).toString()             // ⇒ "30"
+</pre>
+
 ####Messages
 <pre>
 <b>alert</b>( <em>message</em> );  
