@@ -47,6 +47,13 @@ parseInt("324")  // ⇒ 324
 (30).toString()             // ⇒ "30"
 </pre>
 
+####Currency Conversions
+<pre>
+(2500).toLocaleString("en-GB", {style: "currency", currency: "GBP", minimumFractionDigits: 2})
+(2500).toLocaleString("en-US", {style: "currency", currency: "USD", minimumFractionDigits: 2})  // $2,500.00
+</pre>
+
+
 ####Messages
 <pre>
 <b>alert</b>( <em>message</em> );  
