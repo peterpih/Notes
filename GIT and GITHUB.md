@@ -213,7 +213,7 @@ We use the <b>Fork Workflow</b> method
 <b>git stash drop stash@{1}</b>        <em>delete second stash</em>
 </pre>
 
-####Remote Repository Commands
+###Remote Repository Commands
 <pre>
 <b>git push origin :</b><em>branch-name</em>      <em>delete a remote branch</em>
 <b>git fetch -p</b>                 <em>prune map of remote branches in case they were deleted</em>
