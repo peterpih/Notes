@@ -204,7 +204,7 @@ We use the <b>Fork Workflow</b> method
 <b>git stash save</b>  
 <b>git stash save</b> <em>description</em>  
 
-<b>git stash apply</b>                 <em>apply most recent stash<em>
+<b>git stash apply</b>                 <em>apply most recent stash</em>
 <b>git stash apply stash@{2}</b>       <em>apply second stash</em>
 
 <b>git stash list</b>                  <em>lists stashes</em>  
