@@ -69,7 +69,7 @@ While on feature_branch, when ready to push to master branch, check for conflict
 We use the <b>Fork Workflow</b> method  
 
 <div id="file-commands-section"></div>
-###File commands
+###File commands (local repository)
 <pre>
 --- ADD --- <em>to staging</em>
 
@@ -211,6 +211,12 @@ We use the <b>Fork Workflow</b> method
 
 <b>git stash drop stash@{0}</b>        <em>delete first stash</em>
 <b>git stash drop stash@{1}</b>        <em>delete second stash</em>
+</pre>
+
+####Remote Repository Commands
+<pre>
+<b>git push origin :</b><em>branch-name</em>      <em>delete a remote branch</em>
+<b>git fetch -p</b>                 <em>prune map of remote branches in case they were deleted</em>
 </pre>
 
 <div id="merging-branches-section"></div>
