@@ -2,6 +2,8 @@
 
 http://api.rubyonrails.org/classes/ActiveSupport/TimeZone.html
 
+[How to change how ActiveAdmin displays time](http://stackoverflow.com/questions/17845646/how-to-change-how-activeadmin-displays-time-every-time)
+
 Do not use system time since servers could be anywhere
 
 <pre>
