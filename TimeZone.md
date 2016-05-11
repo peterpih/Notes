@@ -9,6 +9,9 @@ Do not use system time since servers could be anywhere
 
 Time.now.in_time_zone
 DateTime.now.in_time_zone
+</pre>
 
-
+####Show All Different Time Zones
+<pre>
+<b>rake time:zones:all</b>
 </pre>
