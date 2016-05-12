@@ -128,8 +128,9 @@ Zoo                    $14,279,300 (C-341)
 </pre>
 
 ####Police Tree
-      Fund        Agency       LOB                     Program
-[ 'ASSET FORFEITURE      ||Police||Police Chiefs Office||POLICE BUSINESS SERVICES $684',
+<pre>
+      Fund        Agency       LOB                     Program  
+  'ASSET FORFEITURE      ||Police||Police Chiefs Office||POLICE BUSINESS SERVICES $684',  
   'ASSET FORFEITURE      ||Police||Police Chiefs Office||POLICE EXEC LEADERSHIP $96,530',
   'ASSET FORFEITURE      ||Police||Police Chiefs Office||POLICE HUMAN RESOURCES $73,470',
   'ASSET FORFEITURE      ||Police||Police Investigations||POLICE INVESTIGATIONS $133,570',
@@ -173,9 +174,9 @@ Zoo                    $14,279,300 (C-341)
   'GRANTS MANAGEMENT          ||Police||Police Operational||POLICE PATROL $1,200,775',
   'GRANTS MANAGEMENT          ||Police||Police Operational||POLICE YOUTH SERVICES $1,315,094',
   'MAPS3 USE TAX              ||Police||MAPS 3 Capital||Police MAPS 3 Capital $18,804,753',
-  'POLICE/FIRE EQUIP SALES TAX||Police||Pol/Fire Capital - Police||POL/FIRE CAPITAL - POLICE $645,607',
-  'POLICE                     ||Police||Police Admin Bureau-E911    ||TRAINING & RECRUITING $238,600',
-  'POLICE                     ||Police||Police Chiefs Office        ||POLICE EMERGENCY MANAGEMENT $33,003',
+  'POLICE/FIRE EQUIP SALES TAX||Police||Pol/Fire Capital - Police||POL/FIRE CAPITAL - POLICE $645,607',  
+  'POLICE                     ||Police||Police Admin Bureau-E911    ||TRAINING & RECRUITING $238,600',  
+  'POLICE                     ||Police||Police Chiefs Office        ||POLICE EMERGENCY MANAGEMENT $33,003',  
   'POLICE                     ||Police||Police Chiefs Office        ||POLICE EXEC LEADERSHIP $2,691,378',
   'POLICE                     ||Police||Police Chiefs Office        ||POLICE HUMAN RESOURCES $180,224',
   'POLICE                     ||Police||Police Chiefs Office        ||POLICE PROFESSIONAL STANDARDS $114,494',
@@ -193,4 +194,5 @@ Zoo                    $14,279,300 (C-341)
   'POLICE                     ||Police||Police Public Safety Support||POLICE RECORDS MANAGEMENT $538,250',
   'POLICE                     ||Police||Police Public Safety Support||POLICE TRAINING $204,113',
   'POLICE                     ||Police||Police Sales Tax Capital    ||POLICE SALES TAX CAPITAL $7,635,225',
-  'SPECIAL PURPOSE            ||Police||Police Special Purpose||POLICE DONATIONS $50,570' ]
+  'SPECIAL PURPOSE            ||Police||Police Special Purpose||POLICE DONATIONS $50,570'
+</pre>
