@@ -1,7 +1,7 @@
 ####Heirarchy
 <pre>
-Agency -> Line of Business -> Program
-  6             10              8
+Fund   -> Agency -> Line of Business -> Program
+  2          6             10              8
 </pre>
 
 ####Spreadsheet Headers
@@ -126,3 +126,71 @@ Public Works           $96,337,745 (C-298)  <<  $82,714,920 | $13,622,825 >>
 Utilities              $99,871,854 (C-322)  <<  $99,569,113 |    $302,741 >>
 Zoo                    $14,279,300 (C-341)
 </pre>
+
+####Police Tree
+      Fund        Agency       LOB                     Program
+[ 'ASSET FORFEITURE      ||Police||Police Chiefs Office||POLICE BUSINESS SERVICES $684',
+  'ASSET FORFEITURE      ||Police||Police Chiefs Office||POLICE EXEC LEADERSHIP $96,530',
+  'ASSET FORFEITURE      ||Police||Police Chiefs Office||POLICE HUMAN RESOURCES $73,470',
+  'ASSET FORFEITURE      ||Police||Police Investigations||POLICE INVESTIGATIONS $133,570',
+  'ASSET FORFEITURE      ||Police||Police Investigations||POLICE INVESTIGATIONS SUPPORT $110,527',
+  'ASSET FORFEITURE      ||Police||Police Investigations||POLICE SPECIAL INVESTIGATIONS $2,040,599',
+  'ASSET FORFEITURE      ||Police||Police Operational||POLICE PATROL $266,317',
+  'ASSET FORFEITURE      ||Police||Police Operational||POLICE YOUTH SERVICES $2,731',
+  'ASSET FORFEITURE      ||Police||Police Public Safety Support||POLICE RECORDS MANAGEMENT $22,000',
+  'ASSET FORFEITURE      ||Police||Police Public Safety Support||POLICE TRAINING $52,000',
+  'CAPITAL IMPROVEMENT   ||Police||CIP-Police||CIP-POLICE $235,943',
+  'COURT ADMIN & TRAINING||Police||Police Chiefs Office||POLICE EXEC LEADERSHIP $26,200',
+  'COURT ADMIN & TRAINING||Police||Police Investigations||POLICE INVESTIGATIONS $23,110',
+  'COURT ADMIN & TRAINING||Police||Police Operational||POLICE CRIME PREVENT AND AWARE $490',
+  'COURT ADMIN & TRAINING||Police||Police Operational||POLICE PATROL $35,000',
+  'COURT ADMIN & TRAINING||Police||Police Public Safety Support||POLICE TRAINING $255,927',
+  'EMERGENCY MANAGEMENT  ||Police||Police Chiefs Office||POLICE EXEC LEADERSHIP $42,380',
+  'EMERGENCY MANAGEMENT  ||Police||Police Chiefs Office||POLICE HUMAN RESOURCES $43,925',
+  'EMERGENCY MANAGEMENT  ||Police||Police Chiefs Office||POLICE PUBLIC INFORMATION $16,857',
+  'EMERGENCY MANAGEMENT  ||Police||Police Public Safety Support||POLICE 911 COMMUNICATIONS $8,362,481',
+  'GENERAL FUND||Police||Police Chiefs Office        ||POLICE BUSINESS SERVICES $2,400',
+  'GENERAL FUND||Police||Police Chiefs Office        ||POLICE EMERGENCY MANAGEMENT $385,830',
+  'GENERAL FUND||Police||Police Chiefs Office        ||POLICE EXEC LEADERSHIP $16,507,700',
+  'GENERAL FUND||Police||Police Chiefs Office        ||POLICE HUMAN RESOURCES $1,052,184',
+  'GENERAL FUND||Police||Police Chiefs Office        ||POLICE PROFESSIONAL STANDARDS $1,134,841',
+  'GENERAL FUND||Police||Police Chiefs Office        ||POLICE PUBLIC INFORMATION $737,008',
+  'GENERAL FUND||Police||Police Investigations       ||POLICE INVESTIGATIONS $15,997,902',
+  'GENERAL FUND||Police||Police Investigations       ||POLICE INVESTIGATIONS SUPPORT $6,171,824',
+  'GENERAL FUND               ||Police||Police Investigations       ||POLICE SPECIAL INVESTIGATIONS $8,107,347',
+  'GENERAL FUND               ||Police||Police Operational          ||POLICE CRIME PREVENT AND AWARE $1,107,855',
+  'GENERAL FUND               ||Police||Police Operational          ||POLICE PATROL $55,584,628',
+  'GENERAL FUND               ||Police||Police Operational          ||POLICE TRAFFIC SAFETY $9,810,564',
+  'GENERAL FUND               ||Police||Police Operational          ||POLICE YOUTH SERVICES $4,376,237',
+  'GENERAL FUND               ||Police||Police Public Safety Support||POLICE 911 COMMUNICATIONS $3,512,647',
+  'GENERAL FUND               ||Police||Police Public Safety Support||POLICE INMATE PROCESSING $3,865,100',
+  'GENERAL FUND               ||Police||Police Public Safety Support||POLICE PERMIT SERVICES $435,586',
+  'GENERAL FUND               ||Police||Police Public Safety Support||POLICE RECORDS MANAGEMENT $5,603,106',
+  'GENERAL FUND               ||Police||Police Public Safety Support||POLICE TRAINING $1,414,297',
+  'GRANTS MANAGEMENT          ||Police||Police Grants||JUSTICE ASSISTANCE GRANT $0',
+  'GRANTS MANAGEMENT          ||Police||Police Grants||UNDERAGE DRINKING ENFORCEMENT $276,525',
+  'GRANTS MANAGEMENT          ||Police||Police Investigations||POLICE SPECIAL INVESTIGATIONS $363,000',
+  'GRANTS MANAGEMENT          ||Police||Police Operational||POLICE PATROL $1,200,775',
+  'GRANTS MANAGEMENT          ||Police||Police Operational||POLICE YOUTH SERVICES $1,315,094',
+  'MAPS3 USE TAX              ||Police||MAPS 3 Capital||Police MAPS 3 Capital $18,804,753',
+  'POLICE/FIRE EQUIP SALES TAX||Police||Pol/Fire Capital - Police||POL/FIRE CAPITAL - POLICE $645,607',
+  'POLICE                     ||Police||Police Admin Bureau-E911    ||TRAINING & RECRUITING $238,600',
+  'POLICE                     ||Police||Police Chiefs Office        ||POLICE EMERGENCY MANAGEMENT $33,003',
+  'POLICE                     ||Police||Police Chiefs Office        ||POLICE EXEC LEADERSHIP $2,691,378',
+  'POLICE                     ||Police||Police Chiefs Office        ||POLICE HUMAN RESOURCES $180,224',
+  'POLICE                     ||Police||Police Chiefs Office        ||POLICE PROFESSIONAL STANDARDS $114,494',
+  'POLICE                     ||Police||Police Chiefs Office        ||POLICE PUBLIC INFORMATION $170,367',
+  'POLICE                     ||Police||Police Investigations       ||POLICE INVESTIGATIONS $1,765,886',
+  'POLICE                     ||Police||Police Investigations       ||POLICE INVESTIGATIONS SUPPORT $2,225,315',
+  'POLICE                     ||Police||Police Investigations       ||POLICE SPECIAL INVESTIGATIONS $1,304,122',
+  'POLICE                     ||Police||Police Operational          ||POLICE CRIME PREVENT AND AWARE $177,785',
+  'POLICE                     ||Police||Police Operational          ||POLICE PATROL $29,090,623',
+  'POLICE                     ||Police||Police Operational          ||POLICE TRAFFIC SAFETY $3,076,546',
+  'POLICE                     ||Police||Police Operational          ||POLICE YOUTH SERVICES $445,160',
+  'POLICE                     ||Police||Police Public Safety Support||POLICE 911 COMMUNICATIONS $26,340',
+  'POLICE                     ||Police||Police Public Safety Support||POLICE INMATE PROCESSING $130,687',
+  'POLICE                     ||Police||Police Public Safety Support||POLICE PERMIT SERVICES $84,150',
+  'POLICE                     ||Police||Police Public Safety Support||POLICE RECORDS MANAGEMENT $538,250',
+  'POLICE                     ||Police||Police Public Safety Support||POLICE TRAINING $204,113',
+  'POLICE                     ||Police||Police Sales Tax Capital    ||POLICE SALES TAX CAPITAL $7,635,225',
+  'SPECIAL PURPOSE            ||Police||Police Special Purpose||POLICE DONATIONS $50,570' ]
