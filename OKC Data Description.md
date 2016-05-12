@@ -35,6 +35,11 @@ Where there is a deviation
 <em>tag name spreadsheet-total</em>  (<em>page-citation</em>) << <em>reported total</em> | <em>deviation</em> >>
 </pre>
 
+####Published Budget Total
+<pre>
+$1,248,141,657
+</pre>
+
 <pre>
 Airport                $17,366,497 (C-11)
   Airport Administration       $5,075,289 (C-14)
