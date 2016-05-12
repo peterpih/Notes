@@ -110,19 +110,19 @@ Fire                  $154,342,539 (C-112)  << $153,515,529 | >>   << $140,331,0
   Public Safety Sales Tax - Fire     $144,632 (this is a funding source)
   << -$12,067,656 Interfund Transfer is missing >>
   
-  
-General Services       $24,537,691
-Information Technology $37,212,047
-Mayor and Council         $979,708
-Municipal Counselor     $7,200,060
-Municipal Court        $14,518,677
-Non Departmental   $226,185,662.88
-Parks                  $34,816,084
-Personnel               $2,981,348
-Planning               $35,689,262
-Police                $220,436,389
-Public Transportation  $22,098,673
-Public Works           $96,337,745
-Utilities              $99,871,854
-Zoo                    $14,279,300
+General Services       $24,537,691  (C-130) << $24,533,420 | >>
+
+Information Technology $37,212,047 (C-144)  << $36,985,670 | >>
+Mayor and Council         $979,708 (C-164)
+Municipal Counselor     $7,200,060 (C-173)  << $7,185,648 | >>
+Municipal Court        $14,518,677 (C-190)  << $14,516,890 | >>
+Non Departmental   $226,185,662.88 (C-203)  << $208,883,818 | >>
+Parks                  $34,816,084 (C-210)  << $34,238,813 | >>
+Personnel               $2,981,348 (C-229)
+Planning               $35,689,262 (C-248)  << $35,287,016 | >>
+Police                $220,436,389 (C-263)  << $207,250,734 | >>
+Public Transportation  $22,098,673 (C-283)  << $20,314,829 | >>
+Public Works           $96,337,745 (C-298)  << $82,714,920 | >>
+Utilities              $99,871,854 (C-322)  << $99,569,113 | >>
+Zoo                    $14,279,300 (C-341)
 </pre>
