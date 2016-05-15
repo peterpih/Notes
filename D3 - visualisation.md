@@ -2,11 +2,11 @@
 [Short Javascript Tutorial](https://www.dashingd3js.com/lessons/introduction-to-javascript)
 
 ### https://d3js.org  
-###[D3.org Tutorials](https://github.com/d3/d3/wiki/Tutorials)
+###<a href="https://github.com/d3/d3/wiki/Tutorials" target="_blank">D3.org Tutorials</a>
 
-###<a href="https://www.dashingd3js.com/table-of-contents" target="_blank">D3 Tutorial</a>
+###<a href="https://www.dashingd3js.com/table-of-contents" target="_blank">Dashing D3 Tutorial</a>
 
-###[Dashing D3 Tutorials](https://www.dashingd3js.com/table-of-contents+target="_blank")
+###[Dashing D3 Tutorials](https://www.dashingd3js.com/table-of-contents+target=")
 
 ###[City of Oakland proposed budget](http://openbudgetoakland.org/2015-17-proposed-budget-flow.htm)  
 
