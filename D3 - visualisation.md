@@ -5,7 +5,8 @@
 ###[D3.org Tutorials](https://github.com/d3/d3/wiki/Tutorials)
 
 ###<a href="https://www.dashingd3js.com/table-of-contents" target="_blank">D3 Tutorial</a>
-###[Dashing D3 Tutorials](a href="https://www.dashingd3js.com/table-of-contents" target="_blank")
+
+###[Dashing D3 Tutorials](https://www.dashingd3js.com/table-of-contents+target="blank")
 
 ###[City of Oakland proposed budget](http://openbudgetoakland.org/2015-17-proposed-budget-flow.htm)  
 
