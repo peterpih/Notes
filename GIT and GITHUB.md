@@ -32,7 +32,7 @@ Think of <b>origin</b> not as where the code is now, but where it came from ie t
 <b>cd</b> <em>new-directory</em>
 <b>git init</b>                           <em># initialize</em>
 
-<b>git checkout</b> <em>feature-branch</em>        <em># change branch to feature_branch</em>
+<b>git checkout</b> <em>feature-branch</em>        <em># change branch to feature-branch</em>
 ...
 <b>git status</b>                         <em># shows status of branch</em>
 <b>git add -A</b>                         <em># add modified and untracked files to staging area</em>
@@ -47,14 +47,14 @@ Think of <b>origin</b> not as where the code is now, but where it came from ie t
 
 --- PUSHING ----
 
-<b>git push</b> <em>origin feature-branch</em>          <em># push the commits from feature_branch to remote origin</em>
-<b>git push -f</b> <em>origin feature_branch</em>       <em># force push to origin</em>
+<b>git push</b> <em>origin feature-branch</em>          <em># push the commits from feature-branch to remote origin</em>
+<b>git push -f</b> <em>origin feature-branch</em>       <em># force push to origin</em>
 
-                                        #push directly to Heroku
-<b>git push heroku</b> <em>feature_branch:master</em>   <em># push to master branch on heroku to start install</em>
+                                        <em>#push directly to Heroku</em>
+<b>git push heroku</b> <em>feature-branch:master</em>   <em># push to master branch on heroku to start install</em>
 </pre>
 
-While on feature_branch, when ready to push to master branch, check for conflicts:  
+While on <em>feature-branch</em>, when ready to push to master branch, check for conflicts:  
 <pre>
 <b>git checkout</b> <em>branch</em>           <em># on to feature branch</em>
 <b>git merge master</b>              <em># merge from master to check for conflicts</em>
@@ -100,23 +100,23 @@ We use the <b>Fork Workflow</b> method
                               # in case accidentally added
 <b>git reset</b> <em>filename</em>
 
---- CHECKOUT --- <em>go back to version at last commit</em>
+--- CHECKOUT --- <em>go back to version at last commit  (checkout also used for branch switching)</em>
 
 <b>git checkout</b> <em>filename</em>        # restore previous file version from last commit
 <b>git checkout HEAD</b> <em>filename</em>
 
-<b>git checkout</b> <em>branch</em>          # switch to <em>branch</em>
+<b>git checkout</b> <em>feature-branch</em>          <em># switch to feature-branch</em>
 
 --- <b>SHOW</b> ---
 
-<b>git show</b> <em>revhash</em>            # show changes in a particular hash (hash from git log)
+<b>git show</b> <em>revhash</em>            <em># show changes in a particular hash (hash from git log)</em>
 <b>git show</b> <em>revhash:filename</em>  
 
 --- <b>DIFFERENCE</b> --- <em>between files</em>
 
 <b>git diff</b>
 <b>git diff --staged</b>
-<b>git diff</b> <em>file-name</em>           # show difference between modified and staging area
+<b>git diff</b> <em>file-name</em>           <em># show difference between modified and staging area</em>
 
 --- <b>RENAME</b> --- <em>a file</em>
 
