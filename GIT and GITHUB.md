@@ -125,30 +125,30 @@ We use the <b>Fork Workflow</b> method
 --- LOG --- <em>show changes between two different branches</em>
 
 <b>git log</b>
-<b>git log -p</b>                    # difference between the last two commits
-<b>git log -p -2</b>                 # last 2 lines
-<b>git log --one-line</b>            # show each commit on one line
+<b>git log -p</b>                    <em># difference between the last two commits</em>
+<b>git log -p -2</b>                 <em># last 2 lines</em>
+<b>git log --one-line</b>            <em># show each commit on one line</em>
 <b>git log --stat</b>
-<b>git log --pretty=oneline</b>       #single line summary
+<b>git log --pretty=oneline</b>       <em>#single line summary</em>
 <b>git log --pretty=format:"%h - %an, %ar : %s"</b>
 <b>git log --since=2.weeks</b>
-<b>git log -S</b><em>function_name</em>     # search logs for string <function name>
-<b>git log --graph --oneline --decorate --all</b>       # makes a graph of the branches
+<b>git log -S</b><em>function_name</em>     <em># search logs for string <function name></em>
+<b>git log --graph --oneline --decorate --all</b>       <em># makes a graph of the branches</em>
 </pre>
 
 <div id="repo-branch-section"></div>
 ###For Repositories and Branches
 <pre>
 <b>cd</b> <em>working-directory</em>
-<b>git init</b>                      # initialize an existing local working_directory
+<b>git init</b>                      <em># initialize an existing local working_directory</em>
 
-<b>git init</b> <em>working-directory</em>  # initialize and create a local working_directory
+<b>git init</b> <em>working-directory</em>  <em># initialize and create a local working_directory</em>
 
 
 --- <b>STATUS</b> --- <em>show status of files in working tree</em>
 
-<b>git status</b>                    # tracked, untracked, modified, staged
-<b>git status -s</b>                 # short form: M-modified, A-staged(added), ??-untracked
+<b>git status</b>                    <em># tracked, untracked, modified, staged</em>
+<b>git status -s</b>                 <em># short form: M-modified, A-staged(added), ??-untracked</em>
 
 --- <b>CLONE</b> ---
 
@@ -156,11 +156,21 @@ We use the <b>Fork Workflow</b> method
 
 #--- <b>BRANCH</b> ---
 
-<b>git branch -l</b>               # show local branches
-<b>git branch -a</b>               # show all branches, local and remote
-<b>git branch -d</b> <em>branch</em>        # delete a branch
-<b>git branch -D</b> <em>branch</em>        # forcefully delete branch
+<b>git branch -l</b>               <em># show local branches</em>
+<b>git branch -a</b>               <em># show all branches, local and remote</em>
+<b>git branch -d</b> <em>branch</em>        <em># delete a branch</em>
+<b>git branch -D</b> <em>branch</em>        <em># forcefully delete branch</em>
 <b>git branch -m</b> <em>current-name new-name</em>
+
+#--- <b>CHECKOUT</b> --- <em>switch branches</em>
+
+<b>git checkout</b> <em>master</em>                 <em># switch branches</em>
+<b>git checkout -b</b> <em>my-branch-name</em>      <em># do checkout and create new branch</em>
+<b>git checkout</b> <em>revhash file</em>           <em># restore a file from commit tag ####### (seven digits)</em>
+
+#--- <b>DIFFERENCES BETWEEN BRANCHES ---
+<b>git diff</b> <em>from-branch...to-branch</em>
+<b>git diff</b> <em>origin/master..master</em>       <em># compares remote origin/master to local/master</em>
 
 #--- <b>SHOW-BRANCH</b> ---     
 <a href="https://robots.thoughtbot.com/compare-commits-between-git-branches">compare commits between git branches</a>
@@ -177,23 +187,17 @@ We use the <b>Fork Workflow</b> method
 <b>git remote add</b> <em>origin</em> <b>git@github.com:</b><em>user-name</em><b>/</b><em>repo-name</em>
 <b>git remote add</b> <em>origin</em> <b>https://github.com/</b><em>user-name</em><b>/</b><em>repo-name</em>
 
-<b>git remote rm</b> <em>origin</em>          # remove remote connection
+<b>git remote rm</b> <em>origin</em>          <em># remove remote connection</em>
 
 <b>git remote add</b> <em>fff</em> <b>git@github.com:</b><em>user-name</em><b>/</b><em>githhub-reponame</em>
 <b>git fetch</b> <em>fff</em>
 <b>git pull</b>
 
-#--- <b>CHECKOUT</b> --- <em>switch branches</em>
-
-<b>git checkout</b> <em>master</em>                 # switch branches
-<b>git checkout -b</b> <em>my-branch-name</em>      # do checkout and create new branch
-<b>git checkout</b> <em>revhash file</em>           # restore a file from commit tag ####### (seven digits)
-
 #--- <b>RESET</b> --- <em>reset a branch</em>
 
-<b>git reset</b>                       # unstage any staged files
-<b>git reset --hard HEAD^</b>          # resets current branch to last commit and removes last commit from history
-<b>git reset --hard HEAD~2</b>         # resets last 2 commits
+<b>git reset</b>                       <em># unstage any staged files</em>
+<b>git reset --hard HEAD^</b>          <em># resets current branch to last commit and removes last commit from history</em>
+<b>git reset --hard HEAD~2</b>         <em># resets last 2 commits</em>
 <b>git reset --hard fff/master</b>
 
 #--- <b>UPDATE-INDEX</b> --- <em>track / untrack files</em>
