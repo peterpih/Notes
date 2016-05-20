@@ -168,7 +168,10 @@ We use the <b>Fork Workflow</b> method
 
 #--- <b>REMOTE</b> ---
 
-<b>git remote -v</b>                 # list remote repos
+<b>git remote -v</b>                 <em># list remote repos</em>
+
+<b>git remote prune</b> <em>origin</em>         <em># prune dead branches in origin</em>
+<b>git remote prune</b> <em>origin</em> <b>--dry-run</b>   <em># to see what would happen without actually running it</em>
 
                               # add remote repo connections
 <b>git remote add</b> <em>origin</em> <b>git@github.com:</b><em>user-name</em><b>/</b><em>repo-name</em>
