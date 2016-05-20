@@ -169,8 +169,12 @@ We use the <b>Fork Workflow</b> method
 <b>git checkout</b> <em>revhash file</em>           <em># restore a file from commit tag ####### (seven digits)</em>
 
 #--- <b>DIFFERENCES BETWEEN BRANCHES ---
+see also [here](http://stackoverflow.com/questions/822811/showing-which-files-have-changed-between-two-revisions)
+
 <b>git diff</b> <em>from-branch...to-branch</em>
 <b>git diff</b> <em>origin/master..master</em>       <em># compares remote origin/master to local/master</em>
+
+<b>git diff --name-status</b> <em>master..feature-branch</em>
 
 #--- <b>SHOW-BRANCH</b> ---     
 <a href="https://robots.thoughtbot.com/compare-commits-between-git-branches">compare commits between git branches</a>
