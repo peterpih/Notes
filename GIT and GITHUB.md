@@ -28,15 +28,15 @@ Think of <b>origin</b> not as where the code is now, but where it came from ie t
 ###Typical Git Command Flow
 
 <pre>
-<b>mkdir</b> <em>new-directory</em>                <em>( create local repo directoy )</em>
+<b>mkdir</b> <em>new-directory</em>                <em># create local repo directoy</em>
 <b>cd</b> <em>new-directory</em>
-<b>git init</b>                           <em>( initialize )</em>
+<b>git init</b>                           <em># initialize</em>
 
-<b>git checkout</b> <em>feature-branch</em>        <em>( change branch to feature_branch )</em>
+<b>git checkout</b> <em>feature-branch</em>        <em># change branch to feature_branch</em>
 ...
-<b>git status</b>                         <em>( shows status of branch )</em>
-<b>git add -A</b>                         <em>( add modified and untracked files to staging area )</em>
-<b>git commit -m</b> <em>comment</em>              <em>( make a commit, comment on one line )</em>
+<b>git status</b>                         <em># shows status of branch</em>
+<b>git add -A</b>                         <em># add modified and untracked files to staging area</em>
+<b>git commit -m</b> <em>comment</em>              <em># make a commit, comment on one line</em>
 
 <b>git push</b> <em>origin feature-branch</em>
 
@@ -47,20 +47,20 @@ Think of <b>origin</b> not as where the code is now, but where it came from ie t
 
 --- PUSHING ----
 
-<b>git push</b> <em>origin feature-branch</em>          # push the commits from feature_branch to remote origin
-<b>git push -f</b> <em>origin feature_branch</em>       # force push to origin
+<b>git push</b> <em>origin feature-branch</em>          <em># push the commits from feature_branch to remote origin</em>
+<b>git push -f</b> <em>origin feature_branch</em>       <em># force push to origin</em>
 
                                         #push directly to Heroku
-<b>git push heroku</b> <em>feature_branch:master</em>   # push to master branch on heroku to start install
+<b>git push heroku</b> <em>feature_branch:master</em>   <em># push to master branch on heroku to start install</em>
 </pre>
 
 While on feature_branch, when ready to push to master branch, check for conflicts:  
 <pre>
-<b>git checkout</b> <em>branch</em>           # on to feature branch
-<b>git merge master</b>              # merge from master to check for conflicts
-...                           # resolve any conflicts if necessary
-<b>git checkout master</b>           # change back to master
-<b>git merge</b> <em>branch</em>              # there will be no comflicts at this point
+<b>git checkout</b> <em>branch</em>           <em># on to feature branch</em>
+<b>git merge master</b>              <em># merge from master to check for conflicts</em>
+...                           <em># resolve any conflicts if necessary</em>
+<b>git checkout master</b>           <em># change back to master<em>
+<b>git merge</b> <em>branch</em>              <em># there will be no comflicts at this point</em>
 </pre>
 
 
@@ -73,21 +73,21 @@ We use the <b>Fork Workflow</b> method
 <pre>
 --- ADD --- <em>to staging</em>
 
-<b>git add</b> <em>file-name</em>              # add a file to staging area
-<b>git add</b> <em>file1, file2, file3</em>   # add multiple files to staging area
-<b>git add .</b>                     # add <b>modified only</b> files to staging area
-<b>git add -A</b>                    # add <b>modified and untracked</b> files to staging area
+<b>git add</b> <em>file-name</em>              <em># add a file to staging area</em>
+<b>git add</b> <em>file1, file2, file3</em>   <em># add multiple files to staging area</em>
+<b>git add .</b>                     <em># add <b>modified only</b> files to staging area</em>
+<b>git add -A</b>                    <em># add <b>modified and untracked</b> files to staging area</em>
 
 --- RESET ---
 
-<b>git reset</b>                     # remove all files from staging area, before commit(ting)
-<b>git reset</b> <em>file-name</em>            # remove filename from staging area
-<b>git reset</b> <em>revhash</em>             # roll back to revhash commit
+<b>git reset</b>                     <em># remove all files from staging area, before commit(ting)</em>
+<b>git reset</b> <em>file-name</em>            <em># remove filename from staging area</em>
+<b>git reset</b> <em>revhash</em>             <em># roll back to revhash commit</em>
 
 --- COMMIT ---
 
-<b>git commit -m</b> <em>commit_text</em>     # one line commit comment
-<b>git commit</b>                    # will open text editor for commenting
+<b>git commit -m</b> <em>commit_text</em>     <em># one line commit comment</em>
+<b>git commit</b>                    <em># will open text editor for commenting</em>
 
 --- MERGE ---
 
