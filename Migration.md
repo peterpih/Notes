@@ -7,9 +7,14 @@ To create a Migration
 <b>rails generate migration</b> <em>name-of-migration</em>  
 <em>Rails will create a new migration file in db/migration</em>
 
+example:
+<b>rails generate migration</b> <em>duplicates</em>
+</pre>
+
+####Renaming
+<pre>
 <b>rename_table</b>  <em>:old-table,  :new-table</em>   <em>( note _id_seq will automatically be renamed )</em>
 <b>rename_column</b> <em>:table-name,  :old-column,  :new-column</em>
-
 </pre>
 
 ####Rollback a Migration
