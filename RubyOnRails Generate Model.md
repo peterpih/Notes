@@ -10,13 +10,17 @@ db/migrate/20151213121015_create_sentences.rb
 test/fixtures/sentences.yml
 test/models/sentence_test.rb
 </pre>
-app/models/sentence.rb
+
 <pre>
+<em># app/models/sentence.rb</em>
+
 class Sentence < ActiveRecord::Base
 end
 </pre>
-db/migrate/20151213121015_create_sentences.rb
+
 <pre>
+<em># db/migrate/20151213121015_create_sentences.rb</em>
+
 class CreateSentences < ActiveRecord::Migration
   def change
     create_table :sentences do |t|
@@ -29,8 +33,10 @@ class CreateSentences < ActiveRecord::Migration
   end
 end
 </pre>
-test/fixtures/sentences.yml
+
 <pre>
+<em># test/fixtures/sentences.yml</em>
+
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
