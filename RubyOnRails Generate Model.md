@@ -10,12 +10,12 @@ db/migrate/20151213121015_create_sentences.rb
 test/fixtures/sentences.yml
 test/models/sentence_test.rb
 </pre>
-####app/models/sentence.rb
+app/models/sentence.rb
 <pre>
 class Sentence < ActiveRecord::Base
 end
 </pre>
-####db/migrate/20151213121015_create_sentences.rb
+db/migrate/20151213121015_create_sentences.rb
 <pre>
 class CreateSentences < ActiveRecord::Migration
   def change
@@ -29,7 +29,7 @@ class CreateSentences < ActiveRecord::Migration
   end
 end
 </pre>
-####test/fixtures/sentences.yml
+test/fixtures/sentences.yml
 <pre>
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
@@ -43,7 +43,7 @@ two:
   lesson: MyText
   text: MyText
 </pre>
-####test/models/sentence_test.rb
+test/models/sentence_test.rb
 <pre>
 require 'test_helper'
 
