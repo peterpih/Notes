@@ -1,14 +1,17 @@
 ###Generating a Model
 
+"<em>sentence</em>" is the name of the model, with attributes "<em>order</em>", "<em>lesson</em>", and "<em>text</em>"
+
+
 <pre>
-<b>rails generate model</b> <em>lesson</em> <em>order</em><b>:integer</b> <em>lesson</em><b>:text</b> <em>text</em><b>:text</b>
+<b>rails generate model</b> <em>sentence</em> <em>order</em><b>:integer</b> <em>lesson</em><b>:text</b> <em>text</em><b>:text</b>
 </pre>
 generates the following files :
 <pre>
-app/models/sentence.rb
-db/migrate/20151213121015_create_sentences.rb
-test/fixtures/sentences.yml
-test/models/sentence_test.rb
+<b>app/models/</b><em>sentence</em><b>.rb</b>
+<b>db/migrate/</b><em>20151213121015_create_sentences</em><b>.rb</b>
+<b>test/fixtures/</b><em>sentences</em><b>.yml</b>
+<b>test/models/</b><em>sentence_test</em><b>.rb</b>
 </pre>
 
 <pre>
@@ -49,8 +52,10 @@ two:
   lesson: MyText
   text: MyText
 </pre>
-test/models/sentence_test.rb
+
 <pre>
+<em># test/models/sentence_test.rb</em>
+
 require 'test_helper'
 
 class SentenceTest < ActiveSupport::TestCase
@@ -65,4 +70,12 @@ end
 <b>rails generate migration</b> <em>CreateDuplicates</em>
     invoke  active_record  
     <b>create</b>  db/migrate/20160520211611_create_duplicates.rb
+</pre>
+
+This is after manually creating
+<pre>
+<em># app/models/duplicate.rb</em>
+
+<b>class</b> <em>Duplicates</em> <b>< ActiveRecord::Base</b>
+<b>end</b>
 </pre>
