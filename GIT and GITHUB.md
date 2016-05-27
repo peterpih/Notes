@@ -1,5 +1,16 @@
-###If connection times out, may be due to firewall  
-Run <b>ssh -T git@github.com</b>, if it times out, need to connect using <b>http:</b> protocol.  
+###Firewall block (possibly on certain ports)
+If connection times out, may be due to firewall, run cli
+<pre>
+<b>ssh -T git@github.com</b>
+</pre>
+if it times out, need to connect using 
+<pre>
+<b>https://github.com/</b><em>username</em><b>/</b><em>repository</em><b>.git</b>
+</pre>
+instead of
+<pre>
+<b>git@github.com:</b><em>username</em><b>/</b><em>repository</em><b>.git</b>
+</pre>
 
 ###Useful links
 [gitref.org](http://gitref.org)  
