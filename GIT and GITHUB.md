@@ -2,6 +2,7 @@
 If connection times out, may be due to firewall, run cli
 <pre>
 <b>ssh -T git@github.com</b>
+    ssh: connect to host github.com port 22: Operation timed out
 </pre>
 if it times out, need to connect using 
 <pre>
