@@ -1,4 +1,4 @@
-###port 22: Connection timed out - Firewall block
+###port 22: Connection timed out - [Firewall block](http://stackoverflow.com/questions/15589682/ssh-connect-to-host-github-com-port-22-connection-timed-out)
 If connection times out, may be due to firewall, run cli
 <pre>
 <b>ssh -T git@github.com</b>
