@@ -6,6 +6,8 @@
 
 [Ruby Programming wiki](https://en.wikibooks.org/wiki/Ruby_Programming)
 
+[4 Coders Every Ruby Newbie Should Know](http://cjbrock.github.io/blog/2012/10/12/4-coders-every-ruby-newbie-should-know/)
+
 Classes/Methods: http://ruby-doc.org/core-2.2.0/index.html#classes  
 Class Method vs Instance Method: http://www.railstips.org/blog/archives/2009/05/11/class-and-instance-methods-in-ruby/  
 
