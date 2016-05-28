@@ -1,8 +1,10 @@
 [Ruby Language Documentation](https://www.ruby-lang.org/en/documentation/)
 
-Good beginning tutorial: http://rubymonk.com
+[Ruby Monk](http://rubymonk.com)
 
-https://en.wikibooks.org/wiki/Ruby_Programming
+[5 Easy Steps To Getting Started With Ruby Koans](http://cjbrock.github.io/blog/2012/10/10/5-easy-steps-to-getting-started-with-ruby-koans/)
+
+[Ruby Programming wiki](https://en.wikibooks.org/wiki/Ruby_Programming)
 
 Classes/Methods: http://ruby-doc.org/core-2.2.0/index.html#classes  
 Class Method vs Instance Method: http://www.railstips.org/blog/archives/2009/05/11/class-and-instance-methods-in-ruby/  
