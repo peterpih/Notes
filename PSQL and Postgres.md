@@ -22,7 +22,9 @@ Useful graph of SQL joins: [difference between join and inner join](http://stack
 
 <b>UPDATE</b> <em>table</em> <b>SET</b> <em>column=value</em> <b>WHERE</b> <em>id=userid</em><b>;</b>
 
-<b>DELETE</b> <b>FROM</b> <em>table</em> <b>WHERE</b> <em>=userid</em><b>;</b>                        # clear all rows from a table
+<b>DELETE</b> <b>FROM</b> <em>table</em> <b>WHERE</b> <em>id=userid</em><b>;</b>      <em>( delete specified row from a table )</em>
+<b>DELETE</b> <b>FROM</b> <em>table</em> <b>WHERE</b> <em>=userid</em><b>;</b>      <em>( clear all rows from a table )</em>
+
 
 <b>SELECT</b> * <b>FROM</b> <em>users</em> <b>WHERE</b> <em>email</em> <b>LIKE</b> <em>'ppih@panix%'</em><b>;</b>     # '%' is the wildcard
 <b>SELECT</b> * <b>FROM</b> <em>users</em> <b>WHERE</b> <em>email='ppih@panix%'</em><b>;</b>  
