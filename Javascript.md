@@ -1,7 +1,14 @@
 
+
+###Online Tutorials
+####[Free Code Camp](https://www.freecodecamp.com)  
+####[Javascript for Cats](http://jsforcats.com)
+
+###Other
 ####[Javascript Command Line Instructions](http://javascriptplayground.com/blog/2015/03/node-command-line-tool/)
 ###[CodeAcademy Javascript Tutorial](https://www.codecademy.com/courses/objects-ii/0/1?curriculum_id=506324b3a7dffd00020bf661)
 
+###Language
 ####Operators
 <pre>
 <b>+, -, /, *, %</b> <em>standard unary operators</em>
