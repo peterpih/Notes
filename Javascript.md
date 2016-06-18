@@ -19,6 +19,12 @@ Nodeschool.io
 ####[Javascript Command Line Instructions](http://javascriptplayground.com/blog/2015/03/node-command-line-tool/)
 ###[CodeAcademy Javascript Tutorial](https://www.codecademy.com/courses/objects-ii/0/1?curriculum_id=506324b3a7dffd00020bf661)
 
+####var vs let  
+The scope for 
+<pre>
+<b>var<b> x = 25;
+
+
 ###Language
 ####Operators
 <pre>
