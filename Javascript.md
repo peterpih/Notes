@@ -1,8 +1,19 @@
 
+Packt Publishing Book of the Day
+Javascript Challenges (tcorral on Github)
+
+Egghead
+Nodeschool.io
+
 
 ###Online Tutorials
 ####[Free Code Camp](https://www.freecodecamp.com)  
 ####[Javascript for Cats](http://jsforcats.com)
+
+####[Codeacademy Labs](http://labs.codecademy.com)  
+
+####[Code Kata](http://codekata.com)  
+####[Project Euler](https://projecteuler.net)  
 
 ###Other
 ####[Javascript Command Line Instructions](http://javascriptplayground.com/blog/2015/03/node-command-line-tool/)
