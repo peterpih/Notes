@@ -13,6 +13,8 @@ instead of
 <b>git@github.com:</b><em>username</em><b>/</b><em>repository</em><b>.git</b>
 </pre>
 
+###Use the "T" in github for fuzzy searches
+
 ###Useful links
 [gitref.org](http://gitref.org)  
 [Git Basics Getting a Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)  
@@ -35,6 +37,34 @@ Think of <b>origin</b> not as where the code is now, but where it came from ie t
 7) [Where Is Current Origin?](#where-is-current-origin-section)  
 8) [GitHub](#github-section)  
 9) [gh-pages](#gh-pages-how-to-section)    
+
+###Configuration
+<pre>
+git config --global user.name <em>user name</em>
+git config --global user.email <em>email@address.com</em>
+
+git config <em>option></em>
+git config user.name  <em>(will show user.name)</em>
+
+git status
+
+git add .  <em>(into staging area)</em>
+
+git diff
+git diff --staged
+git diff HEAD
+
+git commit <em>(opens editor for commit message)</em>
+git commit -m "<em>commit message here</em>"
+git commit -a <em>automatically commits all tracked files)</em>
+git commit -am
+
+git checkout
+git checkout -- <em>file name</em>
+
+git revert HEAD <em>(roll back last commit)</em>
+</pre>
+
 
 <div id="typical-git-command-flow-section"></div>    
 ###Typical Git Command Flow
