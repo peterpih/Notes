@@ -7,19 +7,15 @@
 **jQuery UI**: http://jqueryui.com  
 
 ***for rails***
-```
+<pre>
 # standard jQuery:
 $(document).ready();
 
+<b>$(document).ready(function(){</b>
+  <em>code goes here</em>
+<b>});</b>
+
 # for rails use:
-$(document).on("page:change", ->
-```
-
-<pre>
-# standard jQuery:  
-<b>$(document).ready();</b>
-
-# for rails use:  
 <b>$(document).on("page:change", -> </b>
 </pre>
 
