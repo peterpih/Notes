@@ -1,8 +1,8 @@
 ###JQuery
 [Change Button Function](http://stackoverflow.com/questions/15543482/change-the-buttons-function-with-jquery)
 
-#JQuery is a library of javascript routines
-#Coffee is the rails lightweight version of javascript
+####JQuery is a library of javascript routines
+####Coffee is the rails lightweight version of javascript
 
 **jQuery UI**: http://jqueryui.com  
 
@@ -20,30 +20,37 @@ $(document).ready();
 </pre>
 
 #JQuery
-File extension is **.js** since it is ***javascript***  
+File extension is <b>.js</b> since it is <b><em>javascript</em></b>
 Used for making effects (ie animations)  
 https://pragmaticstudio.com/blog/2015/3/18/rails-jquery-ajax  
 
-```
-// This is a comment
+<pre>
+<b>//</b> This is a comment
 
-"cake".length  #=> 4
-```
+"cake"<b>.length</b>  #=> 4
+</pre>
 
-```
-<div id='green'>      # in HTML
-<div class='red'>
+<pre>
+&ltdiv id='green'&gt      # in HTML
+&ltdiv class='red'&gt
 
 #green {              # in .css
 }
 .red{
 }
 
-$("#green")           # in .js, '#' is for id's, '.' is for class
-$('.red')
-```
+<b>$("</b>#green<b>")</b>           # in .js, '#' is for id's
+<b>$('</b>.red<b>')</b>		# '.' is for class
+</pre>
+
 ###Generalized jQuery setup
 <pre>
+<b>$(document).ready(function() {</b>
+    $('<b>thingToTouch</b>').event(function() {
+        $('<b>thingToAffect</b>').effect();
+    });
+<b>});</b>
+
 $(<b>document</b>).ready(function() {
     $('<b>thingToTouch</b>').event(function() {
         $('<b>thingToAffect</b>').effect();
