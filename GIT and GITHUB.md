@@ -41,29 +41,29 @@ Think of <b>origin</b> not as where the code is now, but where it came from ie t
 
 ###Configuration
 <pre>
-git config --global user.name <em>user name</em>
-git config --global user.email <em>email@address.com</em>
+<b>git config --global user.name</b> <em>user name</em>
+<b>git config --global user.email</b> <em>email@address.com</em>
 
-git config <em>option></em>
-git config user.name  <em>(will show user.name)</em>
+<b>git config</b> <em>option</em>
+<b>git config user.name</b>      <em># =$gt user.name</em>
 
-git status
+<b>git status</b>
 
-git add .  <em>(into staging area)</em>
+<b>git add .</b>      <em># into staging area</em>
 
-git diff
-git diff --staged
-git diff HEAD
+<b>git diff</b>
+<b>git diff --staged</b>
+<b>git diff HEAD</b>
 
-git commit <em>(opens editor for commit message)</em>
+git commit       <em># opens editor for commit message</em>
 git commit -m "<em>commit message here</em>"
-git commit -a <em>automatically commits all tracked files)</em>
+git commit -a     <em># automatically commits all tracked files</em>
 git commit -am
 
-git checkout
-git checkout -- <em>file name</em>
+<b>git checkout</b>   <em># unstage any staged files</em>
+<b>git checkout --</b> <em>file name</em>  <em># restore a particular file</em>
 
-git revert HEAD <em>(roll back last commit)</em>
+<b>git revert HEAD</b> <em># roll back last commit</em>
 </pre>
 
 
@@ -93,7 +93,7 @@ git revert HEAD <em>(roll back last commit)</em>
 <b>git push</b> <em>origin feature-branch</em>          <em># push the commits from feature-branch to remote origin</em>
 <b>git push -f</b> <em>origin feature-branch</em>       <em># force push to origin</em>
 
-                                        <em>#push directly to Heroku</em>
+                                        <em># push directly to Heroku</em>
 <b>git push heroku</b> <em>feature-branch:master</em>   <em># push to master branch on heroku to start install</em>
 </pre>
 
@@ -114,36 +114,36 @@ We use the <b>Fork Workflow</b> method
 <div id="file-commands-section"></div>
 ###File commands (local repository)
 <pre>
---- ADD --- <em>to staging</em>
+--- <b>ADD</b> --- <em>to staging</em>
 
 <b>git add</b> <em>file-name</em>              <em># add a file to staging area</em>
 <b>git add</b> <em>file1, file2, file3</em>   <em># add multiple files to staging area</em>
 <b>git add .</b>                     <em># add <b>modified only</b> files to staging area</em>
 <b>git add -A</b>                    <em># add <b>modified and untracked</b> files to staging area</em>
 
---- RESET ---
+--- <b>RESET</b> ---
 
 <b>git reset</b>                     <em># remove all files from staging area, before commit(ting)</em>
 <b>git reset</b> <em>file-name</em>            <em># remove filename from staging area</em>
 <b>git reset</b> <em>revhash</em>             <em># roll back to revhash commit</em>
 
---- COMMIT ---
+--- <b>COMMIT</b> ---
 
 <b>git commit -m</b> <em>commit_text</em>     <em># one line commit comment</em>
 <b>git commit</b>                    <em># will open text editor for commenting</em>
 
---- MERGE ---
+--- <b>MERGE</b> ---
 
 <b>git merge</b> <em>branch_to_merge</em>
 
---- REMOVE (delete) --- <em>from staging, files must be staged</em>
+--- <b>REMOVE</b> (delete) --- <em>from staging, files must be staged</em>
 
 <b>git rm -f</b> <em>filename</em>            # delete file and/or remove tracked deleted files from staging
 <b>git rm --cached</b> <em>filename</em>      # remove from staging area (does not delete underlying file)
                               # in case accidentally added
 <b>git reset</b> <em>filename</em>
 
---- CHECKOUT --- <em>go back to version at last commit  (checkout also used for branch switching)</em>
+--- <b>CHECKOUT</b> --- <em>go back to version at last commit  (checkout also used for branch switching)</em>
 
 <b>git checkout</b> <em>filename</em>        # restore previous file version from last commit
 <b>git checkout HEAD</b> <em>filename</em>
@@ -165,7 +165,7 @@ We use the <b>Fork Workflow</b> method
 
 <b>git mv</b> <em>from-file  to-file</em>
 
---- LOG --- <em>show changes between two different branches</em>
+--- <b>LOG</b> --- <em>show changes between two different branches</em>
 
 <b>git log</b>
 <b>git log -p</b>                    <em># difference between the last two commits</em>
@@ -196,6 +196,8 @@ We use the <b>Fork Workflow</b> method
 --- <b>CLONE</b> ---
 
 <b>git clone</b> <em>remote-name</em> <em>local-directory</em>
+<b>git clone</b> <em>remote-name</em>      <em># by default will name local directory using repo name
+<b>git clone --depth=</b><em>number-of-commits-to include</em>
 
 #--- <b>BRANCH</b> ---
 
@@ -211,7 +213,7 @@ We use the <b>Fork Workflow</b> method
 <b>git checkout -b</b> <em>my-branch-name</em>      <em># do checkout and create new branch</em>
 <b>git checkout</b> <em>revhash file</em>           <em># restore a file from commit tag ####### (seven digits)</em>
 
-#--- <b>DIFFERENCES BETWEEN BRANCHES ---
+#--- <b>DIFFERENCES BETWEEN BRANCHES</b> ---
 see also [here](http://stackoverflow.com/questions/822811/showing-which-files-have-changed-between-two-revisions)
 
 <b>git diff</b> <em>from-branch...to-branch</em>
