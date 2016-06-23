@@ -45,7 +45,7 @@ Think of <b>origin</b> not as where the code is now, but where it came from ie t
 <b>git config --global user.email</b> <em>email@address.com</em>
 
 <b>git config</b> <em>option</em>
-<b>git config user.name</b>      <em># =$gt user.name</em>
+<b>git config user.name</b>      <em># =&gt user.name</em>
 
 <b>git status</b>
 
