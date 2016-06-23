@@ -213,7 +213,7 @@ We use the <b>Fork Workflow</b> method
 <b>git checkout -b</b> <em>my-branch-name</em>      <em># do checkout and create new branch</em>
 <b>git checkout</b> <em>revhash file</em>           <em># restore a file from commit tag ####### (seven digits)</em>
 
-#--- <b>DIFFERENCES BETWEEN BRANCHES ---
+#--- <b>DIFFERENCES BETWEEN BRANCHES</b> ---
 see also [here](http://stackoverflow.com/questions/822811/showing-which-files-have-changed-between-two-revisions)
 
 <b>git diff</b> <em>from-branch...to-branch</em>
