@@ -5,6 +5,8 @@ From analyticsacademywithgoogle.com
 
 ##Useful URLs  
 
+[Community Learning Project](http://www.googleanalyticstest.com)
+
 [How to pass the GAIQ test in two days](https://www.viget.com/articles/how-to-pass-the-google-analytics-iq-test-in-two-days-zero-to-hero)
 
 [72 Questions You Need To Know For The Google Analytics IQ exam](http://trafficmotion.com/72-questions-you-need-to-know-for-the-google-analytics-iq-exam/)   
