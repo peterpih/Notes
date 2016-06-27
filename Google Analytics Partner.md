@@ -1,3 +1,4 @@
+#[GAIQ Test Here](https://www.google.com/partners/#p_analyticscertification)
 
 ##[Google Analytics Help](https://support.google.com/analytics/answer/4553001?hl=en)
 
