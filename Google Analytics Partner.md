@@ -3,6 +3,8 @@
 
 From analyticsacademywithgoogle.com
 
+[Google Analytics Exam Answers](http://www.gaiq-center.com/exam-questions-answers/)
+
 ##Useful URLs  
 
 http://www.ericmobley.net/guide-to-tracking-multiple-subdomains-in-google-analytics/
