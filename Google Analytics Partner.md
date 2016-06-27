@@ -2,6 +2,7 @@
 ##[Google Analytics Help](https://support.google.com/analytics/answer/4553001?hl=en)
 
 From analyticsacademywithgoogle.com
+https://analyticsacademy.withgoogle.com
 
 [Google Analytics Exam Answers](http://www.gaiq-center.com/exam-questions-answers/)
 
