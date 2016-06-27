@@ -5,6 +5,8 @@ From analyticsacademywithgoogle.com
 
 ##Useful URLs  
 
+http://www.ericmobley.net/guide-to-tracking-multiple-subdomains-in-google-analytics/
+
 [Community Learning Project](http://www.googleanalyticstest.com)
 
 [How to pass the GAIQ test in two days](https://www.viget.com/articles/how-to-pass-the-google-analytics-iq-test-in-two-days-zero-to-hero)
