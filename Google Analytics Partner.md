@@ -1,4 +1,4 @@
-##[GAIQ Test Here](https://www.google.com/partners/#p_analyticscertification)
+##[GAIQ Test Here](https://www.google.com/partners/#p_analyticscertification target="_blank")
 
 [GA IQ Center.com](http://www.gaiq-center.com/exam-questions-answers/goals/)
 
