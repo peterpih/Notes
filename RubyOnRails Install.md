@@ -53,9 +53,9 @@ To find postgres.conf file directory:
 
 ####[<b>dump restore</b>](http://www.postgresql.org/docs/9.4/static/backup-dump.html)   
 <pre>
-<b>pg_dump</b> <em>database-name<em> <b>&gt</em> <em>text-dump-file</em>
+<b>pg_dump</b> <em>database-name</em> <b>&gt</b> <em>text-dump-file</em>
 
-<b>psql</b> <em>database-name</em> <em>&lt</em> <em>text-dump-file</em>
+<b>psql</b> <em>database-name</em> <b>&lt</b> <em>text-dump-file</em>
 </pre>
 
 psql will not create a data base, to <b>create</b> a database:
