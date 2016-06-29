@@ -58,12 +58,12 @@ To find postgres.conf file directory:
 <b>psql</b> <em>database-name</em> <em>&lt</em> <em<text-dump-file</em>
 <pre>
 
-psql will not create a data base, to **create** a database:
+psql will not create a data base, to <b>create</b> a database:
 <pre>
 <b>createdb -T template0</b> <em>database-name</em>
 </pre>
 
-####To **DELETE** a database:
+####To <b>DELETE</b> a database:
 <pre>
 <b>rails dbconsole</b>
 <b>\c</b> <em>a-different-database</em>    # <em>connect to a different database than the one being deleted</em>
