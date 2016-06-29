@@ -56,7 +56,7 @@ To find postgres.conf file directory:
 <b>pg_dump</b> <em>database-name<em> <b>&gt</em> <em>text-dump-file</em>
 
 <b>psql</b> <em>database-name</em> <em>&lt</em> <em>text-dump-file</em>
-<pre>
+</pre>
 
 psql will not create a data base, to <b>create</b> a database:
 <pre>
