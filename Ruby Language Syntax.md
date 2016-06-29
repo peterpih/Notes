@@ -1,6 +1,10 @@
+[The Poignant Guide To Ruby](http://www.rubyinside.com/media/poignant-guide.pdf)
+
 [Ruby Language Documentation](https://www.ruby-lang.org/en/documentation/)
 
 [Ruby Monk](http://rubymonk.com)
+
+[Ruby Koans](http://rubykoans.com)
 
 [5 Easy Steps To Getting Started With Ruby Koans](http://cjbrock.github.io/blog/2012/10/10/5-easy-steps-to-getting-started-with-ruby-koans/)
 
