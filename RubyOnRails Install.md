@@ -66,7 +66,7 @@ psql will not create a data base, to <b>create</b> a database:
 ####To <b>DELETE</b> a database:
 <pre>
 <b>rails dbconsole</b>
-<b>\c</b> <em>a-different-database</em>    # <em>connect to a different database than the one being deleted</em>
+<b>/\c</b> <em>a-different-database</em>    # <em>connect to a different database than the one being deleted</em>
 <b>DROP DATABASE</b> <em>database-name</em>
 </pre>
 
