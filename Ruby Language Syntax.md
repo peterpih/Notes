@@ -1,3 +1,5 @@
+[Microservice on Ruby](https://blog.codeship.com/writing-microservice-in-ruby/?utm_campaign=Weekly%20Newsletters&utm_content=microservice%20ruby&utm_medium=newsletter&utm_source=email&utm_campaign=Weekly+Newsletters&utm_source=hs_email&utm_medium=email&utm_content=30928807&_hsenc=p2ANqtz-9x-Uk4feXanPh8FnbWMzMkUO0Zpn_00i6HW_zk5kQeRNigO3uqz9ka8N7K07ugf2YSedW9tni-dm2XKicBcofRq8VOsw&_hsmi=30928807)
+
 [The Poignant Guide To Ruby](http://www.rubyinside.com/media/poignant-guide.pdf)
 
 [Ruby Language Documentation](https://www.ruby-lang.org/en/documentation/)
