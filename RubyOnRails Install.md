@@ -2,29 +2,33 @@
 http://www.justinweiss.com/blog/2014/07/28/4-simple-memoization-patterns-in-ruby-and-one-gem/  
 
 
-```
-rails console
-```
-Should give `irb` prompt
+<pre>
+<b>rails console</b>
+</pre>
 
-**Find Tables In Database**  
-(from: http://stackoverflow.com/questions/24880956/rails-console-database-schema-checking)  
-```
-# list the tables in the database
+Should give <b>irb</b> prompt
+
+####[<b>Find Tables In Database</b>](http://stackoverflow.com/questions/24880956/rails-console-database-schema-checking)  
+<pre>
+# <em>list the tables in the database</em>
 ActiveRecord::Base.connection.tables
-```
-can also check the tables in db/schema.rb, to **recreate** db/schema.rb:
-```
-bundle exec rake db:schema:dump
-```
+</pre>
+
+can also check the tables in <b>db/schema.rb</b>
+
+To recreate <b>db/schema.rb</b>:
+<pre>
+<b>bundle exec rake db:schema:dump</b>
+</pre>
+
 ***table_print**
 - add **table_print** to Gemfile
 - bundle install
 
-In `rails console` type "tp" to see it's installed, or
-```
+In <b>rails console</b> type "tp" to see if it's installed, or
+<pre>
 show data_directory;
-```
+</pre>
 
 ###Capybara
 cheatsheet: https://gist.github.com/zhengjia/428105  
@@ -34,36 +38,37 @@ https://github.com/jnicklas/capybara/blob/3ae284460b1af35d40b077bf14f7222c2982c1
 Look at the underlying html code on the webpage to find the variable names to test  
 
 
-###Postgres
-**start server**  
-http://www.postgresql.org/docs/9.1/static/server-start.html  
-Possibly have to edit posgresql.conf for localhost and port  
+####Postgres
+[**start server**](http://www.postgresql.org/docs/9.1/static/server-start.html)    
+Possibly have to edit <b>posgresql.conf</b> for localhost and port  
 
-```
-postgres -D <directory for postgres.conf>
-```
+<pre>
+<b>postgres -D</b> <em>directory-for-postgres.conf</em>
+</pre>
 To find postgres.conf file directory:
-```
-rails dbconsole
-show config_file;
-```
+<pre>
+<b>rails dbconsole</b>
+<b>show config_file;</b>
+</pre>
 
-**dump restore**  
-http://www.postgresql.org/docs/9.4/static/backup-dump.html  
-```
-pg_dump <databasename> > <txtdumpfile>
+####[<b>dump restore</b>](http://www.postgresql.org/docs/9.4/static/backup-dump.html)   
+<pre>
+<b>pg_dump</b> <em>database-name<em> <b>&gt</em> <em>text-dump-file</em>
 
-psql <databasename> < <txtdumpfile>
-```
+<b>psql</b> <em>database-name</em> <em>&lt</em> <em<text-dump-file</em>
+<pre>
+
 psql will not create a data base, to **create** a database:
-```
-createdb -T template0 <databasename>
-```
-To **DELETE** a database:
-```
-rails dbconsole
-\c <adifferent database>    # connect to a diferent database
-DROP DATABASE <databasename>
-```
+<pre>
+<b>createdb -T template0</b> <em>database-name</em>
+</pre>
+
+####To **DELETE** a database:
+<pre>
+<b>rails dbconsole</b>
+<b>\c</b> <em>a-different-database</em>    # <em>connect to a different database than the one being deleted</em>
+<b>DROP DATABASE</b> <em>database-name</em>
+</pre>
+
 ###Sublime 2
 http://www.chrishjorth.com/blog/turn-sublime-text-into-the-best-web-development-editor-on-mac/  
