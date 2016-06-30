@@ -5,8 +5,9 @@
 
 ##[Google Analytics Help](https://support.google.com/analytics/answer/4553001?hl=en)
 
-From analyticsacademywithgoogle.com
-https://analyticsacademy.withgoogle.com
+[From analyticsacademywithgoogle.com](https://analyticsacademy.withgoogle.com)
+
+[GA Certification](https://www.google.com/partners/#p_analyticscertification)
 
 [Google Analytics Exam Answers](http://www.gaiq-center.com/exam-questions-answers/)
 
