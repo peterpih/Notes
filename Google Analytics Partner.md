@@ -1,11 +1,11 @@
 ##[GAIQ Test Here](https://www.google.com/partners/#p_analyticscertification target="_blank")
 
-[GA IQ Center.com](http://www.gaiq-center.com/exam-questions-answers/goals/)
-[How to prepare for the GA test](https://support.google.com/analytics/answer/3424288?hl=en)
+[GAIQ Questions and Answers](http://www.gaiq-center.com/exam-questions-answers/goals/)
+[How to prepare for the GAIQ test](https://support.google.com/analytics/answer/3424288?hl=en)
 
 ##[Google Analytics Help](https://support.google.com/analytics/answer/4553001?hl=en)
 
-[From analyticsacademywithgoogle.com](https://analyticsacademy.withgoogle.com)
+[Free GA online courses](https://analyticsacademy.withgoogle.com)
 
 [GA Certification](https://www.google.com/partners/#p_analyticscertification)
 
