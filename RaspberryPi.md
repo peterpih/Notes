@@ -24,5 +24,25 @@ http://m.youtube.com/#/watch?v=xpiyB7ZM3vg
 [Raspberry Pi Remote Connections – Without A Network!](https://pihw.wordpress.com/guides/direct-network-connection/)
 
 ###[Updating Raspbian](https://www.youtube.com/watch?v=-6OGuhLtKbU&t=15m52s)
+<pre>
+sudo apt-get update
+sudo apt_get upgrade
+</pre>
+
+To add VNC
+<pre>
+sudo apt-get install tightvncserver
+</pre>
+
 
 ###[Use-ssh-to-talk-with-your-Raspberry-Pi](http://www.instructables.com/id/Use-ssh-to-talk-with-your-Raspberry-Pi/)
+
+###Shutdown
+<pre>
+<b>sudo shutdown -s</b> <em>now</em>
+</pre>
+
+#Reboot
+<pre>
+<b>sudo shutdown -r</b> <em>now</em>
+</pre>
