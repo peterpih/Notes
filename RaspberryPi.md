@@ -24,3 +24,5 @@ http://m.youtube.com/#/watch?v=xpiyB7ZM3vg
 [Raspberry Pi Remote Connections – Without A Network!](https://pihw.wordpress.com/guides/direct-network-connection/)
 
 ###[Updating Raspbian](https://www.youtube.com/watch?v=-6OGuhLtKbU&t=15m52s)
+
+###[Use-ssh-to-talk-with-your-Raspberry-Pi](http://www.instructables.com/id/Use-ssh-to-talk-with-your-Raspberry-Pi/)
