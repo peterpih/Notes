@@ -38,8 +38,9 @@ sudo apt-get install tightvncserver
 ###[Use-ssh-to-talk-with-your-Raspberry-Pi](http://www.instructables.com/id/Use-ssh-to-talk-with-your-Raspberry-Pi/)
 On a Mac
 <pre>
-<b>ssh pi@</b><em>ip address</em>
+<b>ssh pi@</b><em>ip-address</em>
 </pre>
+You can find the <em>ip-address</em> by typing **ifconfig** on the RPI CLI.
 
 [how-to-tell-which-services-run-at-startup-on-raspberry-pi-raspbian](http://superuser.com/questions/852610/how-to-tell-which-services-run-at-startup-on-raspberry-pi-raspbian)
 
