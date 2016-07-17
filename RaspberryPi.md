@@ -42,14 +42,14 @@ On a Mac
 </pre>
 You can find the <em>ip-address</em> by typing **ifconfig** on the RPI CLI.
 
-[how-to-tell-which-services-run-at-startup-on-raspberry-pi-raspbian](http://superuser.com/questions/852610/how-to-tell-which-services-run-at-startup-on-raspberry-pi-raspbian)
+###[how-to-tell-which-services-run-at-startup-on-raspberry-pi-raspbian](http://superuser.com/questions/852610/how-to-tell-which-services-run-at-startup-on-raspberry-pi-raspbian)
 
-###Shutdown
+####Shutdown
 <pre>
 <b>sudo shutdown -s</b> <em>now</em>
 </pre>
 
-#Reboot
+####Reboot
 <pre>
 <b>sudo shutdown -r</b> <em>now</em>
 </pre>
