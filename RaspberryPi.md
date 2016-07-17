@@ -3,9 +3,9 @@
 <pre>
 From: http://www.electro-tech-online.com/threads/dull-coulored-solder-joints.127272/
 ----
-This is my favorite basic soldering video, "How and why to solder correctly".
+This is my favorite basic soldering video: <a href="http://www.youtube.com/watch?v=I_NU2ruzyc4">How and why to solder correctly</a>
 
-http://www.youtube.com/watch?v=I_NU2ruzyc4
+
 ----
 In this video, the correct method is shown but for most field repairs, as long as the terminal is clean and the solder wets 
 well, tinning just the wire should be sufficient. In a production setting, wire and terminals are often tinned by fluxing 
