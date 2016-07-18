@@ -45,6 +45,8 @@ You can find the <em>ip-address</em> by typing **ifconfig** on the RPI CLI.
 
 ###[how-to-tell-which-services-run-at-startup-on-raspberry-pi-raspbian](http://superuser.com/questions/852610/how-to-tell-which-services-run-at-startup-on-raspberry-pi-raspbian)
 
+#Commands
+
 ####Shutdown
 <pre>
 <b>sudo shutdown -s</b> <em>now</em>
@@ -53,4 +55,10 @@ You can find the <em>ip-address</em> by typing **ifconfig** on the RPI CLI.
 ####Reboot
 <pre>
 <b>sudo shutdown -r</b> <em>now</em>
+</pre>
+
+####Service
+<pre>
+<b>service --status-all</b>            # <em>gives a list of services</em>
+<b>service</b> <em>service-name</em>      # <em>gives further options for the command</em>
 </pre>
