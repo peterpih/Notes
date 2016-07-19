@@ -69,7 +69,7 @@ https://www.realvnc.com/docs/raspberry-pi.html
 [RealVNC downloads](https://www.realvnc.com/download/vnc/?utm_medium=email&utm_campaign=license-emails&utm_source=free-trial-license&utm_content=download)
 
 <em>download the VNC package</em>   
-curl -L -o VNC.tar.gz https://www.realvnc.com/download/binary/latest/debian/arm/ 
+<b>curl -L -o VNC.tar.gz https://www.realvnc.com/download/binary/latest/debian/arm/ </b>
 <pre>
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
@@ -78,14 +78,14 @@ curl -L -o VNC.tar.gz https://www.realvnc.com/download/binary/latest/debian/arm/
 </pre>
 
 <em>get the package name</em>   
-tar xvf VNC.tar.gz
+<b>tar xvf VNC.tar.gz</b>
 <pre>
 VNC-Server-5.3.2-Linux-ARM.deb
 VNC-Viewer-5.3.2-Linux-ARM.deb
 </pre>
 
 <em>install package</em>   
-sudo dpkg -i VNC-Server-5.3.2-Linux-ARM.deb
+<b>sudo dpkg -i VNC-Server-5.3.2-Linux-ARM.deb</b>
 <pre>
 (Reading database ... 119726 files and directories currently installed.)
 Preparing to unpack VNC-Server-5.3.2-Linux-ARM.deb ...
@@ -120,7 +120,7 @@ Processing triggers for desktop-file-utils (0.22-1) ...
 Processing triggers for mime-support (3.58) ...
 </pre>
 <em>add license key</em>   
-<b>sudo vnclicense -add &ltlicense-key&gt</b>
+<b>sudo vnclicense -add</b> <em>license-key</em>
 <pre>
 License key <Free> has been successfully applied.
 </pre>
