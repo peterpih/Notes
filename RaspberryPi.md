@@ -119,8 +119,8 @@ Processing triggers for gnome-menus (3.13.3-6) ...
 Processing triggers for desktop-file-utils (0.22-1) ...
 Processing triggers for mime-support (3.58) ...
 </pre>
-<em><b>add license key</b></em>
-sudo vnclicense -add <license-key>
+<em>add license key</em>   
+<b>sudo vnclicense -add &ltlicense-key&gt</b>
 <pre>
 License key <Free> has been successfully applied.
 </pre>
