@@ -84,7 +84,7 @@ VNC-Server-5.3.2-Linux-ARM.deb
 VNC-Viewer-5.3.2-Linux-ARM.deb
 </pre>
 
-<em>install package</em>
+<em>install package</em>   
 sudo dpkg -i VNC-Server-5.3.2-Linux-ARM.deb
 <pre>
 (Reading database ... 119726 files and directories currently installed.)
@@ -119,5 +119,9 @@ Processing triggers for gnome-menus (3.13.3-6) ...
 Processing triggers for desktop-file-utils (0.22-1) ...
 Processing triggers for mime-support (3.58) ...
 </pre>
-
+<em><b>add license key</b></em>
+sudo vnclicense -add <license-key>
+<pre>
+License key <Free> has been successfully applied.
+</pre>
 
