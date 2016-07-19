@@ -122,6 +122,6 @@ Processing triggers for mime-support (3.58) ...
 <em>add license key</em>   
 <b>sudo vnclicense -add</b> <em>license-key</em>
 <pre>
-License key <Free> has been successfully applied.
+License key &lt;Free&gt; has been successfully applied.
 </pre>
 
