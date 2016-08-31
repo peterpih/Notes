@@ -1,8 +1,12 @@
-Some Useful Tags  
+###[Table of Special Escape Characters](http://www.degraeve.com/reference/specialcharacters.php)
+
+###Some Useful Tags  
+<pre>
 <b>&lt;sup&gt;</b> - superscript, like <sup>this</sup>  
 <b>&lt;sub&gt;</b> - subscript, like <sub>this</sub>  
 <b>placeholder=</b> - for that greyed out text inside form fields
 <red>Hello</red>
+</pre>
 ```{html}
 <input label: "input form">
 ```
