@@ -1,3 +1,3 @@
-http://machinelearningmastery.com/inspirational-applications-deep-learning/
+[8 Inspirational Applications of Deep Learning](http://machinelearningmastery.com/inspirational-applications-deep-learning/)
 
-https://www.quora.com/What-are-the-advantages-of-different-classification-algorithms
+[What are the advantages of different classification algorithms (Quora)](https://www.quora.com/What-are-the-advantages-of-different-classification-algorithms)
