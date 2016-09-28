@@ -13,6 +13,13 @@
 ###[City of Oakland proposed budget](http://openbudgetoakland.org/2015-17-proposed-budget-flow.htm)   
 
 
+From  Exaptive Talk  
+[Geographic Maps](https://www.jasondavies.com)  
+[SVG Beyond Mere Shapes — Nadieh Bremer](https://www.youtube.com/watch?v=AwlA3SaChHE)  
+[Drawing on canvas - how computers read pixels — Mariko Kosaka](https://www.youtube.com/watch?v=-6REd8lLsPM)  
+[Open Vis Conf Videos](https://openvisconf.com)
+
+
 
 ###[Combining R and D3](http://blog.ae.be/combining-the-power-of-r-and-d3-js/)
 
