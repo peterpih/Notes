@@ -1,8 +1,8 @@
 <pre>
-I<superscript>t</superscript>
+I<sup>t</sup>
 </pre>
 <pre>
-5.Q What is the value of f(x)=−5I{x>2}(x)+xI{x<−1}(x) when x=0?
+5.Q What is the value of f(x)=−5I<sub>{x&gt;2}</sub>(x)+xI<sub>{x&lt;−1}</sub>(x) when x=0?
 A. 0  
 Reason: All indicator functions evaluate to zero.
 </pre>
@@ -32,7 +32,7 @@ Reason: The binomial model assumes a fixed number of independent trials, each wi
 
 A. Evaluate the probability mass function for a binomial, 
 
-    P(X=x)=(n choose x)p^x (1−p)^(n−x), with n=3, p=0.2 and x=0.
+P(X=x)=(<sup>n</sup><sub>x</sub>)p<sup>x</sup> (1−p)<sup>(n−x)</sup>, with n=3, p=0.2 and x=0.
 
 </pre>
 
