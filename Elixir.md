@@ -69,3 +69,6 @@ Erlang/OTP 19 [erts-8.1] [source] [64-bit] [smp:8:8] [async-threads:10] [hipe] [
 Elixir 1.3.3
 
 </pre>
+
+#Introduction  
+http://elixir-lang.org/getting-started/introduction.html
