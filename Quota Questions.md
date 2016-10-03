@@ -1,0 +1,1 @@
+[How much do YouTubers make when each of their videos get 50k, 100k, 500k, 1m, and 1.5m views?](https://www.quora.com/How-much-do-YouTubers-make-when-each-of-their-videos-get-50k-100k-500k-1m-and-1-5m-views)
