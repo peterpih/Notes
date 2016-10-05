@@ -6,6 +6,8 @@ http://braumeister.org
 <b>brew update</b>                      <em>update casks</em>
 <b>brew list</b>                       <em> list installed packages</em>
 
+<b>brew info</b> <em>node<em>                   <em>shows which version of node.js <b>will be</b> installed</em>
+
 <b>brew doctor</b>                      <em>check status of casks</em>
 </pre>
 
