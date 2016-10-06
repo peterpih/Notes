@@ -1,6 +1,7 @@
 ##[Sankey Example](http://bl.ocks.org/d3noob/5028304)
 
 ###[Sankey Diagrams: A Description of the d3.js Code](http://www.d3noob.org/2013/02/sankey-diagrams-description-of-d3js-code.html)
+###[Sankey diagram with horizontal and vertical node movement](http://bl.ocks.org/d3noob/5028304)
 
 ##[D3 Wiki](https://github.com/mbostock/d3/wiki)
 [Short Javascript Tutorial](https://www.dashingd3js.com/lessons/introduction-to-javascript)
