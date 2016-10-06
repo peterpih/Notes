@@ -1,5 +1,7 @@
 ##[Sankey Example](http://bl.ocks.org/d3noob/5028304)
 
+###[Sankey Diagrams: A Description of the d3.js Code](http://www.d3noob.org/2013/02/sankey-diagrams-description-of-d3js-code.html)
+
 ##[D3 Wiki](https://github.com/mbostock/d3/wiki)
 [Short Javascript Tutorial](https://www.dashingd3js.com/lessons/introduction-to-javascript)
 
@@ -8,10 +10,9 @@
 
 ###<a href="https://www.dashingd3js.com/table-of-contents" target="_blank">Dashing D3 Tutorial</a>  
 
-###[Dashing D3 Tutorials](https://www.dashingd3js.com/table-of-contents+target=")  
+###[Dashing D3 Tutorials](https://www.dashingd3js.com/table-of-contents+target=")   
 
-###[City of Oakland proposed budget](http://openbudgetoakland.org/2015-17-proposed-budget-flow.htm)   
-
+###[City of Oakland Cashflow Sankey](http://openbudgetoakland.org/2015-17-adopted-budget-flow.html)
 
 From  Exaptive Talk  
 [Geographic Maps](https://www.jasondavies.com)  
