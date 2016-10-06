@@ -1,7 +1,8 @@
 #[Installation](http://www.phoenixframework.org/docs/installation)
 
 <pre>
-~/phoenix(setup*) 752 >mix local.hex
+$ <b>mix local.hex</b>
+
 Are you sure you want to install archive "https://repo.hex.pm/installs/1.3.0/hex-0.13.2.ez"? [Yn] Y
 * creating /Users/peterpih/.mix/archives/hex-0.13.2
 </pre>
@@ -10,18 +11,19 @@ Are you sure you want to install archive "https://repo.hex.pm/installs/1.3.0/hex
 
 I had already installed
 
-brew install elixir
+$ <b>brew install elixir</b>
 
-brew install node
+$ <b>brew install node</b>
 
-brew install postgres
+$ <b>brew install postgres</b>
 
 </pre>
 
 #Create Application
 
 <pre>
-<b>mix phoenix.new</b> <em>hello_phoenix</em>
+$ <b>mix phoenix.new</b> <em>hello_phoenix</em>
+
 * creating hello_phoenix/config/config.exs
 * creating hello_phoenix/config/dev.exs
 ...
