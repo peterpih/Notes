@@ -31,12 +31,12 @@
 
 <b>config.json</b> <em>(type command)</em>
 
-$ <b>cat '{}' > config.jason</b>
+$ <b>cat '{}' > config.json</b>
  <pre>
 {}
 </pre>
 
-<b>After creating those 3 files, intiialize git on the directory</b>
+<b>After creating those 3 files, intialize git on the directory</b>
 
 $ git init   
 $ git add -A   
