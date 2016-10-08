@@ -9,7 +9,7 @@
       &lt;script type="text/javascript"&gt;
          &lt;!--
             function Redirect() {
-               window.location="<em>put target url here</em>";
+               window.location="<em>put-target-url-here</em>";
             }
             
             document.write("You will be redirected to main page in 10 sec.");
