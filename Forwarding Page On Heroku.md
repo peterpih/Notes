@@ -38,9 +38,9 @@ $ <b>cat '{}' > config.jason</b>
 
 <b>After creating those 3 files, intiialize git on the directory</b>
 
-$ git init
-$ git add -A
-$ git commit -m "first commit"
+$ git init   
+$ git add -A   
+$ git commit -m "first commit"   
 <pre>
 [master (root-commit) 6bc75a0] first commit
  3 files changed, 21 insertions(+)
