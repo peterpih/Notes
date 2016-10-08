@@ -38,9 +38,9 @@ $ <b>cat '{}' > config.json</b>
 
 <b>After creating those 3 files, intialize git on the directory</b>
 
-$ git init   
-$ git add -A   
-$ git commit -m "first commit"   
+$ <b>git init</b>   
+$ <b>git add -A</b>   
+$ <b>git commit -m</b> <em>"first commit"</em>   
 <pre>
 [master (root-commit) 6bc75a0] first commit
  3 files changed, 21 insertions(+)
@@ -51,9 +51,9 @@ $ git commit -m "first commit"
 
 <b>Now Create a new app in heroku</b>  <em>enigmatic-brook-80258</em>
 
-$ git remote add heroku <em>https://git.heroku.com/enigmatic-brook-80258.git</em>  
+$ <b>git remote add</b> <em>heroku https://git.heroku.com/enigmatic-brook-80258.git</em>  
 
-$ git push heroku master
+$ <b>git push</b> <em>heroku master</em>
 </pre>
 
 ####Heroku should self detect that it is a PHP app
