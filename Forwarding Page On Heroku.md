@@ -1,4 +1,4 @@
-####The easiest way to get a forwading page on Heroku is using 3 files in PHP
+####The easiest way to get a forwarding page on Heroku is using 3 files in PHP
 
 <b>main.html</b>  <em>(copy and paste)</em>
 
