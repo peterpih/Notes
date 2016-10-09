@@ -49,4 +49,5 @@ Before moving on, configure your database in config/dev.exs and run:
     
 </pre>
 
+###[Up and Running](http://www.phoenixframework.org/docs/up-and-running)
 
