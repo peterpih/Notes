@@ -51,3 +51,22 @@ Before moving on, configure your database in config/dev.exs and run:
 
 ###[Up and Running](http://www.phoenixframework.org/docs/up-and-running)
 
+#Heroku
+
+$ <b>heroku create --buildpack "https://github.com/HashNuke/heroku-buildpack-elixir.git">/b>
+
+<pre>
+Creating app... done, ⬢ guarded-dawn-13638
+Setting buildpack to https://github.com/HashNuke/heroku-buildpack-elixir.git... done
+https://guarded-dawn-13638.herokuapp.com/ | https://git.heroku.com/guarded-dawn-13638.git
+</pre>
+
+$ <b>heroku buildpacks:add https://github.com/gjaldon/heroku-buildpack-phoenix-static.git</b>
+
+<pre>
+Buildpack added. Next release on guarded-dawn-13638 will use:
+  1. https://github.com/HashNuke/heroku-buildpack-elixir.git
+  2. https://github.com/gjaldon/heroku-buildpack-phoenix-static.git
+Run git push heroku master to create a new release using these buildpacks.
+</pre>
+
