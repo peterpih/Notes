@@ -70,3 +70,6 @@ Buildpack added. Next release on guarded-dawn-13638 will use:
 Run git push heroku master to create a new release using these buildpacks.
 </pre>
 
+edit config/prod.exs
+
+<pre>
