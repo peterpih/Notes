@@ -1,3 +1,5 @@
+[Everything I Wish I Knew When I Started Using GitHub (YouTube)](https://www.youtube.com/watch?v=KDUtjZHIx44)
+
 ###port 22: Connection timed out - [Firewall block](http://stackoverflow.com/questions/15589682/ssh-connect-to-host-github-com-port-22-connection-timed-out)
 If connection times out, may be due to firewall, run cli
 <pre>
