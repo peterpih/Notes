@@ -1,4 +1,7 @@
-[Installation](http://elixir-lang.org/install.html)
+###[Elixir School.com](http://elixirschool.com)  
+###[Elixir OKC](https://elixir.school)
+
+###[Installation](http://elixir-lang.org/install.html)
 <pre>
 <b>brew update</b>
 
