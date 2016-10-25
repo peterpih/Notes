@@ -4,12 +4,12 @@
 
 ###Column Setup
 <pre>
-%body
+<b>%body</b>
 <b>.container.container-fluid</b>      <em># allow for flowing</em>
     <b>.row</b>
-    <em>#sidebar</em><b>.col-xs-</b><em>5</em>          <em># each .col-x-x indent group must add to 12</em>
-      .container.col-xs-7
-        .row             <em># aligns the following columns</em>
-          .dev.col-xs-6   
-          .dev.col-xs-6
+    <em>#sidebar</em><b>.col-xs-5</b>          <em># each .col-x-x indent group must add to 12</em>
+      <b>.container.col-xs-7</b>
+        <b>.row</b>             <em># aligns the following columns</em>
+        <b>.dev.col-xs-6</b>   
+        <b>.dev.col-xs-6</b>
 </pre>
