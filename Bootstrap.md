@@ -25,7 +25,7 @@
 //= require_tree .
 </pre>
 
-<b>applicatioon.css.sass</b>
+<b>application.css.sass</b>
 <pre>
 $ <b>ren application.css -> application.css.sass</b>
 
