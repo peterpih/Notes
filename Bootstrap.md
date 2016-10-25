@@ -5,9 +5,9 @@
 ###Column Setup
 <pre>
 %body
-  .container.container-fluid      <em># allow for flowing</em>
-    .row
-      #sidebar.col-xs-5          <em># each .col-x-x indent group must add to 12</em>
+<b>.container.container-fluid</b>      <em># allow for flowing</em>
+    <b>.row</b>
+    <em>#sidebar</em><b>.col-xs-</b><em>5</em>          <em># each .col-x-x indent group must add to 12</em>
       .container.col-xs-7
         .row             <em># aligns the following columns</em>
           .dev.col-xs-6   
