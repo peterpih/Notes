@@ -52,3 +52,19 @@ $ <b>ren application.css -> application.css.sass</b>
         <b>.dev.col-xs-6</b>   
         <b>.dev.col-xs-6</b>
 </pre>
+
+###Grid System
+<b>.container</b> for fixed-width  
+<b>.container-fluid</b> for full-width
+
+<pre>
+The order is <b>always</b>
+
+<b>.container</b>
+    <b>.row</b>
+        <b>.col-x-x</b>  <em>only a .col can follow a .row</em>
+        
+</pre>
+
+###Breakpoints
+&lt;576px <b>extra small</b>  
