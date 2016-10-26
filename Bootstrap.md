@@ -66,5 +66,15 @@ The order is <b>always</b>
         
 </pre>
 
-###Breakpoints
+###Breakpoint Widths Used By Bootstrap
 &lt;576px <b>extra small</b>  
+
+
+###Overriding bootstrap formatting
+
+Create another class <b>.navbar-xs</b> and style accordingly
+<pre>
+.navbar-xs { min-height:28px; height: 28px; }
+.navbar-xs .navbar-brand{ padding: 0px 12px;font-size: 16px;line-height: 28px; }
+.navbar-xs .navbar-nav > li > a {  padding-top: 0px; padding-bottom: 0px; line-height: 28px; }
+</pre>
