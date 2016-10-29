@@ -1,3 +1,5 @@
+###[W3School Collapsing Reference Guide](http://www.w3schools.com/bootstrap/bootstrap_ref_js_collapse.asp)
+
 ###Simple Collapsible
 
 Use a button tag to collapse <em>something</em>
@@ -13,5 +15,10 @@ Use a button tag to collapse <em>something</em>
 
 <b>id="demo"</b>              <em># id="demo" connects the target</em>
 <b>class="collapse"</b>       <em># makes it collapsible</em>
+</pre>
 
+
+<pre>
+<b>class="collapsible"</b>        <em># by default is hidden</em>
+<b>class="collapsible in"</b>     <em># 'in' makes visible by default</em>
 </pre>
