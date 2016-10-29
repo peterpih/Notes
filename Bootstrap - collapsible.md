@@ -5,7 +5,7 @@ Use a button tag to collapse <em>something</em>
 &lt;button data-toggle="collapse" data-target="#demo"&gt;Collapsible&lt;/button&gt;
 
 <b>data-toggle="collapse"</b>  </em># is the action</em>
-<b>data-target=</b><em>"#demo"</em> <em>    # id='demo' connects to the target</em>
+<b>data-target=</b><em>"#demo"</em> <em>    # id="demo" connects to the target</em>
 
 
 
