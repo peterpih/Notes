@@ -25,14 +25,13 @@
 //= require_tree .
 </pre>
 
-<b>application.css.sass</b>
+###<b>application.css.sass</b>
 <pre>
+<em>rename to .sass extension</em>
 $ <b>ren application.css -> application.css.sass</b>
 
 /*
- * This is a manifest file that'll automatically include all the stylesheets available in this directory
- * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
- * the top of the compiled file, but it's generally better to create a new file per style scope.
+ ...
  *
  *= require_tree .
  *= require_self
@@ -41,10 +40,50 @@ $ <b>ren application.css -> application.css.sass</b>
 <b>@import "bootstrap"</b>
 </pre>
 
+1) Delete the <b>require</b>s and change to <b>@import</b> so the bootstrap styling is available to all .css
+2) Add other <b>@import<b>s as needed and to maintain precedence.
+<pre>
+/*
+ ...
+ */
+<b>@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "borders";
+@import "site";
+@import "nav";</b>
+</pre>
+
+###application.js
+
+1) <b>jquery</b> needs to be before <b>jquery_ujs</b>   
+2) any jquery needs to be before <b>bootstrap-sprockets</b>
+<em>(should look like below)</em>
+<pre>
+// This is a manifest file that'll be compiled into application.js, which will include all the files
+// listed below.
+//
+// Any JavaScript/Coffee file within this directory, lib/assets/javascripts, vendor/assets/javascripts,
+// or any plugin's vendor/assets/javascripts directory can be referenced here using a relative path.
+//
+// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
+// compiled file.
+//
+// Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
+// about supported directives.
+//
+<b>//= require jquery
+//= require jquery_ujs
+//= require turbolinks
+//= require bootstrap-sprockets
+//= require_tree .</b>
+</pre>
+
+
 ###Column Setup
 <pre>
 <b>%body</b>
-<b>.container.container-fluid</b>      <em># allow for flowing</em>
+<b>.container</b>                     <em># <b>.container</b> is for fixed width</em>
+                               <em># <b>.container-fluid</b> is for full with</em>
     <b>.row</b>
     <em>#sidebar</em><b>.col-xs-5</b>          <em># each .col-x-x indent group must add to 12</em>
       <b>.container.col-xs-7</b>
