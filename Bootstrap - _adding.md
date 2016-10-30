@@ -25,7 +25,7 @@
 //= require_tree .
 </pre>
 
-###<b>application.css.sass</b>
+<b>application.css.sass</b>
 <pre>
 <em>rename to .sass extension</em>
 $ <b>ren application.css -> application.css.sass</b>
@@ -53,7 +53,7 @@ $ <b>ren application.css -> application.css.sass</b>
 @import "nav";</b>
 </pre>
 
-###application.js
+<b>application.js</b>
 
 1) <b>jquery</b> needs to be before <b>jquery_ujs</b>   
 2) any jquery needs to be before <b>bootstrap-sprockets</b>
@@ -79,7 +79,7 @@ $ <b>ren application.css -> application.css.sass</b>
 </pre>
 
 
-###Column Setup
+<b>Column Setup</b>
 <pre>
 <b>%body</b>
 <b>.container</b>                     <em># <b>.container</b> is for fixed width</em>
