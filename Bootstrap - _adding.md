@@ -30,20 +30,18 @@
 <em>rename to .sass extension</em>
 $ <b>ren application.css -> application.css.sass</b>
 
-/*
+/* before
  ...
  *
  *= require_tree .
  *= require_self
  */
-<b>@import "bootstrap-sprockets"</b>
-<b>@import "bootstrap"</b>
 </pre>
 
-1) Delete the <b>require</b>s and change to <b>@import</b> so the bootstrap styling is available to all .css
+1) Delete the <b>require</b>s and change to <b>@import</b> so the bootstrap styling is available to all .css   
 2) Add other <b>@import<b>s as needed and to maintain precedence.
 <pre>
-/*
+/* after
  ...
  */
 <b>@import "bootstrap-sprockets";
