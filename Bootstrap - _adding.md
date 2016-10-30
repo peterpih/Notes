@@ -44,8 +44,7 @@ $ <b>ren application.css -> application.css.sass</b>
 /* after
  ...
  */
-<b>@import "bootstrap-sprockets";
-@import "bootstrap";
+<b>@import "bootstrap";
 @import "borders";
 @import "site";
 @import "nav";</b>
@@ -74,6 +73,17 @@ $ <b>ren application.css -> application.css.sass</b>
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .</b>
+</pre>
+
+###Gemfile
+
+Add following gems to Gemfile
+<pre>
+gem 'sprockets-rails'  
+gem 'bootstrap-sass', '~> 3.2.0'  
+gem 'autoprefixer-rails' 
+
+$ <b>bundle install</b>
 </pre>
 
 
