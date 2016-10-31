@@ -14,3 +14,8 @@
 <pre>
 = link_to 'a_link', "#", <b>'border-style'=>'solid', 'color'=>'red'</b>
 </pre>
+
+<b>Useful Styling</b>
+<pre>
+<b>border: 1px solid red</b>      <em># shorthand border</em>
+</pre>
