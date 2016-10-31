@@ -14,9 +14,8 @@
 
 <b>link_to</b>
 <pre>
-= link_to 'a_link', "#", <b>style: 'border-style:solid;color:red'</b>
+= link_to 'a_link', "#", <b>style: 'border:4px solid green'</b>
 = link_to 'a_link', "#", <b>:style=>'border:4px solid green'</b>
-= link_to 'a_link', "#", <b>'border-style'=>'solid', 'color'=>'red'</b>
 </pre>
 
 <b>Useful Styling</b>
