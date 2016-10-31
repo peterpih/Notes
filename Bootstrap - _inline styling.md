@@ -8,6 +8,8 @@
 <b>HAML</b>
 <pre>
 %div<b>{color: 'red'}</b>
+
+%li<b>{style: "border: 1px solid red"}
 </pre>
 
 <b>link_to</b>
