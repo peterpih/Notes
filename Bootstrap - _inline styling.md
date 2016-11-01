@@ -9,7 +9,8 @@
 <pre>
 %div<b>{color: 'red'}</b>
 
-%li<b>{style: "border: 1px solid red"}
+%li<b>{style: "border: 1px solid red"}</b>
+%li<b>{style: "border-style:solid;border-color:red"}</b>
 </pre>
 
 <b>link_to</b>
@@ -21,4 +22,8 @@
 <b>Useful Styling</b>
 <pre>
 <b>border: 1px solid red</b>      <em># shorthand border</em>
+
+<b>list-style: none</b>          <em> # no bullet points in list item</em>
+<b>list-style-type: none</b>
+
 </pre>
