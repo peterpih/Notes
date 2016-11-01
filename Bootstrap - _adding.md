@@ -1,3 +1,5 @@
+&#42;&#42;[How to install Bootstrap 4 in Rails](http://mixandgo.com/blog/how-to-install-bootstrap-4-in-rails)
+
 [Integrating Rails and Bootstrap, Part 1 - the Installation](https://launchschool.com/blog/integrating-rails-and-bootstrap-part-1)
 
 [Bootstrap Grid Examples](http://getbootstrap.com/examples/grid/)
