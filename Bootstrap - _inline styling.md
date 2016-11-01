@@ -3,6 +3,7 @@
 <b>HTML</b>
 <pre>
 &lt;div <b>color="red"</b>&gt
+&lt;div <b>style="{border: 1px solid red}"</b>&gt
 </pre>
 
 <b>HAML</b>
