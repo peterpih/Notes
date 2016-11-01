@@ -20,11 +20,12 @@
 = link_to 'a_link', "#", <b>:style=>'border:4px solid green'</b>
 </pre>
 
-<b>Useful Styling</b>
+<b>Some Useful Styling</b>
 <pre>
 <b>border: 1px solid red</b>      <em># shorthand border</em>
 
 <b>list-style: none</b>          <em> # no bullet points in list item</em>
 <b>list-style-type: none</b>
 
+<b>width: max-content;</b> 
 </pre>
