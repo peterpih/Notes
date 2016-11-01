@@ -1,3 +1,4 @@
+###[HTML Code Table](http://www.ascii.cl/htmlcodes.htm)
 ###[Table of Special Escape Characters](http://www.degraeve.com/reference/specialcharacters.php)
 
 ###Some Useful Tags  
