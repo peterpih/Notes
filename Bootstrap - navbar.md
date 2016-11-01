@@ -58,3 +58,22 @@ A standard navigation bar is created with
       %li= link_to 'Page 2', "#"
       %li= link_to 'Page3', "#"
 </pre>
+
+###Standard navbar
+<pre>
+&lt;body&gt;
+&lt;nav class="navbar navbar-default"&gt;
+  &lt;div class="container-fluid"&gt;
+    &lt;div class="navbar-header"&gt;
+      &lt;a class="navbar-brand" href="#"&gt;WebSiteName&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;ul class="nav navbar-nav"&gt;
+      &lt;li class="active"&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#"&gt;Page 1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#"&gt;Page 2&lt;/a&gt;&lt;/li&gt; 
+      &lt;li&gt;&lt;a href="#"&gt;Page 3&lt;/a&gt;&lt;/li&gt; 
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+...
+</pre>
