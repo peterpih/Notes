@@ -72,7 +72,7 @@ end
     <b>create</b>  db/migrate/20160520211611_create_duplicates.rb
 </pre>
 
-This is after manually creating
+Use this is after manually creating
 <pre>
 <em># app/models/duplicate.rb</em>
 
