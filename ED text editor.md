@@ -1,22 +1,25 @@
 ###[GNU ed manual](http://www.gnu.org/software/ed/manual/ed_manual.html)
 <b>general</b>
 <pre>
+<b>P</b>                       <em># toggle coomand prompt (capital P)</em>
+
 <b>i</b>                       <em># insert mode, before this line</em>
 <b><em>ctrl-D</em></b>                  <em># exit input mode
 <b>d</b>                       <em># delete line</em>
 <b>u</b>                       <em># undo last command</em>
+
+<b>q</b>                       <em># quit editor</em>
+<b>Q</b>                       <em># quit unconditionally</em>
 </pre>
 
 <b>files</b>
 <pre>
-<b>w</b> <em>file_name</em>             <em># write file</em>
-<b>q</b>                       <em># quit editor</em>
-<b>Q</b>                       <em># quit unconditionally</em>
+<b>f</b> <em>file-name</em>             <em># read file</em>
+<b>w</b> <em>file-name</em>             <em># write file</em>
 </pre>
+
 <b>print (show)</b>
 <pre>
-<b>P</b>                       <em># toggle coomand prompt (capital P)</em>
-
 <em>n</em>                       <em># print line n</em>
 <b>1</b>                       <em># print first line in buffer</em>
 <b>$</b>                       <em># print last line in buffer</em>
