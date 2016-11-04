@@ -1,5 +1,6 @@
-###[HTML Code Table](http://www.ascii.cl/htmlcodes.htm)
-###[Table of Special Escape Characters](http://www.degraeve.com/reference/specialcharacters.php)
+###[HTML Code Table](http://www.ascii.cl/htmlcodes.htm)   
+###[Table of Special Escape Characters](http://www.degraeve.com/reference/specialcharacters.php)   
+###[Color Shades](http://www.w3schools.com/colors/colors_shades.asp)   
 
 ###Some Useful Tags  
 <pre>
