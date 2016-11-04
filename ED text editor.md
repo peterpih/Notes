@@ -1,11 +1,11 @@
 ###[GNU ed manual](http://www.gnu.org/software/ed/manual/ed_manual.html)
 
-###files
+<b>files</b>
 <pre>
 <b>w</b> <em>file_name</em>             <em># write file</em>
 <b>q</b>                       <em># quit editor</em>
 </pre>
-###print (show)
+<b>print (show)</b>
 <pre>
 <em>n</em>                       <em># print line n</em>
 <b>1</b>                       <em># print first line in buffer</em>
