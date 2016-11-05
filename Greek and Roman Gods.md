@@ -1,3 +1,5 @@
+[Comparison Chart](http://www.rusdlink.org/cms/lib3/CA01001728/Centricity/Domain/357/9th%20Grade%20Honors%20Introduction%20to%20Literature%20Summer%20Work%20Packet.pdf)
+
 <pre>
 <b>Greek           Roman               Domain</b>
 
