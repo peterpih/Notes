@@ -1,18 +1,17 @@
 ###Generating a Model
 
-"<em>sentence</em>" is the name of the model, with attributes "<em>order</em>", "<em>lesson</em>", and "<em>text</em>"
+<em>User</em> is the name of the model, with attributes <em>first-name</em>, <em>last-name</em>, <em>email</em>, and <em>password</em>
 
+$ <b>rails generate model</b> <em>User</em> <em>first-name</em><b>:string</b> <em>last_name</em><b>:string</b> <em>email</em><b>:string</b> <em>password</em><b>:string</b>
+<pre>
+      invoke  active_record
+      create    db/migrate/20161106075623_create_users.rb
+      create    app/models/user.rb
+      invoke    test_unit
+      create      test/models/user_test.rb
+      create      test/fixtures/users.yml
+</pre>
 
-<pre>
-<b>rails generate model</b> <em>sentence</em> <em>order</em><b>:integer</b> <em>lesson</em><b>:text</b> <em>text</em><b>:text</b>
-</pre>
-generates the following files :
-<pre>
-<b>app/models/</b><em>sentence</em><b>.rb</b>
-<b>db/migrate/</b><em>20151213121015_create_sentences</em><b>.rb</b>
-<b>test/fixtures/</b><em>sentences</em><b>.yml</b>
-<b>test/models/</b><em>sentence_test</em><b>.rb</b>
-</pre>
 
 <pre>
 <em># app/models/sentence.rb</em>
