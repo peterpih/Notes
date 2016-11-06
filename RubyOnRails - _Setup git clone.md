@@ -2,7 +2,7 @@
 
 1 - create a repository on GitHub, include a README.md
 
-2 - under the "Clone or Download" button, get the url for the repository and copy
+2 - under the "Clone or Download" button, copy the url for the repository
 <pre>
 <b>https://github.com/</b><em>user-name</em>/<em>repo-name</em><b>.git</b>
 </pre>
