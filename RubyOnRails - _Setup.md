@@ -2,7 +2,7 @@
 
 1- <b>cd</b> <em>directory-above-where-app-will-live</em>
 
-2 - <b>rails generate new</b> <em>new-app</em>
+2 - <b>rails new</b> <em>new-app</em>
 <pre>
      create  
       create  README.rdoc
