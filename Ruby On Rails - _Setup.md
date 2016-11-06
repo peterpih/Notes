@@ -65,7 +65,7 @@ To https://github.com/peterpih/another-test.git
  + ebce808...fd598c5 master -> master (forced update)
 </pre>
  
-11 - <b>git status</b>
+11 - $ <b>git status</b>
 <pre>
 On branch master
 nothing to commit, working tree clean
