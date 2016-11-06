@@ -29,7 +29,11 @@ production:
   database: <b>my_production</b>
 </pre>
 
-The database can be checked using:  
+The databases are created using
+
+$ <b>rake db:create</b>
+
+The databases can be checked using:  
 
 $ <b>psql</b>
 <pre>
