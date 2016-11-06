@@ -18,7 +18,7 @@ remote: Total 64 (delta 2), reused 64 (delta 2), pack-reused 0
 Unpacking objects: 100% (64/64), done.
 </pre>
 
-5 - <b>rails generate new</b> <em>new-app</em>
+5 - <b>rails new</b> <em>new-app</em>
 <pre>
      create  
       create  README.rdoc
