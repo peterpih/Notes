@@ -43,9 +43,9 @@ origin	https://github.com/<em>user-name</em>/<em>repo-name</em>.git (fetch)
 origin	https://github.com/<em>user-name</em>/<em>repo-name</em>.git (push)
 </pre>
 
-4 - $ <b>git add -A</b>
+8 - $ <b>git add -A</b>
 
-5 - $ <b>git commit -m</b> "<em>first commit</em>"
+9 - $ <b>git commit -m</b> "<em>first commit</em>"
 <pre>
 [master (root-commit) fd598c5] first commit
  57 files changed, 987 insertions(+)
@@ -53,7 +53,7 @@ origin	https://github.com/<em>user-name</em>/<em>repo-name</em>.git (push)
         ...
 </pre>
 
-6 - $ <b>git push -f</b> <em>origin</em> <b>master</b>
+10 - $ <b>git push -f</b> <em>origin</em> <b>master</b>
 <pre>
 Counting objects: 64, done.
 Delta compression using up to 8 threads.
@@ -63,10 +63,12 @@ Total 64 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas: 100% (2/2), done.
 To https://github.com/peterpih/another-test.git
  + ebce808...fd598c5 master -> master (forced update)
- </pre>
+</pre>
  
-7 - <b>git status</b>
+11 - <b>git status</b>
 <pre>
 On branch master
 nothing to commit, working tree clean
 </pre>
+
+##You are ready to go!
