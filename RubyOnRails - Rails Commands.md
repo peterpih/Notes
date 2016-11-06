@@ -1,14 +1,17 @@
 #Rails Commands
 
 <pre>
-<b>rails g</b>enerate <b>model</b> <em>model_name (singular)</em>
-<b>rails g</b>enerate <b>controller</b> <em>controller_name (plural)</em>
+<b>rails g</b>enerate <b>model</b> <em>model_name              # use singular</em>
+$ rails generate model User
+
+<b>rails g</b>enerate <b>controller</b> <em>controller-name    # use plural</em>
+$ rails generate controller Users
 
 <b>rails generate migration</b> <em>migration_name</em>
 
-<b>rails s</b>erver
+<b>rails s</b>erver                                 <em># run the local server</em>
 
-<b>rails new</b> <em>app_name</em>
+<b>rails new</b> <em>app_name                           # create a new app</em>
 </pre>
 
 ###Generating a Model
