@@ -14,21 +14,22 @@ $ <b>rails generate model</b> <em>User</em> <em>first-name</em><b>:string</b> <e
 
 
 <pre>
-<em># app/models/sentence.rb</em>
+<em># app/models/user.rb</em>
 
-class Sentence < ActiveRecord::Base
+class User < ActiveRecord::Base
 end
 </pre>
 
 <pre>
-<em># db/migrate/20151213121015_create_sentences.rb</em>
+<em># db/migrate/20161106075623_create_users.rb</em>
 
-class CreateSentences < ActiveRecord::Migration
+class CreateUsers < ActiveRecord::Migration
   def change
-    create_table :sentences do |t|
-      t.integer :order
-      t.text :lesson
-      t.text :text
+    create_table :users do |t|
+      t.string :first-name
+      t.string :last-name
+      t.string :email
+      t.string :password
 
       t.timestamps null: false
     end
@@ -37,27 +38,29 @@ end
 </pre>
 
 <pre>
-<em># test/fixtures/sentences.yml</em>
+<em># test/fixtures/users.yml</em>
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  order: 1
-  lesson: MyText
-  text: MyText
+  first-name: MyString
+  last-name: MyString
+  email: MyString
+  password: MyString
 
 two:
-  order: 1
-  lesson: MyText
-  text: MyText
+  first-name: MyString
+  last-name: MyString
+  email: MyString
+  password: MyString
 </pre>
 
 <pre>
-<em># test/models/sentence_test.rb</em>
+<em># test/models/user_test.rb</em>
 
 require 'test_helper'
 
-class SentenceTest < ActiveSupport::TestCase
+class UserTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
