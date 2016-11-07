@@ -21,3 +21,7 @@ User.reload
 User.errors
 User.errors.full_messages
 </pre>
+
+<pre>
+<b>!!</b>t.authenticate('foobar')    <em># !! transforms to true/false</em>
+</pre>
