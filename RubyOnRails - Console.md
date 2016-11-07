@@ -1,9 +1,10 @@
 ###Commands
 
 This assumes the model for User has already been defined.
-
+<pre>
 >>User.new  
 >>User.create(name:'Peter', password:'asdfghjkl')  
+</pre>
 
 ###Database Manipulation
 <pre>
