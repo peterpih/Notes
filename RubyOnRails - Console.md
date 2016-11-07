@@ -16,4 +16,7 @@ User.create
 User.update_attributes(hash)
 
 User.reload
+
+User.errors
+User.errors.full_messages
 </pre>
