@@ -34,6 +34,15 @@ $ <b>brew upgrade</b>            # upgrade Homebrew first
 <b>bundler</b>                   # <em>run bundler, entire list of gems will appear</em>
 
 </pre>
+
+To set a particular Ruby version for a project use  
+<pre>
+# <b>./.ruby-version</b>
+
+2.2.4
+</pre>
+
+###NOTE:
 <pre>
 Had a problem that <b>rbenv</b> could not see <b>bundle</b>  
 Ran <b>bundle</b> from ~/.rbenv/versions/2.2.4/bin and it was fixed
