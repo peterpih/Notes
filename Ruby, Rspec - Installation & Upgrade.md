@@ -16,6 +16,8 @@ https://gorails.com/setup/osx/10.11-el-capitan
 
 <b>rbenv versions</b>            # <em>shows available versions of ruby</em>  
 
+<b>rbenv install -l</b>          # <em>show a long list of available version numbers</em>
+
 <b>rbenv install</b> <em>2.2.4</em>       # <em>install a specific version</em>  
                           # <em>if not available try upgrading <b>ruby-build</b></em>  
 
