@@ -28,7 +28,7 @@ $ <b>brew upgrade</b>            # upgrade Homebrew first
 
 <b>gem install bundler</b>       # <em>to get <b>bundler</b> for new ruby version</em>
 
-<b>bundle install</b>             # <em>install missing gems</em>
+<b>bundle install</b>            # <em>install missing gems</em>
 <b>cd</b> <em>back-to-dev-directory</em>
 
 <b>bundler</b>                   # <em>run bundler, entire list of gems will appear</em>
