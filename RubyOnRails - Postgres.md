@@ -1,3 +1,11 @@
+###Install Postgres
+
+$ <b>brew install postgres</b>  
+$ <b>brew upgrade postgres</b>
+
+add <b>gem pg</b> in Gemfile  
+$ <b>bundle install</b>
+
 <b>After setting up the local repository, the database needs to be set up</b>
 
 <em>&#35; config/database.yml</em>
@@ -32,6 +40,10 @@ production:
 The databases are created using
 
 $ <b>rake db:create</b>
+
+The databases are migrated using
+
+$ <b>rake db:migrate</b>
 
 The databases can be checked using:  
 
