@@ -1,9 +1,8 @@
 ###[Ruby Upgrade](https://github.com/rbenv/rbenv/issues/285)
 
 https://gorails.com/setup/osx/10.11-el-capitan
-
 <pre>
-<b>brew upgrade</b>             # upgrade Homebrew first
+$ <b>brew upgrade</b>            # upgrade Homebrew first
 
 <b>brew upgrade ruby-build</b>   # <em>upgrade ruby-build</em>
                           # <em>may have to run <b>brew upgrade</b> first</em>
