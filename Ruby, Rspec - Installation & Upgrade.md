@@ -13,9 +13,9 @@ $ <b>brew upgrade</b>            # upgrade Homebrew first
                           
 <b>ruby --version</b>            # <em>show the ruby version</em>  
 
-<b>rbenv versions</b>            # <em>shows available versions of ruby</em>  
+<b>rbenv versions</b>            # <em>shows available versions of ruby that <b>are installed</b></em>  
 
-<b>rbenv install -l</b>          # <em>show a long list of available version numbers</em>
+<b>rbenv install -l</b>          # <em>show a long list of available version numbers to download</em>
 
 <b>rbenv install</b> <em>2.2.4</em>       # <em>install a specific version</em>  
                           # <em>if not available try upgrading <b>ruby-build</b></em>  
