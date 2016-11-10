@@ -198,7 +198,7 @@ We use the <b>Fork Workflow</b> method
 --- <b>CLONE</b> ---
 
 <b>git clone</b> <em>remote-name</em> <em>local-directory</em>
-<b>git clone</b> <em>remote-name</em>      <em># by default will name local directory using repo name
+<b>git clone</b> <em>remote-name</em>      <em># by default will name local directory using repo name</em>
 <b>git clone --depth=</b><em>number-of-commits-to include</em>
 
 #--- <b>BRANCH</b> ---
