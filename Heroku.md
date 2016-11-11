@@ -6,7 +6,7 @@
 <a href="https://boiling-escarpment-7888.herokuapp.com" target="_blank">boiling-escarpment-7888 -   </a>
 <a href="https://enigmatic-brook-80258.herokuapp.com" target="_blank">enigmatic-brook-80258 -     FFF redirect [ PHP ]</a>
 <a href="https://guarded-dawn-13638.herokuapp.com" target="_blank">guarded-dawn-13638 -        Phoenix testbed [ Phoenix ]</a>
-<a href="https://mighty-lake-1899aqueous-spire-6633.herokuapp.com" target="_blank">mighty-lake-1899 -          FFF testbed</a>
+<a href="https://mighty-lake-1899.herokuapp.com" target="_blank">mighty-lake-1899 -          FFF testbed</a>
 <a href="https://safe-escarpment-3878.herokuapp.com" target="_blank">safe-escarpment-3878 -      </a>
 <a href="https://secret-wave-21400.herokuapp.com" target="_blank">secret-wave-21400 -         AndorferAdvisors.com</a>
 <a href="https://vast-chamber-84865.herokuapp.com" target="_blank">vast-chamber-84865 -        Sooner Baptist testbed</a>
