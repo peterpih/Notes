@@ -1,3 +1,15 @@
+<pre>
+<a href="https://ancient-wave-4180.herokuapp.com">ancient-wave-4180 -         recaptcha testbed</a>
+<a href="https://aqueous-spire-6633.com" target="_blank">aqueous-spire-6633 -        Vocab Builder</a>
+boiling-escarpment-7888 -   
+enigmatic-brook-80258 -     FFF redirect [ PHP ]
+guarded-dawn-13638 -        Phoenix testbed [ Phoenix ]
+mighty-lake-1899 -          FFF testbed
+safe-escarpment-3878 -      
+secret-wave-21400 -         AndorferAdvisors.com
+vast-chamber-84865 -        Sooner Baptist testbed
+</pre>
+
 Useful links:  
 <b>setup</b>: http://sourabhbajaj.com/mac-setup/Heroku/README.html  
 [pg:push and pg:pull]posgres</b>: https://devcenter.heroku.com/articles/heroku-postgresql#pg-push-and-pg-pull  
