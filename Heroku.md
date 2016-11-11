@@ -1,6 +1,6 @@
 <pre>
 <a href="https://ancient-wave-4180.herokuapp.com">ancient-wave-4180 -         recaptcha testbed</a>
-<a href="https://aqueous-spire-6633.com" target="_blank">aqueous-spire-6633 -        Vocab Builder</a>
+<a href="https://aqueous-spire-6633.herokuapp.com" target="_blank">aqueous-spire-6633 -        Vocab Builder</a>
 boiling-escarpment-7888 -   
 enigmatic-brook-80258 -     FFF redirect [ PHP ]
 guarded-dawn-13638 -        Phoenix testbed [ Phoenix ]
