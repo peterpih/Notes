@@ -34,3 +34,28 @@ Hub Scan - Tag Defender (interesting product)
 Check these resources:
 Tim Wilson - Hypothesis  
 Moe Kiss - How to compare competing hyphothesis  
+
+
+#-------------------------------------------------------------------
+GTM does page and click very well out of the box, history and form change not so good
+Just clicks
+
+all elements trigger - captures exact elemnt that was clicked
+
+no easy way to look at parent element - need to use javascript
+
+matches css selector - creates a trigger 
+
+GTM has same DOM properties and environment as browser
+codeacademy
+
+how to fire a trigger with modal - no trigger type when modal appears
+need to create a cutoms data layer event, push into the data layer  openmodal()
+
+data layer message layer between 
+
+have to deploy GTM on the site
+
+Selenium - automated testing  
+Test property
+
