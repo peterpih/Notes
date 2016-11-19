@@ -20,5 +20,6 @@ optional tags
                <b>utm_content</b> and set different values for each so you can tell which version is 
                more effective.
                
-               You can use Campaign Content to indicate the specific ad, button, or link that was clicked
+               You can use Campaign Content to indicate the specific ad, button, or link that was 
+               clicked
 </pre>
