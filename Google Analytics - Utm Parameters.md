@@ -1,6 +1,5 @@
 ##Click here for [Google URL Builder](https://ga-dev-tools.appspot.com/campaign-url-builder/)
 
-
 an interesting blog: https://support.google.com/analytics/answer/1033863?hl=en
 
 ALways include these tags (in heirarchical order):
@@ -30,10 +29,4 @@ optional tags
                clicked
 </pre>
 
-###Hierarchy
-<pre>
-utm_campaign - Recommended Books
-
-utm_source - Email
-
-utm_medium - (could be today's date)
+[How to Track Online Marketing Campaigns with UTM Parameters in Google Analytics](https://blog.kissmetrics.com/utm-parameters-video/)
