@@ -1,5 +1,10 @@
 [Everything I Wish I Knew When I Started Using GitHub (YouTube)](https://www.youtube.com/watch?v=KDUtjZHIx44)
 
+
+[Definition of downstream and upstream](http://stackoverflow.com/questions/2739376/definition-of-downstream-and-upstream/2749166#2749166)
+
+[Recovering from Rebase](https://git-scm.com/docs/git-rebase)
+
 ###port 22: Connection timed out - [Firewall block](http://stackoverflow.com/questions/15589682/ssh-connect-to-host-github-com-port-22-connection-timed-out)
 If connection times out, may be due to firewall, run cli
 <pre>
