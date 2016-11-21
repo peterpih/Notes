@@ -1,4 +1,7 @@
-https://support.google.com/analytics/answer/1033863?hl=en
+##Click here for [Google URL Builder](https://ga-dev-tools.appspot.com/campaign-url-builder/)
+
+
+an interesting blog: https://support.google.com/analytics/answer/1033863?hl=en
 
 ALways include tags:
 <pre>
@@ -23,3 +26,11 @@ optional tags
                You can use Campaign Content to indicate the specific ad, button, or link that was 
                clicked
 </pre>
+
+###Hierarchy
+<pre>
+utm_campaign - Recommended Books
+
+utm_source - Email
+
+utm_medium - (could be today's date)
