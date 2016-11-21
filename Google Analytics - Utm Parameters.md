@@ -3,14 +3,17 @@
 
 an interesting blog: https://support.google.com/analytics/answer/1033863?hl=en
 
-ALways include tags:
+ALways include these tags (in heirarchical order):
 <pre>
 <b>utm_campaign</b>:  The individual campaign name, slogan, promo code, etc. for a product.
+               "recommended books"
 
 <b>utm_medium</b>:    The advertising or marketing medium, for example: cpc, banner, email newsletter.
+               "email"
 
 <b>utm_source</b>:    Identify the advertiser, site, publication, etc. that is sending traffic to your 
                property, for example: google, newsletter4, billboard.  
+               "FFF"
 </pre>
 
 optional tags
