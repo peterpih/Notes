@@ -1,4 +1,4 @@
-###In-line styleing depending on situation
+###In-line styling depending on situation
 
 <b>HTML</b>
 <pre>
