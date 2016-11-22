@@ -6,6 +6,14 @@
 &lt;div <b>style="{border: 1px solid red}"</b>&gt
 </pre>
 
+Some different ways of doing it (beware parens and curlies)
+<pre>
+%div.some{ :style => "position: absolute; left: 300px; top: 300px;" }
+%div.some(style='position: absolute; left: 300; top: 300;')
+.some{ style: 'position: absolute; left: 300px; top: 300px;' }
+%div{ style: { display: "none", width: "50px" } }
+</pre>
+
 <b>HAML</b>
 <pre>
 %div<b>{color: 'red'}</b>
