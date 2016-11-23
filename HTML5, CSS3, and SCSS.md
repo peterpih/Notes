@@ -1,3 +1,5 @@
+###[W3 Tryit Editor](http://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
+
 ###[HTML Code Table](http://www.ascii.cl/htmlcodes.htm)   
 ###[Table of Special Escape Characters](http://www.degraeve.com/reference/specialcharacters.php)   
 ###[Color Shades](http://www.w3schools.com/colors/colors_shades.asp)   
