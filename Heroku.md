@@ -1,15 +1,18 @@
-<a href="https://aqueous-spire-6633.herokuapp.com" target="_blank" >aqueous-spire-6633 -        Vocab Builder</a>
-
 <pre>
+<a href="https://afternoon-oasis-87153.herokuapp.com">afternoon-oasis-87153 -         </a>
 <a href="https://ancient-wave-4180.herokuapp.com">ancient-wave-4180 -         recaptcha testbed</a>
+<a href="https://aqueous-fortress-58776.herokuapp.com" target="_blank">aqueous-fortress-58776 -        </a>
 <a href="https://aqueous-spire-6633.herokuapp.com" target="_blank">aqueous-spire-6633 -        Vocab Builder</a>
 <a href="https://boiling-escarpment-7888.herokuapp.com" target="_blank">boiling-escarpment-7888 -   mvp.andorferadvisors.com</a>
+<a href="https://calm-springs-55207.herokuapp.com" target="_blank">calm-springs-55207 -         andorferadvisors.com</a>
 <a href="https://enigmatic-brook-80258.herokuapp.com" target="_blank">enigmatic-brook-80258 -     FFF redirect to Certified Mediums page [ PHP ]</a>
 <a href="https://guarded-dawn-13638.herokuapp.com" target="_blank">guarded-dawn-13638 -        Phoenix testbed [ Phoenix ]</a>
 <a href="https://mighty-lake-1899.herokuapp.com" target="_blank">mighty-lake-1899 -          FFF testbed</a>
 <a href="https://safe-escarpment-3878.herokuapp.com" target="_blank">safe-escarpment-3878 -      </a>
-<a href="https://secret-wave-21400.herokuapp.com" target="_blank">secret-wave-21400 -         andorferadvisors.com</a>
 <a href="https://vast-chamber-84865.herokuapp.com" target="_blank">vast-chamber-84865 -        Sooner Baptist testbed</a>
+
+<b>DEPRECATED</b>
+<a href="https://secret-wave-21400.herokuapp.com" target="_blank">secret-wave-21400 -         andorferadvisors.com</a>
 </pre>
 
 Useful links:  
