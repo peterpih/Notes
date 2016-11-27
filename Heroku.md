@@ -143,6 +143,32 @@ On the **Heroku  Dashboard**, click on hamburger in upper right-hand corner, the
 http://lifesforlearning.com/heroku-with-godaddy/
 
 <pre>
+<b>On godaddy.com</b>
+
+Create CNAME record host="agile", target="andorferadvisors-fwd-agile.herokuapp.com"
+
+<b>On Github</b>
+
+Create new repository "andorferadvisors-fwd-agile"
+Clone repository locally
+
+<b>On Heroku</b>
+
+Create a new app with name "andorferadvisors-fwd-agile"  
+Add Domain (under Settings) "agile.andorferadvisors.com"
+
+<b>Locally</b>
+Write forwarding code
+
+git remote add heroku https://git.heroku.com/andorferadvisors-fwd-agile.git
+Git push heroku master
+
+
+</pre>
+
+
+
+<pre>
 Add CNAME record
     host="www", target="<em>myapp</em>.herokuapp.com
 
