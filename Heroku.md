@@ -2,20 +2,20 @@
 <a href="https://afternoon-oasis-87153.herokuapp.com">afternoon-oasis-87153 -         </a>
 <a href="https://ancient-wave-4180.herokuapp.com">ancient-wave-4180 -             recaptcha testbed</a>
 <a href="https://aqueous-fortress-58776.herokuapp.com" target="_blank">aqueous-fortress-58776 -        </a>
-<a href="https://aqueous-spire-6633.herokuapp.com" target="_blank">aqueous-spire-6633 -             Builder</a>
+<a href="https://aqueous-spire-6633.herokuapp.com" target="_blank">aqueous-spire-6633 -            Vocab Builder</a>
 
 <a href="https://www.andorferadvisors.herokuapp.com" target="_blank">andorferadvisors-               andorferadvisors.com</a>
 <a href="https://www.andorferadvisors-fwd-blog.herokuapp.com" target="_blank">andorferadvisors-fwd-blog -     andorferadvisors.com</a>
 <a href="https://andorferadvisors-fwd-mvp.herokuapp.com" target="_blank">andorferadvisors-fwd-mvp -      mvp.andorferadvisors.com</a>
 
 <a href="https://enigmatic-brook-80258.herokuapp.com" target="_blank">enigmatic-brook-80258 -         FFF redirect to Certified Mediums page [ PHP ]</a>
-<a href="https://guarded-dawn-13638.herokuapp.com" target="_blank">guarded-dawn-13638 -             Phoenix testbed [ Phoenix ]</a>
+<a href="https://phoenix-testbed.herokuapp.com" target="_blank">phoenix-testbed -               Phoenix testbed [ Phoenix ]</a>
 <a href="https://mighty-lake-1899.herokuapp.com" target="_blank">mighty-lake-1899 -              FFF testbed</a>
 <a href="https://safe-escarpment-3878.herokuapp.com" target="_blank">safe-escarpment-3878 -      </a>
 
 <a href="https://www.soonerbaptist.herokuapp.com" target="_blank">soonerbaptist -                 Sooner Baptist</a>
 <a href="https://www.soonerbaptist-fwd-calendar.herokuapp.com" target="_blank">soonerbaptist-fwd-calendar -    Sooner Baptist calendar</a>
-<a href="https://www.soonerbaptist.herokuapp.com" target="_blank">soonerbaptist -                 Sooner Baptist sermons</a>
+<a href="https://www.soonerbaptist-fwd-sermons.herokuapp.com" target="_blank">soonerbaptist-fwd-sermons -     Sooner Baptist sermons</a>
 </pre>
 
 Useful links:  
