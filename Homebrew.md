@@ -1,4 +1,5 @@
 ###[Homebrew Repository](https://github.com/Homebrew/homebrew)
+$ <b>brew list --versions</b> <em>postgresql</em>
 
 http://braumeister.org
 <pre>
@@ -12,6 +13,8 @@ $ <b>brew doctor</b>                      <em>check status of casks</em>
 
 ###Install a specific version
 <pre>
+Installed version of software are in  <b>/usr/local/Cellar</b>
+
 $ <b>brew tap homebrew/versions</b>  
 $ <b>brew search</b> <em>node</em>                 <em>display versions of "node"</em>
 
