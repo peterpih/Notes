@@ -39,3 +39,7 @@ Useful graph of SQL joins: [difference between join and inner join](http://stack
 <b>pg_dump -t</b> <em>table-name</em> <b>-f</b> <em>output-file  database-name</em>
     
 </pre>
+
+###Installing on Mac
+
+$ <b>brew install postgres</b>
