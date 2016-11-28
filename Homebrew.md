@@ -1,5 +1,7 @@
 ###[Homebrew Repository](https://github.com/Homebrew/homebrew)
 
+<brew cheatsheet](http://ricostacruz.com/cheatsheets/homebrew.html)
+
 http://braumeister.org
 <pre>
 $ <b>brew update</b>                     # <em>update casks</em>   
