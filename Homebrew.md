@@ -1,6 +1,6 @@
 ###[Homebrew Repository](https://github.com/Homebrew/homebrew)
 
-<brew cheatsheet](http://ricostacruz.com/cheatsheets/homebrew.html)
+[brew cheatsheet](http://ricostacruz.com/cheatsheets/homebrew.html)
 
 http://braumeister.org
 <pre>
