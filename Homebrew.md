@@ -1,3 +1,6 @@
+Search Brew http://searchbrew.com - search for a package  
+Listing of the Master Repository https://github.com/Homebrew/homebrew/tree/master/Library/Formula"
+
 ###[Homebrew Repository](https://github.com/Homebrew/homebrew)
 
 [brew cheatsheet](http://ricostacruz.com/cheatsheets/homebrew.html)
