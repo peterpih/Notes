@@ -145,6 +145,7 @@ http://lifesforlearning.com/heroku-with-godaddy/
 <pre>
 <b>On godaddy.com</b>
 
+Delet any A records with "agile"
 Create CNAME record host="agile", target="andorferadvisors-fwd-agile.herokuapp.com"
 
 <b>On Github</b>
@@ -160,10 +161,8 @@ Add Domain (under Settings) "agile.andorferadvisors.com"
 <b>Locally</b>
 Write forwarding code
 
-git remote add heroku https://git.heroku.com/andorferadvisors-fwd-agile.git
+$ git remote add heroku https://git.heroku.com/andorferadvisors-fwd-agile.git
 Git push heroku master
-
-
 </pre>
 
 
