@@ -143,6 +143,14 @@ We use the <b>Fork Workflow</b> method
 
 <b>git merge</b> <em>branch_to_merge</em>
 
+--- <b>PUSH</b> ---
+
+$ <b>git push</b> <em>remote-repo-name local-branch</em>
+$ <b>git push -f</b> <em>remote-repo-name local-branch</em>      # <em>force push</em>
+
+$ <b>git push</b> <em>remote-repo-name</em> <b>--delete</b> <em>local-branch</em>
+$ <b>git push</b> <em>remote-repo-name</em> <b>:</b><em>local-branch</em>
+
 --- <b>REMOVE</b> (delete) --- <em>from staging, files must be staged</em>
 
 <b>git rm -f</b> <em>filename</em>            # delete file and/or remove tracked deleted files from staging
