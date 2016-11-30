@@ -143,14 +143,6 @@ We use the <b>Fork Workflow</b> method
 
 <b>git merge</b> <em>branch_to_merge</em>
 
---- <b>PUSH</b> ---
-
-$ <b>git push</b> <em>remote-repo-name local-branch</em>
-$ <b>git push -f</b> <em>remote-repo-name local-branch</em>      # <em>force push</em>
-
-$ <b>git push</b> <em>remote-repo-name</em> <b>--delete</b> <em>local-branch</em>
-$ <b>git push</b> <em>remote-repo-name</em> <b>:</b><em>local-branch</em>
-
 --- <b>REMOVE</b> (delete) --- <em>from staging, files must be staged</em>
 
 <b>git rm -f</b> <em>filename</em>            # delete file and/or remove tracked deleted files from staging
@@ -240,6 +232,14 @@ see also [here](http://stackoverflow.com/questions/822811/showing-which-files-ha
 <a href="https://robots.thoughtbot.com/compare-commits-between-git-branches">compare commits between git branches</a>
 <b>git show-branch</b> <em>branch</em> <b>origin/master</b>
 
+#--- <b>PUSH</b> ---
+
+$ <b>git push</b> <em>remote-alias local-branch</em>
+$ <b>git push -f</b> <em>remote-alias local-branch</em>      # <em>force push</em>
+
+$ <b>git push</b> <em>remote-alias</em> <b>--delete</b> <em>local-branch</em>
+$ <b>git push</b> <em>remote-alias</em> <b>:</b><em>local-branch</em>
+
 #--- <b>REMOTE</b> ---
 
 <b>git remote -v</b>                 <em># list remote repos</em>
@@ -248,10 +248,10 @@ see also [here](http://stackoverflow.com/questions/822811/showing-which-files-ha
 <b>git remote prune</b> <em>origin</em> <b>--dry-run</b>   <em># to see what would happen without actually running it</em>
 
                               # add remote repo connections
-<b>git remote add</b> <em>origin</em> <b>git@github.com:</b><em>user-name</em><b>/</b><em>repo-name</em>
-<b>git remote add</b> <em>origin</em> <b>https://github.com/</b><em>user-name</em><b>/</b><em>repo-name</em>
+<b>git remote add</b> <em>remote-alias</em> <b>git@github.com:</b><em>user-name</em><b>/</b><em>repo-name</em>
+<b>git remote add</b> <em>remote-alias</em> <b>https://github.com/</b><em>user-name</em><b>/</b><em>repo-name</em>
 
-<b>git remote rm</b> <em>origin</em>          <em># remove remote connection</em>
+<b>git remote rm</b> <em>remote-alias</em>          <em># remove remote connection</em>
 
 <b>git remote add</b> <em>fff</em> <b>git@github.com:</b><em>user-name</em><b>/</b><em>githhub-reponame</em>
 <b>git fetch</b> <em>fff</em>
