@@ -2,6 +2,18 @@
 [HAML Yardoc](http://haml.info/docs/yardoc/  )
 [Sitepoint: Introduction to HAML](http://www.sitepoint.com/an-introduction-to-haml/)
 
+
+###In-line styling
+<pre>
+put a smaller button on the same line as a headline
+
+%h1 Users #{link_to button_tag('New User'), new_user_path, class:'small_label'}
+</pre>
+
+###Multi-line
+End the line with either a ","(comma) or " |"(space bar)
+
+
 HAML does not use <b><tag> ... </tag></b>, it uses indentation instead  
 '''
     &lt;a href="www.example.com"&gt;Button Text</a>
