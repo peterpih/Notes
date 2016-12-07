@@ -31,7 +31,7 @@ end
 </pre>
 
 ###Change Column Name
-To change column "<b>new</b>" to column "<b>status</b>" in table "<b>users</b>" and change its type to "<b>integer</b>"    
+To change column "<b>new</b>" to column "<b>status</b>" in table "<b>events</b>" and change its type to "<b>integer</b>"    
 use the following rails command and <b>give it a name that will help you remember!</b>
 
 $ <b>rails g migration</b> <em>ChangeColumnNameNewToStatus</em>
@@ -53,8 +53,8 @@ which you then need to edit
 <pre>
 class RenameColumnNewToStatus &lt; ActiveRecord::Migration
   def change
-    <b>rename_column :users, :new, :status</b>
-    <b>change_column :users, :status, :integer</b>
+    <b>rename_column :events, :new, :status</b>
+    <b>change_column :events, :status, :integer</b>
   end
 end
 </pre>
