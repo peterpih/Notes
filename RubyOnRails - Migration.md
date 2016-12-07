@@ -8,7 +8,7 @@ $ <b>rake db:migrate</b>
 $ <b>rake db:rollback</b>  
 $ <b>rails destroy migration</b> <em>UsefulMigrationName</em>
 
-###Create
+###Create A Table
 
 $ <b>rails g migration</b> <em>UsefulMigrationName</em>  
  which creates
@@ -31,6 +31,30 @@ class UsefulMigrationName &lt; ActiveRecord::Migration[5.0]
       t.text :description
  
       t.timestamps
+    end
+  end
+end
+</pre>
+
+###Delete A Table
+
+$ <b>rails g migration</b> <em>UsefulMigrationName</em>  
+ which creates
+<pre>
+# db/migrate/YYYYMMDDHHMMSS_useful_migration_name.rb
+
+class UsefulMigrationName &lt; ActiveRecord::Migration
+  def change
+  end
+end
+</pre>
+
+and then you can edit
+
+<pre>
+class UsefulMigrationName &lt; ActiveRecord::Migration
+  def change
+    <b>drop_table</b> <em>:table_name</em>
     end
   end
 end
