@@ -1,6 +1,7 @@
 ':something' is a string
 
-'something:' is a symbol
+'something:' is a symbol  
+Whenever you would use a quoted string, use a symbol instead.
 
 '=>' is a hash operator
 <pre>
