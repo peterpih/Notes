@@ -1,3 +1,7 @@
+':something' is a string
+
+'something:' is a symbol
+
 '=>' is a hash operator
 <pre>
 { :minimum => 5 }
