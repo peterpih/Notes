@@ -1,6 +1,28 @@
+###Do a migration
+
+$ <b>rake db:migrate</b>
+
+###Undo a migration
+
+$ <b>rake db:rollback</b>
+
 ###Create
+
+$ <b>rails b migration</b> <em>UsefulMigrationName</em>  
+ which creates
 <pre>
-class CreateProducts < ActiveRecord::Migration[5.0]
+# db/migrate/YYYYMMDDHHMMSS_useful_migration_name.rb
+
+class UsefulMigrationName &lt; ActiveRecord::Migration
+  def change
+  end
+end
+</pre>
+
+and then you can edit
+
+<pre>
+class UsefulMigrationName &lt; ActiveRecord::Migration[5.0]
   def change
     create_table :products do |t|
       t.string :name
