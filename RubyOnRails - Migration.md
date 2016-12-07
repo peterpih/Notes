@@ -1,14 +1,16 @@
 ###Do a migration
 
+$ <b>rails g migration</b> <em>UsefulMigrationName</em>  
 $ <b>rake db:migrate</b>
 
 ###Undo a migration
 
-$ <b>rake db:rollback</b>
+$ <b>rake db:rollback</b>  
+$ <b>rails destroy migration</b> <em>UsefulMigrationName</em>
 
 ###Create
 
-$ <b>rails b migration</b> <em>UsefulMigrationName</em>  
+$ <b>rails g migration</b> <em>UsefulMigrationName</em>  
  which creates
 <pre>
 # db/migrate/YYYYMMDDHHMMSS_useful_migration_name.rb
