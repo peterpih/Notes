@@ -1,3 +1,8 @@
+###Customize Bootstrap
+
+[Use this link](http://getbootstrap.com/customize/) to customize Bootstrap (must be in Chrome or Firefox) 
+It will create
+
 ###Found [here][(http://getbootstrap.com/css/)
 
 background-color: #fff; on the body  
