@@ -42,11 +42,16 @@ Successfully installed bundler-1.13.6
 1 gem installed
 </pre>
 
-then test bundler is working
+then
+
+$ <b>rbenv rehash</b>
+
+this will setup the correct PATHs, then test bundler is working
 
 $ <b>bundle -v</b>
-Bundler version 1.13.6
 <pre>
+Bundler version 1.13.6
+</pre>
 
 then install new dependencies with
 
