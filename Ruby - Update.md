@@ -56,4 +56,14 @@ Bundler version 1.13.6
 then install new dependencies with
 
 $<b>bundle install</b>
+<pre>
+Fetching gem metadata from https://rubygems.org/..........
+Fetching version metadata from https://rubygems.org/..
+Fetching dependency metadata from https://rubygems.org/.
+Resolving dependencies...
+Installing rake 12.0.0
+Installing concurrent-ruby 1.0.2
+...
+Bundle complete! 20 Gemfile dependencies, 71 gems now installed.
+Use `bundle show [gemname]` to see where a bundled gem is installed.
 </pre>
