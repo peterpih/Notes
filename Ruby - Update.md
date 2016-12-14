@@ -26,7 +26,7 @@ in the project root directory make sure there is a
 
 <b>rbenv</b> uses this file to figure out which version of Ruby to use
 
-<b>Check the Ruby version</b>
+<b>Check Ruby is running correctly by checking the version</b>
 
 $ <b>ruby -v</b>
 <pre>
