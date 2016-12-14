@@ -32,3 +32,23 @@ $ <b>ruby -v</b>
 <pre>
 ruby 2.3.3p222 (2016-11-21 revision 56859) [x86_64-darwin16]
 </pre>
+
+##You may need to also update bundler for the new ruby version
+
+$ <b>gem install bundler</b>
+<pre>
+Fetching: bundler-1.13.6.gem (100%)
+Successfully installed bundler-1.13.6
+1 gem installed
+</pre>
+
+then test bundler is working
+
+$ <b>bundle -v</b>
+Bundler version 1.13.6
+<pre>
+
+then install new dependencies with
+
+$<b>bundle install</b>
+</pre>
