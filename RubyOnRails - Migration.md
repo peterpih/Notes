@@ -5,41 +5,38 @@
 ###Always run rake db:migrate
 
 To create a Migration
-<pre>
+
 $ <b>rails generate migration</b> <em>UsefulMigrationName</em>  
 $ <b>rails g migration</b> <em>UsefulMigrationName</em>  
-<em>Rails will create a new migration file in db/migration</em>
+
+Rails will create a new migration file in db/migration
 
 example:
-<b>rails generate migration</b> <em>duplicates</em>
-</pre>
+$ <b>rails generate migration</b> <em>duplicates</em>
+
 
 ###Renaming A Column
-<pre>
-<b>rename_table</b>  <em>:old-table,  :new-table</em>   <em>( note _id_seq will automatically be renamed )</em>
-<b>rename_column</b> <em>:table-name,  :old-column,  :new-column</em>
-</pre>
+
+$ <b>rename_table</b>  <em>:old-table,  :new-table</em>   <em>( note _id_seq will automatically be renamed )</em>   
+$ <b>rename_column</b> <em>:table-name,  :old-column,  :new-column</em>   
 
 ###Rollback a Migration
-<pre>
-$ <b>rake db:rollback</b>
-$ <b>rake db:rollback STEP=</b><em>3</em>         <em># rollback the last 3 migrations</em>
-</pre>
 
-###Delete A Migration (do after 'rake db:rollback')
-$ <b>rails destroy migration</b> <em>UsefulMigrationName</em>
+$ <b>rake db:rollback</b>   
+$ <b>rake db:rollback STEP=</b><em>3</em>         <em># rollback the last 3 migrations</em>
+
+###Delete A Migration (do after 'rake db:rollback')   
+$ <b>rails destroy migration</b> <em>UsefulMigrationName</em>   
 
 ###Redo a Migration (rollback and re-migrate in one step)
-<pre>
-<b>rake db:migrate:redo</b>  
-<b>rake db:migrate:redo TIMES=</b><em>3</em>        <em># redo the last 3 migrations</em>
-</pre>
+
+$ b>rake db:migrate:redo</b>    
+$ <b>rake db:migrate:redo TIMES=</b><em>3</em>        <em># redo the last 3 migrations</em>  
 
 ###Run A Specific Migration
-<pre>
-<b>rake db:migrate:up VERSION=</b><em>20080906120000</em>
-<b>rake db:migrate:down VERSION=</b><em>20080906120000</em>
-</pre>
+
+$ <b>rake db:migrate:up VERSION=</b><em>20080906120000</em>    
+$ <b>rake db:migrate:down VERSION=</b><em>20080906120000</em>
 
 -----------------------------------------------------------------------------------------------------
 ###Set Default Column Value
@@ -48,6 +45,8 @@ $ rails g migration AddUploadToUser upload:boolean
 
 then need to edit the migration file and add default value
 <pre>
+# db/migrate/YYYYMMDDHHMMSS_add_upload_to_user.rb
+
 class AddUploadToUser < ActiveRecord::Migration[5.0]
   def change
     add_column :users, :upload, :boolean, <b>:default => false</b>
