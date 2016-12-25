@@ -24,18 +24,16 @@ http://rubythursday.com/episodes/ruby-snack-27-upgrade-paperclip-and-aws-sdk-in-
 
 </pre>
 
+<b>config/env_variables.rb</b>
 <pre>
-# config/env_variables.rb
-
 ENV['AWS_REGION'] = 'us-west-2'
 ENV['AWS_BUCKET_NAME'] = 'bucket-name'
 ENV['AWS_ACCESS_KEY_ID'] = 'access-key-id'
 ENV['AWS_SECRET_ACCESS_KEY'] = 'secret-access-key'
 </pre>
 
+<b>config/environment.rb</b>
 <pre>
-# config/environment.rb
-
 # Load the Rails application.
 require File.expand_path('../application', __FILE__)
 
@@ -47,9 +45,8 @@ load(env_variables) if File.exists?(env_variables)
 Rails.application.initialize!
 </pre>
 
+<b>config/initializers/paperclip.rb</b>
 <pre>
-# config/initializers/paperclip.rb
-
 PAPERCLIP_STORAGE_OPTS = {
   storage: :s3,
   s3_region: ENV['AWS_REGION'],
@@ -64,20 +61,20 @@ PAPERCLIP_STORAGE_OPTS = {
 
 To use .url, the following needs to be used as there is an outstanding bug [Issue#2151](https://github.com/thoughtbot/paperclip/issues/2151)
 <pre>
-config.paperclip_defaults = { s3_host_name: "s3-#{ENV['AWS_REGION']}.amazonaws.com", }
+config.paperclip_defaults = { s3_host_name: "<b>s3-#{ENV['AWS_REGION']}.amazonaws.com</b>", }
 </pre>
 
 <b>There must be validation in the model!</b>
-<pre>
-* app/models/sermon.rb
 
+<b>app/models/sermon.rb</b>
+<pre>
 class Sermon < ActiveRecord::Base
 
   has_attached_file :clip, PAPERCLIP_STORAGE_OPTS 
 
   validates :clip, attachment_presence: true
-  #validates_attachment :clip, :presence => true   # oldstyle
-  #validates_attachment :clip, :content_type => {:context_type => "image/jpg"}
+  #validates_attachment :clip, :presence =&gt; true   # oldstyle
+  #validates_attachment :clip, :content_type =&gt; {:context_type =&gt; 'image&#47;jpg'}
   do_not_validate_attachment_file_type :clip
 end
 </pre>
