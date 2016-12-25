@@ -17,3 +17,67 @@ changes:
 For a walkthrough of upgrading from 4 to 5 and aws-sdk >= 2.0 you can watch
 http://rubythursday.com/episodes/ruby-snack-27-upgrade-paperclip-and-aws-sdk-in-prep-for-rails-5
 </pre>
+
+##What Needs To Change
+<pre>
+# Gemfile
+
+</pre>
+
+<pre>
+# config/env_variables.rb
+
+ENV['AWS_REGION'] = 'us-west-2'
+ENV['AWS_BUCKET_NAME'] = 'bucket-name'
+ENV['AWS_ACCESS_KEY_ID'] = 'access-key-id'
+ENV['AWS_SECRET_ACCESS_KEY'] = 'secret-access-key'
+</pre>
+
+<pre>
+# config/environment.rb
+
+# Load the Rails application.
+require File.expand_path('../application', __FILE__)
+
+<b># Load the app's custom environment variables here, so that they are loaded before environments/*.rb
+env_variables = File.join(Rails.root, 'config', 'env_variables.rb')
+load(env_variables) if File.exists?(env_variables)
+</b>
+# Initialize the Rails application.
+Rails.application.initialize!
+</pre>
+
+<pre>
+# config/initializers/paperclip.rb
+
+PAPERCLIP_STORAGE_OPTS = {
+  storage: :s3,
+  s3_region: ENV['AWS_REGION'],
+  s3_host_name: "s3-#{ENV['AWS_REGION']}.amazonaws.com",
+  s3_credentials: {
+    bucket: ENV['AWS_BUCKET_NAME'],
+    access_key_id: ENV['AWS_ACCESS_KEY_ID'],
+    secret_access_key: ENV['AWS_SECRET_ACCESS_KEY']
+  }
+}
+</pre>
+
+To use .url, the following needs to be used as there is an outstanding bug [Issue#2151](https://github.com/thoughtbot/paperclip/issues/2151)
+<pre>
+config.paperclip_defaults = { s3_host_name: "s3-#{ENV['AWS_REGION']}.amazonaws.com", }
+</pre>
+
+<b>There must be validation in the model!</b>
+<pre>
+* app/models/sermon.rb
+
+class Sermon < ActiveRecord::Base
+
+  has_attached_file :clip, PAPERCLIP_STORAGE_OPTS 
+
+  validates :clip, attachment_presence: true
+  #validates_attachment :clip, :presence => true   # oldstyle
+  #validates_attachment :clip, :content_type => {:context_type => "image/jpg"}
+  do_not_validate_attachment_file_type :clip
+end
+</pre>
