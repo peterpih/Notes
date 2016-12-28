@@ -7,18 +7,27 @@
 To create a Migration
 
 $ <b>rails generate migration</b> <em>UsefulMigrationName</em>  
-$ <b>rails g migration</b> <em>UsefulMigrationName</em>  
+$ <b>rails g migration</b> <em>UsefulMigrationName</em>   
 
-Rails will create a new migration file in db/migration
-
-example:
-$ <b>rails generate migration</b> <em>duplicates</em>
-
+Rails will create a new migration file in db/migrate
+<pre>
+class UsefulMigrationName &lt; ActiveRecord::Migration[5.0]
+  def change
+  ...
+  end
+end
+</pre>
 
 ###Renaming A Column
+<pre>
+<b>rename_table</b>  <em>:old-table,  :new-table</em>   <em>( note _id_seq will automatically be renamed )</em>   
+<b>rename_column</b> <em>:table-name,  :old-column,  :new-column</em>   
+</pre>
 
-$ <b>rename_table</b>  <em>:old-table,  :new-table</em>   <em>( note _id_seq will automatically be renamed )</em>   
-$ <b>rename_column</b> <em>:table-name,  :old-column,  :new-column</em>   
+###Setting a Default Value
+<pre>
+change_column :table-name, :column-name, :column-type, :default => 0
+</pre>
 
 ###Rollback a Migration
 
@@ -47,7 +56,7 @@ then need to edit the migration file and add default value
 <pre>
 # db/migrate/YYYYMMDDHHMMSS_add_upload_to_user.rb
 
-class AddUploadToUser < ActiveRecord::Migration[5.0]
+class AddUploadToUser &lt; ActiveRecord::Migration[5.0]
   def change
     add_column :users, :upload, :boolean, <b>:default => false</b>
   end
