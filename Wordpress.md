@@ -146,3 +146,16 @@ $ mysql --version
 <pre>
 mysql  Ver 14.14 Distrib 5.7.17, for osx10.12 (x86_64) using  EditLine wrapper
 </pre>
+
+$ $PATH
+<pre>
+-bash: /Users/peterpih/.rbenv/shims:/Users/peterpih/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin: No such file or directory
+</pre>
+
+$ >echo "export PATH=\$(echo \$PATH | sed 's|/usr/local/bin||; s|/usr/local/sbin||; s|::|:|; s|^:||; s|\(.*\)|/usr/local/bin:/usr/local/sbin:\1|')" >> ~/.bash_profile && source ~/.bash_profile
+<pre>
+$PATH
+-bash: /usr/local/bin:/usr/local/sbin:/Users/peterpih/.rbenv/shims:/Users/peterpih/.rbenv/shims:/Users/peterpih/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin: No such file or directory
+</pre>
+
+
