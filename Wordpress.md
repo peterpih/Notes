@@ -141,3 +141,8 @@ Or, if you don't want/need a background service you can just run:
   ==> <b>Summary</b>
 🍺  /usr/local/Cellar/mysql/5.7.17: 14,226 files, 444.4M
 </pre>
+
+$ mysql --version
+<pre>
+mysql  Ver 14.14 Distrib 5.7.17, for osx10.12 (x86_64) using  EditLine wrapper
+</pre>
