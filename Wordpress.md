@@ -158,4 +158,8 @@ $PATH
 -bash: /usr/local/bin:/usr/local/sbin:/Users/peterpih/.rbenv/shims:/Users/peterpih/.rbenv/shims:/Users/peterpih/.rbenv/shims:/usr/bin:/bin:/usr/sbin:/sbin: No such file or directory
 </pre>
 
+$ cp -v $(brew --prefix mysql)/support-files/my-default.cnf $(brew --prefix mysql)/my.cnf
+<pre>
+/usr/local/opt/mysql/support-files/my-default.cnf -> <b>/usr/local/opt/mysql/my.cnf</b>
+</pre>
 
