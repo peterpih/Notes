@@ -109,7 +109,7 @@ While on <em>feature-branch</em>, when ready to push to master branch, check for
 <b>git checkout</b> <em>branch</em>           <em># on to feature branch</em>
 <b>git merge master</b>              <em># merge from master to check for conflicts</em>
 ...                           <em># resolve any conflicts if necessary</em>
-<b>git checkout master</b>           <em># change back to master<em>
+<b>git checkout master</b>           <em># change back to master</em>
 <b>git merge</b> <em>branch</em>              <em># there will be no comflicts at this point</em>
 </pre>
 
