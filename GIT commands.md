@@ -1,6 +1,7 @@
 ###Commands
 
-**Show tracking branches**
+**Show tracking branches**  
+
 $ <b>git branch -vv</b>  <em># show local tracking branches  
 
 $ git remote show origin
