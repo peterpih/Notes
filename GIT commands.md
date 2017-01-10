@@ -10,3 +10,6 @@ $ git status -sb
 
 $ git for-each-ref --format='%(upstream:short)' $(git symbolic-ref -q HEAD) <em># gives the upstream as an answer</em>
 
+###git diff   
+
+$ git diff SHA1 SHA2
