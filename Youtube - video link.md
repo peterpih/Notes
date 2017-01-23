@@ -11,5 +11,6 @@
 
 - **rel=** … Set this to 0 to not include related videos after the current one plays.  1 will give related videos.
 
+[Other Player Parameter Codes Can be Found Here](https://developers.google.com/youtube/player_parameters)
 
 [How to implement a responsive Youtube embed iframe with Twitter Bootstrap?](http://stackoverflow.com/questions/12166784/how-to-implement-a-responsive-youtube-embed-iframe-with-twitter-bootstrap)
