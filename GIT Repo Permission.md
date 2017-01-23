@@ -21,8 +21,8 @@ Generating public/private rsa key pair.
 Enter file in which to save the key (/Users/peterpih/.ssh/id_rsa): 
 /Users/peterpih/.ssh/id_rsa already exists.
 Overwrite (y/n)? <b>y</b>
-Enter passphrase (empty for no passphrase): 
-Enter same passphrase again: 
+Enter passphrase (empty for no passphrase): &lt;CR&gt;
+Enter same passphrase again: &lt;CR&gt;
 Your identification has been saved in <b>/Users/peterpih/.ssh/id_rsa</b>.
 Your public key has been saved in <b>/Users/peterpih/.ssh/id_rsa.pub</b>.
 The key fingerprint is:
