@@ -7,7 +7,7 @@ fatal: unable to access 'https://github.com/railsnewbie257/curl.git/': The reque
 ###Use SSH connection to git
 <pre>
 $ git remote rm curl    
-$ git remote add curl git@github.com:railsnewbie257/curl,git   
+$ git remote add curl git@github.com:railsnewbie257/curl.git   
 </pre>
 <pre>
 Please make sure you have the correct access rights
