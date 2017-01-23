@@ -14,3 +14,6 @@
 [Other Player Parameter Codes Can be Found Here](https://developers.google.com/youtube/player_parameters)
 
 [How to implement a responsive Youtube embed iframe with Twitter Bootstrap?](http://stackoverflow.com/questions/12166784/how-to-implement-a-responsive-youtube-embed-iframe-with-twitter-bootstrap)
+
+[How To Put Clickable Links In Your Video 2017 - Channel J](https://www.youtube.com/watch?v=jOmwfgMtjpA)  
+- explains adding cards, watermarks, annotations and end screen
