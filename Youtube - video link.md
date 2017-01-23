@@ -17,3 +17,5 @@
 
 [How To Put Clickable Links In Your Video 2017 - Channel J](https://www.youtube.com/watch?v=jOmwfgMtjpA)  
 - explains adding cards, watermarks, annotations and end screen
+
+[Fluid Width Video](https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php)
