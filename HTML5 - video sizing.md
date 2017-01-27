@@ -9,10 +9,19 @@ for HAML
 = stylesheet_link_tag   'https://fonts.googleapis.com/css?family=Sofia', 'application'
 </pre>
 
+Transform this complicated line
 <pre>
-&lt;h3 style="font-family:'Sofia'; font-style:italic;font-size:22px;text-transform:none;"&gt;&lt;center&gt;&lt;i&gt;In Memory of&lt;/i&gt;&lt;/center&gt;&lt;/h3&gt;
+&lt;h3 style="font-family:'Sofia'; font-style:italic;font-size:24px;"&gt;&lt;center&gt;&lt;i&gt;In Memory of&lt;/i&gt;&lt;/center&gt;&lt;/h3&gt;
+</pre>
+to this .scss
+<pre>
 &lt;style&gt;
-  .sofia {font-family: 'Sofia';font-size: 22px; text-transform:none;}
+  .sofia {font-family: 'Sofia';font-size: 24px; text-transform:none;}
   .italic {font-style: italic;}
+  .pt24 {font-size: 24px;}
 &lt;/style&gt;
+</pre>
+and this "magic" line
+<pre>
+&lt;h3 class="sofia italic pt24"&gt;In Memory of&lt;/h3&gt;
 </pre>
