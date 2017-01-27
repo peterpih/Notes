@@ -1,5 +1,6 @@
 https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
 
+#[Sample Google fonts here](http://www.w3schools.com/howto/howto_google_fonts.asp)
 Including Google fonts, this line needs to go in &lt;head&gt; using the **style_sheet_tag**
 <pre>
 &lt;link href='//fonts.googleapis.com/css?family=Sofia' rel='stylesheet'&gt;
