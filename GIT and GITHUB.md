@@ -1,3 +1,5 @@
+[try.github.com - starter course](https://try.github.com)
+
 [Git Online Course](http://gitreal.codeschool.com/?utm_source=github&utm_medium=codeschool_option&utm_campaign=trygit)
 
 [Everything I Wish I Knew When I Started Using GitHub (YouTube)](https://www.youtube.com/watch?v=KDUtjZHIx44)
