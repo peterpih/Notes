@@ -5,9 +5,11 @@ A standard navigation bar is created with
 <em>(HAML)</em>  %nav.navbar.navbar-default 
 </pre>
 
-###Ordering
+###Ordering of bootstrap classes
 <pre>
 <b>%nav.navbar.navbar-default</b>
+  //navbar-default <em>*(white inverted)*</em>
+  //navbar-inverted <em>*(black navbar)*</em>
   // %nav - tag
   // navbar - type of element
   // navbar-default - type of styling
@@ -28,8 +30,38 @@ A standard navigation bar is created with
           %li= link_to 'Link3', "#"
 </pre>
 
+Hamburger
+<pre>
+&lt;button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"&gt;
+  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+  &lt;span class="icon-bar"&gt;&lt;/span&gt;
+  &lt;span class="icon-bar"&gt;&lt;/span&gt;                        
+&lt;/button&gt;
+</pre>
+
+"Brand link"
+usually goes in left-most side
+<pre>
+&lt;a class="navbar-brand" href="#">WebSiteName&lt;/a&gt;
+</pre>
+
 %nav - tag  
 
+Navbar Menu picks
+
+The whole &lt;div&gt;..&lt;/div&gt; gets collapsed into the hamburger
+<pre>
+&lt;div class="collapse navbar-collapse" id="myNavbar"&gt;
+  &lt;ul class="nav navbar-nav"&gt;
+    left-side picks
+    &lt;/ul&gt; <em>(if this ul is not here everything will be on left side)</em>
+&lt;ul class="nav navbar-nav navbar-right"&gt;
+    right-side picks
+  &lt;li class="active"&gt;&lt;a href="/codeforokc"&gt;Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="/codeforokc/projects"&gt;Projects&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="/codeforokc/about"&gt;About&lt;/a&gt;&lt;/li&gt; 
+&lt;/div&gt;
+</pre>
 
 <pre>
 .navbar-inverse  
