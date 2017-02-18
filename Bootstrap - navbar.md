@@ -1,3 +1,5 @@
+Reference is:https://www.w3schools.com/bootstrap/bootstrap_navbar.asp
+
 A standard navigation bar is created with 
 <pre>
 <em>(HTML)</em>  &lt;nav class="navbar navbar-default"&gt;
