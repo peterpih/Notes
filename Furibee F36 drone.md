@@ -5,5 +5,9 @@ Just a fly around
 Upgrade motors
 FPV
 
+[UPGRADE ALERT - Furibee - $20 F3 Flight Controller WHOOP!!!](https://www.youtube.com/watch?v=2XqEyKW0-q8)
+Upgrade flight controller with betaflight
+
 GearBest: [FuriBee F36 "Whooped!!"(https://www.youtube.com/watch?v=JKUrOQP-frc)
 Bigger battery
+
