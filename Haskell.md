@@ -6,3 +6,5 @@
 http://seanhess.github.io/2015/08/04/practical-haskell-getting-started.html
 
 http://learnyouahaskell.com/higher-order-functions#curried-functions
+
+[LearnYouAHaskell](http://learnyouahaskell.com/chapters)
