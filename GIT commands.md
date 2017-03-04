@@ -1,3 +1,6 @@
+http://git-scm.com  
+http://services.github.com/training
+
 ###Commands
 
 **Show tracking branches**  
