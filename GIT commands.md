@@ -12,6 +12,8 @@ $ git for-each-ref --format='%(upstream:short)' $(git symbolic-ref -q HEAD) <em>
 
 ###git diff   
 
+$ <b>git diff --cached</b> <em>diff between staged and repo</em>
+
 $ git diff SHA1 SHA2
 
 ###autosquash for when REBASING
