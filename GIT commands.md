@@ -5,9 +5,9 @@ http://services.github.com/training
 
 **Show tracking branches**  
 
-$ <b>git branch -vv</b>  <em># show local tracking branches  
+$ <b>git branch -vv</b>  <em># show local tracking branches</em>  
 
-$ git remote show origin
+$ <b>git remote show</b> <em>origin</em>  <em>£ shows properties of the origin branch</em>
 
 $ git status -sb
 
