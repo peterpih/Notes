@@ -1,3 +1,51 @@
+Tutorial Videos
+[Getting Started With D3.js](https://www.dashingd3js.com/lessons/getting-started-with-d3-js)   
+[D3 Selections](https://www.dashingd3js.com/lessons/d3-selections)   
+Best to follow this video in Chrome   
+Open javascript console   
+>var t = d3.selectAll("p");  <em>need to save in a varible</em>  
+t["_groups"][0][0] to dereference "_groups" is additonal layer 
+
+[D3 Arrays](https://www.dashingd3js.com/lessons/d3-arrays)  
+Everything in D3 is in javascript arrays
+
+<pre>
+<b>Javascript mutator methods</b>
+array.reverse
+array.shift  
+array.sort
+array.spice
+array.unshift
+</pre>
+
+<pre>
+<b>Javascript array accessor methods</b>
+array.concat();
+array.join();
+array.slice();
+array.indexOf();
+array.lastIndexOf();
+</pre>
+
+<pre>
+<b>Basic D3 array utilities</b>
+d3.min();  
+d3.max();  
+d3.extent();  
+d3.sum();  
+d3.mean();  
+d3.median();  
+</pre>
+
+[Adding a DOM Element](https://www.dashingd3js.com/lessons/adding-a-dom-element)   
+<pre>
+d3.append()   
+d3.insert(<em>name</em>, <em>before</em>);   
+d3.remove();   
+d3.select(...).remove();  <em>can not be undone</em>   
+</pre>
+
+
 [Examples](http://bl.ocks.org)
 
 ##[Sankey Example](http://bl.ocks.org/d3noob/5028304)
