@@ -258,6 +258,81 @@ c.attr("cx", function(d,i){return d.cx;})
           
 </pre>
 
+[SVG Group Element](https://www.dashingd3js.com/lessons/svg-group-element)
+Group SVG elements together - same attributes  
+attributes and values can be applied to the group and automatically propogated
+<pre>
+&lt;g&gt;...&lt;/g&gt;
+
+<b>Transformations</b>
+&lt;g transform="..."&gt;  
+matrix  
+translate
+scale  
+skewX  
+skewY  
+
+<b>d3.select("g").attr("translate","transform(10,10)");</b>
+</pre>
+
+[SVG Text Elements](https://www.dashingd3js.com/lessons/svg-text-elements)
+
+<pre>
+Use
+.append("text").attr("x", "x-origin").attr("y", "y-origin"); to create text &lt;text&gt;...&lt;text&gt;  
+.text("my text") to insert text  
+.attr( , ) to style
+<pre>
+
+[Margin Convention](https://www.dashingd3js.com/lessons/margin-convention)
+
+<pre>
+var margin = {top: 20, right:20, bottom: 30, left:50},
+              width = 960 - margin.right = margin.left,
+              height = 500 - margin.top - mragin.bottom;
+             
+ d3.select("body").append("svg").attr("width", width+margin.left+margin.right)
+                                .attr("height"+margin.top+margin.bottom);
+
+d3.select("svg").append("g").attr("transform","translate("+margin.left+","margin.top"+")")
+</pre>
+
+
+[D3 and JS Dates and Times](https://www.dashingd3js.com/lessons/d3-and-js-dates-and-times)
+
+Object literals - create one
+<pre>
+var dateObject = new Date();
+
+d3.time.format(<em>specifier</em>)
+
+var d = new Date(2020, 0, 12)   <em>Jan 12, 2020</em>   
+var dateFormatter = d3.time.format("%A");   
+.format("%B"); - month name  
+.format("%m"); - month number
+.format("%p"); - AM or PM
+</pre>
+
+[D3 Time Scales](https://www.dashingd3js.com/lessons/d3-time-scales)
+
+<pre>
+d3.time.scale().domain(date_left, date_right).range(number_left, number_right)
+
+var c = d3.time.scale().domain(new Date(2020,0,1), new Date(2020,0,11))
+                       .range([0,10]);
+this will convert the first 0 days into numbers between 0 and 10
+</pre>
+
+[D3 Axes](https://www.dashingd3js.com/lessons/d3-axes) (this video is V3)
+SVG Coordinate Space  
+origin at top left and grows down
+<pre>
+
+d3.svg.axis();
+
+[Axis Styling](https://bl.ocks.org/mbostock/3371592)
+
+
 
 
 ================================================================================================================
