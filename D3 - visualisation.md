@@ -117,6 +117,151 @@ line path
              25,30"  /&gt;
 &lt;/svg&gt;
 </pre>
+
+[Adding an SVG Element](https://www.dashingd3js.com/lessons/adding-an-svg-element)
+
+d3.select.append(<em>name</em>);  
+
+Adding attributees (only one can be added at a time, but can be chained)  
+d3.selection.attr(name, [, value]);  
+
+d3.selection.style(<em>name</em>, [,<em>value</em>], [,<em>priority</em>]])
+
+<pre>
+&lt;svg width="50" height="50"&gt;   
+is the same as  
+d3.selection.attr("width", "50").attr("height", "50");
+</pre>
+
+<pre>
+To make code more readable, you should separate selection, append, attributes
+var divSelection = d3.select("div");
+
+var svgSelection = divSelection.append("svg").attr(...)
+
+var circleSelection = svgSelection
+</pre>
+
+
+[D3 Data Operator](https://www.dashingd3js.com/lessons/d3-data-operator)
+
+To attached data to a DOM element use <b>.data([<em>array of data</em>])</b>    
+.data will attach the first data point to the first DOM element and so forth  
+If there are more DOM elements than data points, the rest of the DOM elements are ignored
+
+
+If there are more data points...
+
+[D3 Update Selection](https://www.dashingd3js.com/lessons/d3-update-selection)
+<pre>
+Exit selection  
+d3.select().data(...).exit();  
+The exit selection are those DOM elements which were not succesfully bound in .data()
+</pre>
+
+<pre>
+Enter Selection
+d3.select.data(...).enter();
+The Enter Selection is where the excess data goes if there are not enough DOM elements to bind data to
+</pre>
+
+#D3 graphs begin with a bare bones HTML file
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;script src="https://d3js.org/d3.v4.min.js">&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+&lt;/pre&gt;
+</pre>
+
+[Binding Data to DOM Elements](https://www.dashingd3js.com/lessons/binding-data-to-dom-elements)
+
+<pre>
+<em> note &lt;div&gt;s exist </em>
+var divSelection = d3.select("body").selectAll("div").data([1,2,3,4,5]);
+
+<em>creates a &lt;div&gt; element for each data point</em>
+div.Selection.enter().append("div");
+</pre>
+
+
+
+[Using Data Bound to DOM Elements](https://www.dashingd3js.com/lessons/using-data-bound-to-dom-elements)
+
+d3.selection.text(<em>value</em>)  
+If <em>value</em> is constant then all selected element is given the same value
+If <em>value</em> is a function
+
+for functions passed as an argument to .text(...) two variables are accessible <b>d</d> the data value and   
+<b>i</b> the elements index number
+
+[Creating SVG Elements from Data](https://www.dashingd3js.com/lessons/creating-svg-elements-from-data)
+
+[Using the SVG Coordinate Space](https://www.dashingd3js.com/lessons/using-the-svg-coordinate-space)  
+The origin (0,0) is the top left corner
+
+[JavaScript Data Types](https://www.dashingd3js.com/lessons/javascript-data-types)
+<pre>
+<b>Primary data types</b>    
+<b>Strings</b> - 0 or more unicode characters "".."" or '..'  
+<b>Numbers</b> - not distiction beteen integers and floating points, by default floating point  
+<b>Boolean</b>
+Composite data types
+<b>Object</b>  methods and properties
+<b>Array</b> associative arrays can use a string to index into array keys-value pairs
+Special data types
+<b>null</b> - lack of value
+<b>undefined</b> - lack of value and type
+</pre>
+
+[D3 and JSON](https://www.dashingd3js.com/lessons/d3-and-json)
+JSON - <b>J</b>avascript <b>S</b>cript <b>O</b>bject <b>N</b>otation
+
+keys are strings (double quotes)
+
+D3 Associative Utilities
+d3.keys - returns the keys    
+d3.values - returns the values  
+d3.entries - returns the keys and values
+
+<pre>
+var better_margins= [{"direction":"top", "units":"10"},
+                    {"direction":"bottom", "units":"20"},
+                    {"direction":"left", "units":"30"},
+                    {"direction":"right", "units":"40"} ];
+                    
+var w= d3.select("body").selectAll("p").data(better_margins).enter().append("p");  
+w.text(function(d,i){return d.direction;});  
+w.text(function(d,i){return d.units;});  
+</pre>
+
+[D3 and SVG Basic Shapes](https://www.dashingd3js.com/lessons/d3-and-svg-basic-shapes)
+Example of paylod for circles
+<pre>
+var circles=[ {"cx":"25", "cy":"25", "r":"25"},
+              {"cx":"50", "cy":"50", "r":"25"},
+              {"cx":"75", "cy":"75", "r":"25"},
+              {"cx":"100", "cy":"100", "r":"25"} ];
+              
+var viewPort = d3.select("body").append("svg").attr("width","400").attr("height","400");
+
+var c = viewPort.selectAll("circle").data(circles).enter().append("circle");
+
+<em>anonymous function to draw the circles with data in the DOM</em>
+c.attr("cx", function(d,i){return d.cx;})
+          .attr("cy", function(d,i){return d.cy;})
+          .attr("r", function(d,i){return d.r;});
+          
+</pre>
+
+
+
+================================================================================================================
+
 [Examples](http://bl.ocks.org)
 
 ##[Sankey Example](http://bl.ocks.org/d3noob/5028304)
