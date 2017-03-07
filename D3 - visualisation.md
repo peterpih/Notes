@@ -45,7 +45,78 @@ d3.remove();
 d3.select(...).remove();  <em>can not be undone</em>   
 </pre>
 
+[Fundamentals of SVG](https://www.dashingd3js.com/lessons/fundamentals-of-svg)
+SVG = Scalable Vector Graphics  
+Since the DOM tree includes XML specifications, so we can ccess them  
+HTML5 &lt;canvas&gt;
+<pre>
+SVG allows specification of
+box  
+circle  
+ellipse  
+line  
+polygon  
+line path
+</pre>
 
+<pre>
+<b> A Rectangle</b>
+&lt;br /&gt;
+&lt;svg width="50" height="50"&gt;
+  &lt;rect x="0" y="0" width="50" height="50" /&gt;
+&lt;/svg&gt;
+
+&lt;br /&gt;
+&lt;br /&gt;
+<b>A Circle</b>
+&lt;br /&gt;
+&lt;svg width="50" height="50"&gt;
+  &lt;circle cx="25" cy="25" r="25" /&gt;
+&lt;/svg&gt;
+
+&lt;br /&gt;
+&lt;br /&gt;
+<b>An Ellipse</b>
+&lt;br /&gt;
+&lt;svg width="50" height="50"&gt;
+  &lt;ellipse cx="25" cy="25" rx="15" ry="10" /&gt;
+&lt;/svg&gt;
+
+&lt;br /&gt;
+&lt;br /&gt;
+
+<b>Straight Line</b>
+&lt;br /&gt;
+&lt;svg width="50" height="50"&gt;
+  &lt;line x1="5" y1="5" x2="40" y2="40" stroke="grey" stroke-width="5" /&gt;
+&lt;/svg&gt;
+
+&lt;br /&gt;
+&lt;br /&gt;
+
+<b>A Polyline</b>
+&lt;svg width="50" height="50"&gt;
+  &lt;polyline x1="5" y1="5" x2="40" y2="40" stroke="grey" stroke-width="2"
+    points="05,30
+            15,30
+            15,20
+            25,20
+            25,10
+            " /&gt;
+&lt;/svg&gt;
+
+&lt;br /&gt;
+&lt;br /&gt;
+
+<b>A Polygon</b>
+&lt;br /&gt;
+&lt;svg width="50" height="50"&gt;
+  &lt;polygon fill="yellow" stroke="blue" stroke=with="2"
+    points ="05,30
+             15,10
+             25,30"  /&gt;
+&lt;/svg&gt;
+</pre>
 [Examples](http://bl.ocks.org)
 
 ##[Sankey Example](http://bl.ocks.org/d3noob/5028304)
