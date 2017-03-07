@@ -332,10 +332,12 @@ d3.svg.axis();
 
 [Axis Styling](https://bl.ocks.org/mbostock/3371592)
 
-
+</pre>
 
 
 ================================================================================================================
+
+[D3 Graph Gallery](https://github.com/d3/d3/wiki/Gallery)
 
 [Examples](http://bl.ocks.org)
 
