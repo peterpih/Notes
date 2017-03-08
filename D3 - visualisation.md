@@ -1,3 +1,5 @@
+
+
 Tutorial Videos
 [Getting Started With D3.js](https://www.dashingd3js.com/lessons/getting-started-with-d3-js)   
 [D3 Selections](https://www.dashingd3js.com/lessons/d3-selections)   
@@ -337,6 +339,8 @@ d3.svg.axis();
 
 ================================================================================================================
 
+[Changes in D3 4.0](https://github.com/d3/d3/blob/master/CHANGES.md#hierarchies-d3-hierarchy)
+
 [D3 Graph Gallery](https://github.com/d3/d3/wiki/Gallery)
 
 [Examples](http://bl.ocks.org)
@@ -561,7 +565,7 @@ var jsonRectangles = [
 var max_x = 0;
 var max_y = 0;
 
-for (var i = 0; i < jsonRectangles.length; i++) {
+for (var i = 0; i &lt; jsonRectangles.length; i++) {
   var temp_x, temp_y;
   var temp_x = jsonRectangles[i].x_axis + jsonRectangles[i].width;
   var temp_y = jsonRectangles[i].y_axis + jsonRectangles[i].height;
