@@ -1,3 +1,4 @@
+###[Code School](https://www.codeschool.com/courses/mixing-it-up-with-elixir)  
 ###[Elixir School.com](http://elixirschool.com)  
 ###[Elixir OKC](https://elixir.school)
 
