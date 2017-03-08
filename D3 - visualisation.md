@@ -284,14 +284,14 @@ Use
 .append("text").attr("x", "x-origin").attr("y", "y-origin"); to create text &lt;text&gt;...&lt;text&gt;  
 .text("my text") to insert text  
 .attr( , ) to style
-<pre>
+</pre>
 
 [Margin Convention](https://www.dashingd3js.com/lessons/margin-convention)
 
 <pre>
 var margin = {top: 20, right:20, bottom: 30, left:50},
               width = 960 - margin.right = margin.left,
-              height = 500 - margin.top - mragin.bottom;
+              height = 500 - margin.top - margin.bottom;
              
  d3.select("body").append("svg").attr("width", width+margin.left+margin.right)
                                 .attr("height"+margin.top+margin.bottom);
