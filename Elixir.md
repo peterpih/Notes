@@ -1,3 +1,5 @@
+###[What I learned migrating a Rails app to Elixir/Phoenix](https://medium.com/@stueccles/what-i-learned-migrating-a-rails-app-to-elixir-phoenix-f707436749aa#.tb614ty2x)
+
 ###[Code School](https://www.codeschool.com/courses/mixing-it-up-with-elixir)  
 ###[Elixir School.com](http://elixirschool.com)  
 ###[Elixir OKC](https://elixir.school)
