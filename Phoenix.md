@@ -1,3 +1,7 @@
+http://www.cspags.com/deploying-elixir-phoenix-to-heroku/    
+tutorial but one step is premium heroku subscription so can not be done
+
+
 #[Installation](http://www.phoenixframework.org/docs/installation)
 
 <pre>
