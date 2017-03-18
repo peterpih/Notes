@@ -1,6 +1,8 @@
+[Let's Encrypt](https://letsencrypt.org)
+
 [HOWTO setup SSL with Rails & Heroku](http://readysteadycode.com/howto-setup-ssl-with-rails-and-heroku)
 
-need to add
+In Rails:need to add
 <pre>
 config.force_all = true
 </pre>
