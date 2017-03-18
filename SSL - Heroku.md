@@ -1,4 +1,6 @@
-[Let's Encrypt](https://letsencrypt.org)
+[Multiple SSL Certificates in One Heroku Application](http://stackoverflow.com/questions/13448012/multiple-ssl-certificates-in-one-heroku-application/36474485#36474485)
+
+[Let's Encrypt](https://letsencrypt.org) - open free ssl (something to look into)
 
 [HOWTO setup SSL with Rails & Heroku](http://readysteadycode.com/howto-setup-ssl-with-rails-and-heroku)
 
