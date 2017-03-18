@@ -1,3 +1,5 @@
+[LET'S ENCRYPT WITH A RAILS APP ON HEROKU](https://collectiveidea.com/blog/archives/2016/01/12/lets-encrypt-with-a-rails-app-on-heroku)
+
 [Multiple SSL Certificates in One Heroku Application](http://stackoverflow.com/questions/13448012/multiple-ssl-certificates-in-one-heroku-application/36474485#36474485)
 
 [Let's Encrypt](https://letsencrypt.org) - open free ssl (something to look into)
