@@ -1,3 +1,11 @@
+Brew keeps versions in
+<pre>
+<b>dir /usr/local/Cellar/postgresql</b>
+./	../	9.5.5/	9.6.1/	9.6.2/
+
+<b>/usr/local/Cellar/postgresql@9.4/9.4.11/bin</b> 502 >psql
+</pre>
+
 For **rake db:migrate** commands to **up** or **down** a database look  
 [RubyOnRails Rake](https://github.com/peterpih/Miscellaneous/blob/master/RubyOnRails%20Rake.md)
 
