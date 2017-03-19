@@ -12,7 +12,7 @@ $ <b>brew install postgresql@9.4</b>
 
 
 Search Brew http://searchbrew.com - search for a package  
-Listing of the Master Repository https://github.com/Homebrew/homebrew/tree/master/Library/Formula"
+Listing of the Master Repository https://github.com/Homebrew/homebrew/tree/master/Library/Formula
 
 
 <h2>Install a specific version</h2>
