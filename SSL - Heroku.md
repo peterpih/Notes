@@ -1,4 +1,4 @@
-[LET'S ENCRYPT WITH A RAILS APP ON HEROKU](https://collectiveidea.com/blog/archives/2016/01/12/lets-encrypt-with-a-rails-app-on-heroku)  step-by-step
+[LET'S ENCRYPT WITH A RAILS APP ON HEROKU](https://collectiveidea.com/blog/archives/2016/01/12/lets-encrypt-with-a-rails-app-on-heroku)  step-by-step, partially below
 
 <pre>
 $ sudo certbot certonly --manual
