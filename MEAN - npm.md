@@ -6,3 +6,11 @@ Add the "local" modules onto $PATH
 <pre>
 $ export PATH="$HOME/.node_modules_global/bin:$PATH"
 </pre>
+
+###Commands
+<pre>
+$ npm install <em>module-name</em>
+
+$ npm ls -g    <em>(show all modules installed globally)</em>   
+$ npm ls       <em>(show all modules installed locally)</em>
+</pre>
