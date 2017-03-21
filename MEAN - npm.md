@@ -2,6 +2,7 @@
 
 Move the global <b>prefix</b> to point <b>.node_modules_global</b> this is where global modules will be installed so `sudo` is not necessary
 <pre>
+$ cd && mkdir .node_modules_global
 $ npm config set prefix=$HOME/.node_modules_global
 </pre>
 
