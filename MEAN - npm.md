@@ -25,5 +25,8 @@ $ npm config get prefix
 $ npm ls -g    <em>(show all modules installed globally)</em>   
 $ npm ls       <em>(show all modules installed locally)</em>
 
+$ npm list --global   <em>(list globally install modules)</em>
+$ npm list            <em>(list locally installed packages)</em>
+
 $ npm run build     <em>(to create production build)</em>
 </pre>
