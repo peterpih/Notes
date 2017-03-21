@@ -1,8 +1,11 @@
 [A Beginner’s Guide to npm — the Node Package Manager](https://www.sitepoint.com/beginners-guide-node-package-manager/)  
 
-Move the global <b>prefix</b> to <b>.node_modules_global</b> this is where global modules will be installed so `sudo` is not necessary
+Move the global <b>prefix</b> to point <b>.node_modules_global</b> this is where global modules will be installed so `sudo` is not necessary
+<pre>
+$ npm config set prefix=$HOME/.node_modules_global
+</pre>
 
-Add the "local" modules onto $PATH
+Add the new "global" modules onto $PATH
 <pre>
 $ export PATH="$HOME/.node_modules_global/bin:$PATH"
 </pre>
