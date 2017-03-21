@@ -1,4 +1,6 @@
 
+[Javascript Mini BootCamp](https://lambdaschool.com/mini-bootcamp/javascript)
+
 Packt Publishing Book of the Day
 Javascript Challenges (tcorral on Github)
 
