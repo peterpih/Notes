@@ -18,7 +18,10 @@ $ npm uninstall <em>module-name</em>
 $ npm update <em>module-name</em>   
 $ npm outdated  
 $ npm search <em>module-name</em>  
-  
+
+$ npm config get <em>variable</em>    <em>(show config variable value)</em>
+$ npm config get prefix
+
 $ npm ls -g    <em>(show all modules installed globally)</em>   
 $ npm ls       <em>(show all modules installed locally)</em>
 </pre>
