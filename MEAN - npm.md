@@ -7,7 +7,7 @@ Add the "local" modules onto $PATH
 $ export PATH="$HOME/.node_modules_global/bin:$PATH"
 </pre>
 
-###Commands
+<h2>Commands</h2>
 <pre>
 $ npm install <em>module-name</em>
 $ npm uninstall <em>module-name</em>
