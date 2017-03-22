@@ -1,7 +1,9 @@
+<h1>Video Code Camps:</h1>  
 
-[Javascript Mini BootCamp](https://lambdaschool.com/mini-bootcamp/javascript)
+[Javascript Mini BootCamp](https://lambdaschool.com/mini-bootcamp/javascript)   
+[Javascript Tutorial For Beginners](https://www.youtube.com/watch?v=e57ReoUn6kM&list=PLoYCgNOIyGACnrXwo5HMCfOH9VT05znGv&index=6)
 
-Packt Publishing Book of the Day
+Packet Publishing Book of the Day
 Javascript Challenges (tcorral on Github)
 
 Egghead
@@ -62,6 +64,26 @@ The scope for
 
 <em>array</em>.<b>push</b>( ... );
 
+</pre>
+
+###Javascript Events
+<pre>
+var element = document.getElementById('some-id')   
+element.addEventListener("blur", function(){
+<em>some code goes here</em>
+    alert('hi');
+}
+
+click  
+mouseenter  
+mouseleave  
+mousedown  
+mouseup  
+mousemove  
+keydown  
+keyup  
+blur  
+focus  
 </pre>
 
 ####Number Conversions
