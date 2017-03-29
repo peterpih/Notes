@@ -31,7 +31,11 @@ $ <b>heroku pg:backups:url</b> <em>b001 --app sushi</em> <em>&nbsp;&nbsp;&nbsp;&
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>then use the URL to download the backup file locally using browser</em>
 
 $ <b>heroku pg:backups:download</b>    <em>(download a backup)</em>   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>downloads `latest.dump` to current</em>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>downloads `latest.dump` to current local directory</em>  
+
+$ <b>heroku pg:copy</b> <em>sushi::ORANGE GREEN --app sushi-staging</em>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>This would copy data from the ORANGE database of the sushi app to the GREEN database in sushi-staging.   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This could be used to copy production data into a staging app for testing purposes.</em>
 
 
 <h1>Create A Backup</h1>   
