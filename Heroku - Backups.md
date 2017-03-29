@@ -26,11 +26,11 @@ Add-on:      postgresql-horizontal-86688
 
 <h2>To See The Backups</h2>
 
-$ <b>heroku pg:backups</b> <em>--app forever-family-foundation</em>  <em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// list backups</em>   
-$ <b>heroku pg:backups:url</b> <em>b001 --app sushi</em> <em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// get specific backup URL</em>   
+$ <b>heroku pg:backups</b> <em>--app forever-family-foundation</em>  <em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# list backups</em>   
+$ <b>heroku pg:backups:url</b> <em>b001 --app sushi</em> <em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# get specific backup URL</em>   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>then use the URL to download the backup file locally using browser</em>
 
-$ <b>heroku pg:backups:download</b>    <em>(download a backup)</em>   
+$ <b>heroku pg:backups:download</b>    <em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#download a backup</em>   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>downloads `latest.dump` to current local directory</em>  
 
 $ <b>heroku pg:copy</b> <em>sushi::ORANGE GREEN --app sushi-staging</em>  
@@ -40,12 +40,12 @@ $ <b>heroku pg:copy</b> <em>sushi::ORANGE GREEN --app sushi-staging</em>
 
 <h1>Create A Backup</h1>   
 
-$ <b>heroku pg:backups:capture</b><em>--app sushi</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>// creates a backup</em> 
+$ <b>heroku pg:backups:capture</b><em>--app sushi</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em># creates a backup</em> 
 
 <h1>Schedule A Backup</h1>
 To check backup schedule:  
 
-$ <b>heroku pg:backups:schedules</b> <em>--app forever-family-foundation</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>// schedules a backup</em> 
+$ <b>heroku pg:backups:schedules</b> <em>--app forever-family-foundation</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em># schedules a backup</em> 
 <pre>
 === Backup Schedules
 DATABASE_URL: daily at 7:00 UTC
