@@ -1,13 +1,14 @@
 [Heroku PGBackups - Heroku doc](https://devcenter.heroku.com/articles/heroku-postgres-backups)
 
-<b>Logical backups are performed using
+<b>Logical backups are performed using  
+
 $ <b>pg_dump</b>  
 
-and are high impact
+and are high impact,  but save the schema
 
 
 <h2>Check database size</h2>
-$ <b>heroku :pg:info</b>
+$ <b>heroku :pg:info</b> <em>--app sushi</em>
 <pre>
 === DATABASE_URL
 Plan:        Hobby-dev
@@ -23,9 +24,14 @@ Rollback:    Unsupported
 Add-on:      postgresql-horizontal-86688
 </pre>
 
+<h2>To See The Backups</h2>
+
+$ <b>heroku pg:backups <em>--app forever-family-foundation</em></b>  
+$ <b>heroku pg:backups:url</b> <em>b001 --app sushi</em>   <em>(get specific backup URL)</em>
+
 
 <h1>Create A Backup</h1>
-$ <b>heroku pg:backups:capture <em>--app sushi</em></b>
+$ <b>heroku pg:backups:capture</b><em>--app sushi</em>
 
 
 <h1>Schedule A Backup</h1>
