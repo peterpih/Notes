@@ -1,6 +1,6 @@
 [Heroku PGBackups - Heroku doc](https://devcenter.heroku.com/articles/heroku-postgres-backups)
 
-<b>Logical backups are performed using  
+Logical backups are performed using  
 
 $ <b>pg_dump</b>  
 
