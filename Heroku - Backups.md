@@ -42,6 +42,14 @@ $ <b>heroku pg:copy</b> <em>sushi::ORANGE GREEN --app sushi-staging</em>
 
 $ <b>heroku pg:backups:capture</b><em>--app sushi</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em># creates a backup</em> 
 
+$ <b>heroku pg:backups</b><em>--app sushi</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em># list backups</em> 
+<pre>
+=== Backups
+ID    Created at                 Status                               Size     Database
+────  ─────────────────────────  ───────────────────────────────────  ───────  ────────
+b001  2017-03-29 18:16:49 +0000  Completed 2017-03-29 18:16:51 +0000  20.11kB  DATABASE
+</pre>
+
 <h1>Schedule A Backup</h1>
 To check backup schedule:  
 
