@@ -26,9 +26,9 @@ Add-on:      postgresql-horizontal-86688
 
 <h2>To See The Backups</h2>
 
-$ <b>heroku pg:backups</b> <em>--app forever-family-foundation</em>  
-$ <b>heroku pg:backups:url</b> <em>b001 --app sushi</em>   <em>(get specific backup URL)</em>  
-<em>then use the URL to download the backup file locally using browser</em>
+$ <b>heroku pg:backups</b> <em>--app forever-family-foundation</em>  <em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// list backups</em>   
+$ <b>heroku pg:backups:url</b> <em>b001 --app sushi</em> <em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// get specific backup URL</em>   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>then use the URL to download the backup file locally using browser</em>
 
 $ <b>heroku pg:backups:download</b>    <em>(download a backup)</em>  
 <em>downloads `latest.dump` to current</em>  
