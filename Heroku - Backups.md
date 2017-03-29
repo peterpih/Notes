@@ -30,8 +30,8 @@ $ <b>heroku pg:backups</b> <em>--app forever-family-foundation</em>  <em>&nbsp;&
 $ <b>heroku pg:backups:url</b> <em>b001 --app sushi</em> <em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// get specific backup URL</em>   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>then use the URL to download the backup file locally using browser</em>
 
-$ <b>heroku pg:backups:download</b>    <em>(download a backup)</em>  
-<em>downloads `latest.dump` to current</em>  
+$ <b>heroku pg:backups:download</b>    <em>(download a backup)</em>   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>downloads `latest.dump` to current</em>  
 
 
 <h1>Create A Backup</h1>   
