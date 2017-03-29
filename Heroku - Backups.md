@@ -40,13 +40,12 @@ $ <b>heroku pg:copy</b> <em>sushi::ORANGE GREEN --app sushi-staging</em>
 
 <h1>Create A Backup</h1>   
 
-$ <b>heroku pg:backups:capture</b><em>--app sushi</em>
-
+$ <b>heroku pg:backups:capture</b><em>--app sushi</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>// creates a backup</em> 
 
 <h1>Schedule A Backup</h1>
 To check backup schedule:  
 
-$ <b>heroku pg:backups:schedules</b> <em>--app forever-family-foundation</em>
+$ <b>heroku pg:backups:schedules</b> <em>--app forever-family-foundation</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>// schedules a backup</em> 
 <pre>
 === Backup Schedules
 DATABASE_URL: daily at 7:00 UTC
