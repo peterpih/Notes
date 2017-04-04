@@ -1,4 +1,4 @@
-Add
+Add [from reference](https://github.com/rroblak/seed_dump)
 <pre>
 gem 'seed_dump'
 </pre>
