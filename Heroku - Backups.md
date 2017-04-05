@@ -61,6 +61,9 @@ DATABASE_URL: daily at 7:00 UTC
 
 <h1>Restore a backup (after downloading)</h1>   
 from: https://devcenter.heroku.com/articles/heroku-postgres-import-export   
+
 After <b>heroku pg:backups:download</b>   
+
 $ <b>pg_restore --verbose --clean --no-acl --no-owner -h localhost -U</b> <em>myuser</em> <b>-d</b> <em>mydb</em> <b>latest.dump</b>  
+
 Will restore the Heroku database to the local database
