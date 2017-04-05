@@ -31,7 +31,7 @@ $ <b>heroku pg:backups:url</b> <em>b001 --app sushi</em> <em>&nbsp;&nbsp;&nbsp;&
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>then use the URL to download the backup file locally using browser</em>
 
 $ <b>heroku pg:backups:download</b>    <em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#download a backup</em>   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>downloads `latest.dump` to current local directory</em>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>downloads `latest.dump` to <b>current local directory</b></em>  
 
 $ <b>heroku pg:copy</b> <em>sushi::ORANGE GREEN --app sushi-staging</em>  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>This would copy data from the ORANGE database of the sushi app to the GREEN database in sushi-staging.   
@@ -58,3 +58,6 @@ $ <b>heroku pg:backups:schedules</b> <em>--app forever-family-foundation</em>&nb
 === Backup Schedules
 DATABASE_URL: daily at 7:00 UTC
 </pre>
+
+<h1>Restore a backup (after downloading)</h1>
+$ <b>pg_restore --verbose --clean --no-acl --no-owner -h localhost -U</b> <em>myuser</em> -d <em>mydb</em> <b>latest.dump</b>
