@@ -1,8 +1,10 @@
-###[W3 Tryit Editor](http://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
+[<h2>W3.org Cascading Style Sheets - home page</h2>](https://www.w3.org/Style/CSS/)
 
-###[HTML Code Table](http://www.ascii.cl/htmlcodes.htm)   
-###[Table of Special Escape Characters](http://www.degraeve.com/reference/specialcharacters.php)   
-###[Color Shades](http://www.w3schools.com/colors/colors_shades.asp)   
+[<h1>W3 Tryit Editor</h1>](http://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
+
+[<h2>HTML Code Table</h2>](http://www.ascii.cl/htmlcodes.htm)   
+[<h2>Table of Special Escape Characters</h2>](http://www.degraeve.com/reference/specialcharacters.php)   
+[<h2>Color Shades</h2>](http://www.w3schools.com/colors/colors_shades.asp)   
 
 ###Some Useful Tags  
 <pre>
