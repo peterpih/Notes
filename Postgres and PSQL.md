@@ -1,3 +1,7 @@
+To run previous version of PostgreSQL  
+$ <b>cd /usr/local/Cellar/postgresql@9.4/9.4.11/bin</b>   
+$ <b>./postgres -D /usr/local/var/postgres</b>   <em># starts program</em>
+
 Brew keeps versions in
 <pre>
 <b>dir /usr/local/Cellar/postgresql</b>
