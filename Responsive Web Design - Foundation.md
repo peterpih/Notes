@@ -1,5 +1,7 @@
 ###Foundation Tutorial Videos
 
+[Zurb Foundation vs. Twitter Bootstrap](https://news.ycombinator.com/item?id=4616528)
+
 [Foundation for Responsive Web Design Tutorial - 1 - Getting Started](https://www.youtube.com/watch?v=mHfUBggf0zw)   
 [Foundation for Responsive Web Design Tutorial - 2 - Grid System](https://www.youtube.com/watch?v=8kVbTQAaFSg)   
 [Foundation for Responsive Web Design Tutorial - 3 - Nesting and Dynamic Layouts](https://www.youtube.com/watch?v=0iW-Qt8gPyE)   
