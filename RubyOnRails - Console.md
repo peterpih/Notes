@@ -1,3 +1,10 @@
+Useful methods for models
+
+Model.column_names    
+Model.reflect_on_all_associations    
+Model.methods    
+
+
 ###Commands
 
 This assumes the model for User has already been defined.
