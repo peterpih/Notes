@@ -1,3 +1,4 @@
+from: https://github.com/activeadmin/inherited_resources/issues/195  
 ActiveAdmin messes with <b>rails scaffold</b> so the generated controller uses InheretedResources   
 to get back to using ApplicationController and create all the CRUD methods use
 <pre>
