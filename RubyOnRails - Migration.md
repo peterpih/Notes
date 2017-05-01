@@ -22,6 +22,7 @@ end
 <pre>
 <b>rename_table</b>  <em>:old-table,  :new-table</em>   <em>( note _id_seq will automatically be renamed )</em>   
 <b>rename_column</b> <em>:table-name,  :old-column,  :new-column</em>   
+<b>remove_column</b> <em>:table-name,  :old-column</em>   
 </pre>
 
 ###Setting a Default Value
