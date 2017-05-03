@@ -35,3 +35,26 @@ example:
 <b>rake db:migrate:down VERSION=</b><em>20080906120000</em>
 </pre>
 
+If you accidentally deleted the table manually, your migration needs to look like this
+<pre>
+class CreateRelationships < ActiveRecord::Migration
+def <b>up</b>  <em>instead of <b>change</b></em>
+    create_table :relationships do |t|
+      t.string :name
+      t.string :typeof
+
+      t.timestamps null: false
+    end
+  end
+  def <b>down</b>
+    <b>drop_table :relationships if ActiveRecord::Base.connection.table_exists? 'relationships'</b>
+  end
+end
+</pre>
+Then use
+<pre>
+$ rake db:migrate:<b>redo</b> VERSION=20170428203612
+</pre>
+since migrations already thinks the migration happened with out the <b>.table_exists?</b> for the redo
+it will first try to <b>drop_table</b>, but then it's allready dripped (manually, this causes an error) 
+then will do <b>create_table</b> and all should be good!
