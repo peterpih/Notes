@@ -1,3 +1,6 @@
+https://backlogtool.com/git-guide/en/stepup/stepup5_3.html  
+Section on using tags
+
 http://git-scm.com  
 http://services.github.com/training
 
