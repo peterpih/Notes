@@ -9,7 +9,7 @@ end
 
 Then
 
-$ <b>bundle</b>
+$ <b>bundle</b>   
 $ <b>rails generate rspec:</b>install
 <pre>
 create  .rspec
