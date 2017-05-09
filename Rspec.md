@@ -18,6 +18,13 @@ create  spec/spec_helper.rb
 create  <b>spec/rails_helper.rb</b>
 </pre>
 
+You will need to add to every _spec.rb test file
+<pre>
+require 'rails_helper'
+</pre>
+
+Run your tests:   
+$ <b>bundle exec rspec spec/</b><em>models/dummy_model_spec.rb</em>
 
 
 
