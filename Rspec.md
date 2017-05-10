@@ -27,6 +27,18 @@ Run your tests:
 $ <b>bundle exec rspec spec/</b><em>models/dummy_model_spec.rb</em>
 
 
+$ <b>cd spec</b>   
+$ <b>mkdir models</b>   
+$ <b>mkdir features</b>   
+$ <b>touch feature_helper.rb</b>  
+
+<pre>
+# spec/feature_helper.rb
+
+require 'rails_helper'
+require 'database_cleaner'
+require 'capybara/poltergeist'
+</pre>
 
 
 [RSpec Testing for Beginners, Part 1](https://code.tutsplus.com/articles/rspec-testing-for-beginners-part-1--cms-26716)
