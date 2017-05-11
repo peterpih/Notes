@@ -9,7 +9,7 @@ gem 'sass-rails', '>= 3.2'
 </pre>
 
 then  
-$ <b>bundle install --without production<b>
+$ <b>bundle install --without production</b>
 
 create <em>app/assets/stylesheets/custom.css.scss</em> (must have .scss extension)   
 assumes all of the <b>css</b> styling will go into <b>custom.cs.scss</b>   
