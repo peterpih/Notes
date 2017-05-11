@@ -1,10 +1,10 @@
-###With this Error
+<h2>With this Error</h2>
 <pre>
 remote: Permission to railsnewbie257/curl.git denied to peterpih.
 fatal: unable to access 'https://github.com/railsnewbie257/curl.git/': The requested URL returned error: 403
 </pre>
 
-###Use SSH connection to git
+<h2>Use SSH connection to git</h2>
 <pre>
 $ git remote rm curl    
 $ git remote add curl git@github.com:railsnewbie257/curl.git   
@@ -13,7 +13,7 @@ $ git remote add curl git@github.com:railsnewbie257/curl.git
 Please make sure you have the correct access rights
 and the repository exists.
 </pre>
-###Need to generate new SSH key
+<h2>Need to generate new SSH key</h2>
 $ <b>cd ~/.ssh</b>   
 $ <b>ssh-keygen</b>
 <pre>
@@ -26,14 +26,14 @@ Enter same passphrase again: &lt;CR&gt;
 Your identification has been saved in <b>/Users/peterpih/.ssh/id_rsa</b>.
 Your public key has been saved in <b>/Users/peterpih/.ssh/id_rsa.pub</b>.
 The key fingerprint is:
-SHA256:gdMXFG9MCm0U8pC3I09j+OA0ALo846VkMJwL4wPqAik peterpih@MacBook-Pro.local
+SHA256:gdMXF...peterpih@MacBook-Pro.local
 The key's randomart image is:
 +---[RSA 2048]----+
 |    ..  +=*o.    |
 |. ..  .o.=+*     |
-|*o.   o.o++.+    |
+|*o.   o.oo+.+    |
 |=*..   .*o*.     |
-|E+B .  oSO o     |
+|E+B=.  oSO o     |
 |++.=    . o      |
 |..o              |
 |.                |
