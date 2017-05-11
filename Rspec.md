@@ -18,7 +18,7 @@ create  spec/spec_helper.rb
 create  <b>spec/rails_helper.rb</b>
 </pre>
 
-You will need to add to every _spec.rb test file
+You will need to add to every `_spec.rb` test file
 <pre>
 require 'rails_helper'
 </pre>
@@ -33,7 +33,7 @@ $ <b>mkdir features</b>
 $ <b>touch feature_helper.rb</b>  
 
 <pre>
-# spec/feature_helper.rb
+<em># spec/feature_helper.rb</em>
 
 require 'rails_helper'
 require 'database_cleaner'
