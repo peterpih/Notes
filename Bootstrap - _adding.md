@@ -1,4 +1,33 @@
-&#42;&#42;[How to install Bootstrap 4 in Rails](http://mixandgo.com/blog/how-to-install-bootstrap-4-in-rails)
+[How to install Bootstrap 4 in Rails](http://mixandgo.com/blog/how-to-install-bootstrap-4-in-rails)
+
+[Bootstrap-sass Gem git repo](https://github.com/twbs/bootstrap-sass)
+
+Copy the following line into your Gemfile (and check for update in git repo README)
+<pre>
+gem 'bootstrap-sass', '~> 3.3.6'   
+gem 'sass-rails', '>= 3.2'
+</pre>
+
+then  
+$ <b>bundle install --without production<b>
+
+create <em>app/assets/stylesheets/custom.css.scss</em> (must have .scss extension)   
+assumes all of the <b>css</b> styling will go into <b>custom.cs.scss</b>   
+add the following <b>@import</b>s  
+<pre>
+<em>changes to bootstrap's constants go <b>before</b> the imports
+@import "bootstrap-sprockets";
+@import "bootstrap";
+</pre>
+
+<em>app/assets/javascripts/application.js</em>
+<pre>
+//= require jquery
+//= require jquery_ujs
+<b>//= require bootstrap-sprockets</b>
+</pre>
+
+
 
 [Integrating Rails and Bootstrap, Part 1 - the Installation](https://launchschool.com/blog/integrating-rails-and-bootstrap-part-1)
 
