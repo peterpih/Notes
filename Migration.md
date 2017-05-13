@@ -11,25 +11,25 @@ example:
 <b>rails generate migration</b> <em>duplicates</em>
 </pre>
 
-####Renaming
+<h3><b>Renaming</b></h3>
 <pre>
 <b>rename_table</b>  <em>:old-table,  :new-table</em>   <em>( note _id_seq will automatically be renamed )</em>
 <b>rename_column</b> <em>:table-name,  :old-column,  :new-column</em>
 </pre>
 
-####Rollback a Migration
+<h3><b>Rollback</b> a Migration</h3>
 <pre>
 <b>rake db:rollback</b>
 <b>rake db:rollback STEP=</b><em>3</em>         <em># rollback the last 3 migrations</em>
 </pre>
 
-####Redo a Migration (rollback and re-migrate in one step)
+<h3><b>Redo</b> a Migration (rollback and re-migrate in one step)</h3>
 <pre>
 <b>rake db:migrate:redo</b>  
 <b>rake db:migrate:redo TIMES=</b><em>3</em>        <em># redo the last 3 migrations</em>
 </pre>
 
-####Run A Specific Migration
+<h3>Run A <b>Specific Migration</b></h3>
 <pre>
 <b>rake db:migrate:up VERSION=</b><em>20080906120000</em>
 <b>rake db:migrate:down VERSION=</b><em>20080906120000</em>
