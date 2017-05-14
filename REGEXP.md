@@ -8,6 +8,12 @@ StackExchange:
 [What do ++ and *+ mean](http://stackoverflow.com/questions/17064108/what-do-and-mean-in-a-regular-expression/17064242#17064242)  
 [Regex Reference](http://stackoverflow.com/questions/22937618/reference-what-does-this-regex-mean/22944075#22944075)  
 
+[Rubular.com](www.rubular.com)
+
+<h2>REGEX for email validation</h2>
+<pre>
+VALID_EMAIL_REGEX='/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+</pre>
 
 General pattern is delimited
 <pre>
