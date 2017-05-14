@@ -14,7 +14,7 @@ Please make sure you have the correct access rights
 and the repository exists.
 </pre>
 <h2>Need to generate new SSH key</h2>
-$ <b>cd ~/.ssh</b>   
+$ <b>cd ~/.ssh</b>    
 $ <b>ssh-keygen</b>
 <pre>
 Generating public/private rsa key pair.
