@@ -3,10 +3,10 @@
 [Bootstrap-sass Gem git repo](https://github.com/twbs/bootstrap-sass)
 
 Copy the following line into your Gemfile (and check for update in git repo README)
-<pre>
-gem 'bootstrap-sass', '~> 3.3.6'   
+```html
+<div style="color:grey">gem 'bootstrap-sass', '~> 3.3.6'</div>   
 gem 'sass-rails', '>= 3.2'
-</pre>
+```
 
 then  
 $ <b>bundle install --without production</b>
