@@ -13,7 +13,16 @@ Gemfile records preferences ie "~>"
 
 <h2>Always version control Gemfile.lock</h2> Heroku needs it
 
-###Bundler
+<h2>bundler-audit</h2> 
+<pre>
+<em>for checking vulnerabilities  </em>
+$ <b>gem install bundler-audit</b>
+<br>
+<em>then in the same directory as Gemfile.lock</em>
+$ <b>bundle-audit</b>
+</pre>
+
+<h2>Bundler Commands</h2>
 <pre>
 <b>bundle -v</b>                    # show bundler version number
 <b>bundle install</b>                # install a gem in this scope
