@@ -1,12 +1,17 @@
-###Gemfile.lock
+[Update Your Gems Early and Often](https://robots.thoughtbot.com/keep-your-gems-up-to-date)
+- Update gems one at a time  
+- Each update has it's own commit
+- links to Release Notes should be included with the commits
 
-Great explaination of Gemfile.lock: 
+<h2>Gemfile.lock</h2>
+
+<b>Great explaination of Gemfile.lock:</b>  
 http://stackoverflow.com/questions/6927442/what-is-the-difference-between-gemfile-and-gemfile-lock-in-ruby-on-rails
 
 <b>Gemfile.lock</b> records the **exact** version used  
 Gemfile records preferences ie "~>"  
 
-###Always version control Gemfile.lock
+<h2>Always version control Gemfile.lock</h2> Heroku needs it
 
 ###Bundler
 <pre>
@@ -20,4 +25,4 @@ Gemfile records preferences ie "~>"
 <br>
 <b>bundle outdated</b>              # show which gems are outdated
 <b>bundle outdated --strict</b>
-
+</pre>
