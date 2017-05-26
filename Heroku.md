@@ -38,7 +38,7 @@ $ <b>heroku update</b>
 you can add <b>--app</b> <em>your-app-name</em> to specify non default Heroku <em>app</em>  
 <pre>
 <b>heroku open --app</b> <em>mighty-lake-1899</em>
-<pre>
+
 <b>heroku open</b>              <em>( open a link to the app website in local browser )</em>
 <b>heroku ps</b>                <em>( show dynos running on Heroku )</em>
 
