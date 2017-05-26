@@ -20,9 +20,14 @@
 
 Useful links:  
 <b>setup</b>: http://sourabhbajaj.com/mac-setup/Heroku/README.html  
-[pg:push and pg:pull]posgres</b>: https://devcenter.heroku.com/articles/heroku-postgresql#pg-push-and-pg-pull  
+<b>[pg:push and pg:pull]posgres</b>: https://devcenter.heroku.com/articles/heroku-postgresql#pg-push-and-pg-pull  
 **git deploy**: https://dashboard.heroku.com/apps/aqueous-spire-6633/deploy/heroku-git   
 **pulling down database**: 
+
+<h2>Migrating Postgresql Database</h2>
+[Rails Database Connection Behavior](https://devcenter.heroku.com/articles/rails-database-connection-behavior)  
+
+Step-by-step instructions.
 
 
 <h2>Install Heroku</h2>
