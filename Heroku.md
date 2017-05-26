@@ -25,52 +25,64 @@ Useful links:
 **pulling down database**: 
 
 
-###Install Heroku
+<h2>Install Heroku</h2>
 On OSX, use Homebrew:  
 <pre>
-<b>brew install heroku-toolbelt</b>
-<b>heroku update</b>
+$ <b>brew install heroku-toolbelt</b>
+$ <b>heroku update</b>
 </pre>
 
-###Heroku Commands  
+<h2>Heroku Commands</h2>  
 <b>heroku local</b>             <em>( run the app locally from heroku )</em>
 
-add <b>--app <em>APP</em></b> to specify non default Heroku <em>APP</em>  
+you can add <b>--app</b> <em>your-app-name</em> to specify non default Heroku <em>app</em>  
+<pre>
+<b>heroku open --app</b> <em>mighty-lake-1899</em>
 <pre>
 <b>heroku open</b>              <em>( open a link to the app website in local browser )</em>
-<b>heroku ps</b>                <em>( dynos running on Heroku )</em>
+<b>heroku ps</b>                <em>( show dynos running on Heroku )</em>
 
-<em>( show configuration vars and the database url )</em>
-<b>heroku config</b>            
+
+<b>heroku config</b>            <em>( show configuration vars and the database url )</em>            
 
 
 <b>heroku addons</b>            <em>( show additional services )</em>
+</pre>
 
+<h2>Postgres Commands</h2>
+<pre>
+<b>heroku pg:info</b>           <em>( stats and name of database )</em>
 <b>heroku pg:psql</b>           <em>( for <a href="#accessing-database-remotely">postgres on Heroku</a> )</em>
+<b>heroku pg:ps</b>             <em>( ps of connections into database)</em>
 
 <em>( dump one or more tables from a database )</em>
 <b>heroku pg:dump -t</b> <em>table-name [-t database-name] database-name</em>
+</pre>
 
-<em>( take site down / up for maintenance )</em>
-<b>heroku maintenance:on</b>    
-<b>heroku maintenance:off</b>
+<h2>Maintenance</h2>
+<pre>
+<b>heroku maintenance:on</b>       <em>( take down site for maintenance )</em>
+<b>heroku maintenance:off</b>      <em>( bring up site for maintenance )</em>
+</pre>
 
-<em>( show log file for Heroku APP )</em>
-<b>heroku logs --app</b> <em>APP</em> 
+<h2>Logs</h2>
+<pre>
 
-<em>( show nlines in log file for Heroku APP )</em>
-<b>heroku logs --app</b> <em>APP</em> <b>-n</b> <em>nlines</em>  
-
-<em>( tail the logs )</em>
-<b>heroku logs --app</b> <em>APP</em> <b>--tail</b> 
+<b>heroku logs</b> --app</b> <em>your-pp-name</em>   <em>( show log file for Heroku APP )</em>
 
 
-<b>heroku restart --app</b> <em>APP</em>             <em>( restart APP )</em>
+<b>heroku logs --app</b> <em>your-app-name</em> <b>-n</b> <em>nlines</em>    <em>( show nlines in log file for Heroku APP )</em>
 
-<b>heroku run bash --app</b> <em>APP</em>            <em>( remote Unix command line )</em>
+
+<b>heroku logs --app</b> <em>your-app-name</em> <b>--tail</b>    <em>( tail the logs )</em>
+
+
+<b>heroku restart --app</b> <em>your-app-name</em>             <em>( restart APP )</em>
+
+<b>heroku run bash --app</b> <em>your-app-name</em>            <em>( remote Unix bash command line )</em>
 </pre>
   
-###Example Heroku website
+<h2>Example Heroku website</h2>
 <pre>
 <em>( clone a local repo from heroku )</em>
 <b>heroku git:clone -a</b> <em>heroku_app</em> <em>dest_dir</em>
