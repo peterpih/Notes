@@ -1,3 +1,5 @@
+[How to upgrade PostgreSQL from version 9.5 to version 9.6 without losing data?](https://stackoverflow.com/questions/24379373/how-to-upgrade-postgresql-from-version-9-5-to-version-9-6-without-losing-data)
+
 To run previous version of PostgreSQL  
 $ <b>cd /usr/local/Cellar/postgresql@9.4/9.4.11/bin</b>   
 $ <b>./postgres -D /usr/local/var/postgres</b>   <em># starts program</em>
