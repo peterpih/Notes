@@ -27,6 +27,42 @@ Add-on:      postgresql-horizontal-86688
 <h2>To See The Backups</h2>
 
 $ <b>heroku pg:backups</b> <em>--app forever-family-foundation</em>  <em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# list backups</em>   
+<pre>
+=== Backups
+ID     Created at                 Status                               Size      Database
+─────  ─────────────────────────  ───────────────────────────────────  ────────  ────────
+a739   2017-05-28 07:13:22 +0000  Completed 2017-05-28 07:13:55 +0000  1.80MB    AMBER
+a738   2017-05-27 07:13:43 +0000  Completed 2017-05-27 07:13:57 +0000  1.80MB    AMBER
+a737   2017-05-26 07:13:41 +0000  Completed 2017-05-26 07:13:45 +0000  1.80MB    AMBER
+a736   2017-05-25 07:15:22 +0000  Completed 2017-05-25 07:15:47 +0000  1.80MB    AMBER
+a735   2017-05-24 07:13:57 +0000  Completed 2017-05-24 07:14:26 +0000  1.78MB    AMBER
+a734   2017-05-23 07:18:06 +0000  Completed 2017-05-23 07:18:10 +0000  1.78MB    AMBER
+a733   2017-05-22 07:18:34 +0000  Completed 2017-05-22 07:18:35 +0000  1.78MB    AMBER
+a732   2017-05-21 07:18:01 +0000  Completed 2017-05-21 07:18:03 +0000  1.78MB    AMBER
+b304   2016-03-20 03:41:41 +0000  Failed 2016-03-20 03:41:41 +0000     0.00B     AMBER
+b056   2015-07-15 02:31:13 +0000  Completed 2015-07-15 02:31:15 +0000  1.26MB    AMBER
+ob025  2014-07-04 00:12:54 +0000  Completed 2014-07-04 00:13:01 +0000  976.56kB  AMBER
+ob002  2014-01-16 16:18:16 +0000  Completed 2014-01-16 16:18:21 +0000  891.41kB  ONYX
+ob001  2014-01-14 05:10:20 +0000  Completed 2014-01-14 05:10:28 +0000  176.56kB  ONYX
+
+=== Restores
+No restores found. Use heroku pg:backups:restore to restore a backup
+
+=== Copies
+No copies found. Use heroku pg:copy to copy a database to another
+
+</pre>
+
+$ <b>heroku pg:backups:capture:</b> <em>--app forever-family-foundation</em>     <em>make a backup</em>
+<pre>
+Starting backup of glowing-idly-1982... done
+
+Use Ctrl-C at any time to stop monitoring progress; the backup will continue running.
+Use heroku pg:backups:info to check progress.
+Stop a running backup with heroku pg:backups:cancel.
+
+Backing up AMBER to b740... done
+</pre>
 $ <b>heroku pg:backups:url</b> <em>b001 --app sushi</em> <em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# get specific backup URL</em>   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>then use the URL to download the backup file locally using browser</em>
 
