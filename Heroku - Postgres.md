@@ -1,3 +1,12 @@
+<h2>To find Postgres version of database</h2>   
+$ <b>heroku pg:psql -c 'SELECT version();'</b>
+<pre>
+                                             version                                             
+-------------------------------------------------------------------------------------------------
+ PostgreSQL 9.5.4 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 4.8.2-19ubuntu1) 4.8.2, 64-bit
+(1 ro
+</pre>
+
 [Heroku PGBackups - Heroku doc](https://devcenter.heroku.com/articles/heroku-postgres-backups)
 
 Logical backups are performed using  
