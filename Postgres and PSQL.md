@@ -1,5 +1,14 @@
 [How to upgrade PostgreSQL from version 9.5 to version 9.6 without losing data?](https://stackoverflow.com/questions/24379373/how-to-upgrade-postgresql-from-version-9-5-to-version-9-6-without-losing-data)
 
+<b>To check the current version of Postgres locally</b>   
+$ <b>`psql -c 'SELECT version();'`</b>
+<pre>
+                                                     version                                                     
+-----------------------------------------------------------------------------------------------------------------
+ PostgreSQL 9.4.11 on x86_64-apple-darwin16.4.0, compiled by Apple LLVM version 8.0.0 (clang-800.0.42.1), 64-bit
+(1 row)
+</pre>
+
 To run previous version of PostgreSQL  
 $ <b>cd /usr/local/Cellar/postgresql@9.4/9.4.11/bin</b>   
 $ <b>./postgres -D /usr/local/var/postgres</b>   <em># starts program</em>
