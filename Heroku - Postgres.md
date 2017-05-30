@@ -3,7 +3,7 @@ $ <b>heroku pg:psql -c 'SELECT version();'</b>
 <pre>
                                              version                                             
 -------------------------------------------------------------------------------------------------
- PostgreSQL 9.5.4 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 4.8.2-19ubuntu1) 4.8.2, 64-bit
+<b>PostgreSQL 9.5.4</b> on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 4.8.2-19ubuntu1) 4.8.2, 64-bit
 (1 ro
 </pre>
 
