@@ -20,17 +20,17 @@ and are high impact,  but save the schema
 $ <b>heroku :pg:info</b> <em>--app sushi</em>
 <pre>
 === DATABASE_URL
-Plan:        Hobby-dev
+<b>Plan:        Hobby-dev</b>
 Status:      Available
 Connections: 2/20
-PG Version:  9.5.4
+<b>PG Version:  9.5.4</b>
 Created:     2016-11-25 18:45 UTC
 <b><em>Data Size:   7.9 MB</em></b>
 Tables:      10
 Rows:        26/10000 (In compliance)
 Fork/Follow: Unsupported
 Rollback:    Unsupported
-Add-on:      postgresql-horizontal-86688
+<b>Add-on:      postgresql-horizontal-86688</b>
 </pre>
 
 <h2>To See The Backups</h2>
