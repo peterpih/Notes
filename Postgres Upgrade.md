@@ -1,3 +1,5 @@
+https://stackoverflow.com/questions/24379373/how-to-upgrade-postgresql-from-version-9-5-to-version-9-6-without-losing-data
+
 <h2>On Local Machine</h2>
 <b>To get the current database version number</b>   
 
@@ -12,7 +14,7 @@ $ psql
 </pre>
 
 <h2>Initialize new database</h2>
-$ initdb /usr/local/var/postgres9.6 -E utf8 --locale
+$ initdb /usr/local/var/postgres9.6 -E utf8
 <pre>
 The files belonging to this database system will be owned by user "peterpih".
 This user must also own the server process.
@@ -52,9 +54,19 @@ pg_upgrade -v \
     -D new directory   
     -b old binary/executable  
     -B new binary/executable   
-<pre>
+</pre>
 
 Rename the Database Directory
 $ cd /usr/local/var
-mv postgres postgres9.4
-mv postgres9.6 postgres
+$ mv postgres postgres9.4  # 9.4 since that was my current version
+$ mv postgres9.6 postgres  # 9.6 since that is the latest version
+
+<b>to reverse above mv's</b>
+<pre>
+$ mv postgres postgres9.6  # 9.4 since that was my current version
+$ mv postgres9.4 postgres  # 9.6 since that is the latest version
+</pre>
+
+<h2>Dump the database</h2>
+$ <b>pg_dumpall -f</b> <em>9.4postgres.dummp</em>   
+will create 9.4postgres.dump file in current directory  
