@@ -45,12 +45,12 @@ The key's randomart image is:
 $ <b>type /Users/peterpih/.ssh/id_rsa.pub</b>   
 
 <em>Copy contents into Github account you are trying to write to</em>   
-<em>In Guthub, under <b>Settings</b> | <b>SSH and GPG Keys</b> | <b>Add New Key</b></em>
+<em>In Guthub, under <b>Settings</b> | <b>Deploy keys</b> | <b>Add New Key</b></em>
 <pre>
 ssh-rsa AAAAB3NzaC1yc2EAAA...
 </pre>
 
-<em>Test the new SSH Key</em>   
+<h2>Test the new SSH Key</h2>   
 $ <b>ssh -T git@github.com</b>
 <pre>
 Hi railsnewbie257! You've successfully authenticated, but GitHub does not provide shell access.
