@@ -1,5 +1,5 @@
-<h2>In Gemfile</h2>
-<em>&#35; Gemfile</em> need to add gem
+<h2>In Gemfile</h2>  
+<em>need to add gem</em>
 
 <pre>
 group :development, :test do
@@ -8,3 +8,23 @@ group :development, :test do
   <b>gem 'rspec-rails'</b>
 end
 </pre>
+
+$ <b>bundle install</b>
+
+<h2>Initialize the spec/ directory (where specs will reside) with:</h2>
+
+$ <b>cd</b> <em>&lt;your app's root directory&gt;</em>  
+$ <b>mkdir spec</b>  
+$ <b> cd spec</b>   
+$ <b>rails generate rspec:install</b>   
+<pre>
+Running via Spring preloader in process 99679
+      create  .rspec
+       exist  spec
+      create  spec/spec_helper.rb
+      create  spec/rails_helper.rb
+</pre>
+
+<h2>To runs the specs</h2>
+
+$ <b>bundle exec rspec</b>
