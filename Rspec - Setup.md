@@ -48,7 +48,7 @@ require "capybara/rspec"
 --format documentation
 </pre>
 
-3) <em>add the following line to <b>config/application.rb</b></em> in class Application section   
+3) <em>add the following line to <b>config/application.rb</b></em> in <b>class Application</b> section   
 <em> this will automatically generate shells for testing</em>
 <pre>
 config.generators do |g|
