@@ -62,6 +62,15 @@ config.generators do |g|
   g.fixture_replacement :factory_girl, :dir => "spec/factories"
 end
 </pre>
+
+<h2>Create the spec directories</h2>
+
+$<b>cd spec</b>
+$ <b>mkdir models</b>
+$ <b>mkdir controllers</b>
+$ <b>mkdir features</b>
+$ <b>factories</b>
+
 <h2>To runs the specs</h2>
 
 $ <b>bundle exec rspec</b>
