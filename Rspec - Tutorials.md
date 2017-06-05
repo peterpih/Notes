@@ -7,7 +7,6 @@
 [Behaviour Driven Development for Ruby. Making TDD Productive and Fun.](http://rspec.info)   
 [Getting Started with RSpec](https://semaphoreci.com/community/tutorials/getting-started-with-rspec)   
 [RSpec Subject, Helpers, Hooks and Exception Handling](https://semaphoreci.com/community/tutorials/rspec-subject-helpers-hooks-and-exception-handling)   
-
 >[Rspec Basic Structure](https://relishapp.com/rspec/rspec-core/v/3-1/docs/example-groups/basic-structure-describe-it)  
 [Rspec Expectations](https://relishapp.com/rspec/rspec-expectations/docs)   
 [Rspec Built-in Matchers](https://relishapp.com/rspec/rspec-expectations/v/3-1/docs/built-in-matchers)  
