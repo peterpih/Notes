@@ -1,3 +1,10 @@
+
+<h2>Install Homebrew</h2>
+<pre>
+$ <b>ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"</b>
+</pre>
+
+
 [<h2>Installing a specific version of a homebrew package</h2>](http://effectif.com/mac-os-x/installing-specific-version-of-homebrew-formula)  
 Look for the version you want:   
 $ <b>brew search postgres</b>
