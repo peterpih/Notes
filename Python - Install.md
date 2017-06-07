@@ -1,3 +1,5 @@
+[<h2>How to Install Python 3 and PyDev on OSX</h2>](http://blog.manbolo.com/2013/02/04/how-to-install-python-3-and-pydev-on-osx#2)
+
 $ <b>brew install python3</b>
 <pre>
 <b>==> Installing dependencies for python3: sqlite, openssl, xz
