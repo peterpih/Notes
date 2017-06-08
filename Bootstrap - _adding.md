@@ -80,12 +80,14 @@ $ <b>ren application.css -> application.css.sass</b>
 @import "nav";</b>
 </pre>
 
-<b>application.js</b>
+<h2>Adding Bootstrap Javascript</h2>
 
 1) <b>jquery</b> needs to be before <b>jquery_ujs</b>   
 2) any jquery needs to be before <b>bootstrap-sprockets</b>
 <em>(should look like below)</em>
 <pre>
+<em># app/asets/javascript/application.js</em>
+
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
 //
