@@ -11,4 +11,6 @@
 [Rspec Expectations](https://relishapp.com/rspec/rspec-expectations/docs)   
 [Rspec Built-in Matchers](https://relishapp.com/rspec/rspec-expectations/v/3-1/docs/built-in-matchers)  
 
+[Mocking with RSpec: Doubles and Expectations](https://semaphoreci.com/community/tutorials/mocking-with-rspec-doubles-and-expectations)   
+Has email example  
 
