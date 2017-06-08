@@ -2,11 +2,13 @@
 
 [Bootstrap-sass Gem git repo](https://github.com/twbs/bootstrap-sass)
 
-Copy the following line into your Gemfile (and check for update in git repo README)
-```html
-<div style="color:grey">gem 'bootstrap-sass', '~> 3.3.6'</div>   
+Copy the following line into your Gemfile (and check for version update in git repo README)
+<pre>
+<em># Gemfile</em>
+
+gem 'bootstrap-sass', '~> 3.3.6'  
 gem 'sass-rails', '>= 3.2'
-```
+</pre>
 
 then  
 $ <b>bundle install --without production</b>
@@ -20,8 +22,9 @@ add the following <b>@import</b>s
 @import "bootstrap";
 </pre>
 
-<em>app/assets/javascripts/application.js</em>
 <pre>
+<em># app/assets/javascripts/application.js</em>
+
 //= require jquery
 //= require jquery_ujs
 <b>//= require bootstrap-sprockets</b>
@@ -33,10 +36,12 @@ add the following <b>@import</b>s
 
 [Bootstrap Grid Examples](http://getbootstrap.com/examples/grid/)
 
-###Adding Bootstrap
+<h2>Adding Bootstrap</h2>
 
-<b>application.js</b>
+
 <pre>
+<em># application.js</em>
+
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
 //
@@ -58,7 +63,7 @@ add the following <b>@import</b>s
 
 <b>application.css.sass</b>
 <pre>
-<em>rename to .sass extension</em>
+<h2>rename to .sass extension</h2>
 $ <b>ren application.css -> application.css.sass</b>
 
 /* before
