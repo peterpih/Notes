@@ -66,7 +66,7 @@ add the following <b>@import</b>s
 <h2>rename to .sass extension</h2>
 $ <b>ren application.css -> application.css.sass</b>
 
-/* before
+/* <b>before</b>
  ...
  *
  *= require_tree .
@@ -111,7 +111,7 @@ $ <b>ren application.css -> application.css.sass</b>
 //= require_tree .</b>
 </pre>
 
-###Gemfile
+<h2>Gemfile</h2>
 
 Add following gems to Gemfile
 <pre>
@@ -136,7 +136,7 @@ $ <b>bundle install</b>
         <b>.dev.col-xs-6</b>
 </pre>
 
-###Grid System
+<h2>Grid System</h2>
 <b>.container</b> for fixed-width  
 <b>.container-fluid</b> for full-width
 
