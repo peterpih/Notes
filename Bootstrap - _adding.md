@@ -17,17 +17,12 @@ create <em>app/assets/stylesheets/custom.css.scss</em> (must have .scss extensio
 assumes all of the <b>css</b> styling will go into <b>custom.cs.scss</b>   
 add the following <b>@import</b>s  
 <pre>
+<em># app/assets/stylesheets/custom.css.scss</em>
+
 <em>changes to bootstrap's constants go <b>before</b> the imports
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
-</pre>
-
-<pre>
-<em># app/assets/javascripts/application.js</em>
-
-//= require jquery
-//= require jquery_ujs
-<b>//= require bootstrap-sprockets</b>
 </pre>
 
 
