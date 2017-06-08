@@ -19,8 +19,7 @@ add the following <b>@import</b>s
 <pre>
 <em># app/assets/stylesheets/custom.css.scss</em>
 
-<em>changes to bootstrap's constants go <b>before</b> the imports
-
+<em>changes to bootstrap's constants go <b>before</b> the imports</em>
 @import "bootstrap-sprockets";
 @import "bootstrap";
 </pre>
