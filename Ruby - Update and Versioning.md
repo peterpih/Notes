@@ -1,3 +1,15 @@
+<h2>Current Ruby Version</h2>
+
+To see current version used in <b>local</b> directory, determined by <b>.ruby-version</b>  
+
+$ <b>rbenv local</b>
+
+To see <b>global</b> version used, determined by <b>~/.rbenv/version</b>
+
+$ <b>rbenv global</b>
+
+<h2>Installing Ruby Version</h2>
+
 Use <b>rbenv</b> to install versions of Ruby  
 
 $ <b>rbenv install</b> <em>n.n.n</em>
@@ -5,14 +17,6 @@ $ <b>rbenv install</b> <em>n.n.n</em>
 To see the different versions which are available to be installed.  
 
 $ <b>rbenv install --list</b>  
-
-To see current version used in <b>local</b> directory, determined by <b>.ruby-version</b>  
-
-$ <b>rbenv local</b>
-
-To see <b>global</b> version used
-
-$ <b>rbenv global</b>, determined by <b>~/.rbenv/version</b>
 
 then
 
@@ -24,7 +28,8 @@ Installing ruby-2.3.3...
 Installed ruby-2.3.3 to /Users/peterpih/.rbenv/versions/2.3.3
 </pre>
 
-in the <b>project root directory</b> make sure there is a .ruby-version   
+in the <b>project root directory</b> make sure there is a <b>.ruby-version</b> file
+
 $ <b>echo "2.3.3" > .ruby-version</b> <em>(make sure ('-' dash) not ('_' underscore))</em>
 <pre>
 <em># .ruby-version</em>
