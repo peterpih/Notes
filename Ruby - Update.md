@@ -16,7 +16,7 @@ Installing ruby-2.3.3...
 Installed ruby-2.3.3 to /Users/peterpih/.rbenv/versions/2.3.3
 </pre>
 
-in the <b>project root directory</b> make sure there is a
+in the <b>project root directory</b> make sure there is a .ruby_version   
 $ <b>echo "2.3.3" > .ruby_version</b>
 <pre>
 <em># .ruby-version</em>
