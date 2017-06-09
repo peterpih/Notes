@@ -17,11 +17,12 @@ Installing ruby-2.3.3...
 Installed ruby-2.3.3 to /Users/peterpih/.rbenv/versions/2.3.3
 </pre>
 
-in the project root directory make sure there is a
+in the <b>project root directory</b> make sure there is a
+$ <b>echo "2.3.3" > .ruby_version</b>
 <pre>
-# .ruby-version
+<em># .ruby-version</em>
 
-<em>2.3.3</em>
+2.3.3
 </pre>
 
 <b>rbenv</b> uses this file to figure out which version of Ruby to use
