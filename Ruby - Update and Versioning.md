@@ -6,6 +6,14 @@ To see the different versions which are available to be installed.
 
 $ <b>rbenv install --list</b>  
 
+To see current version used in <b>local</b> directory, determined by <b>.ruby-version</b>  
+
+$ <b>rbenv local</b>
+
+To see <b>global</b> version used
+
+$ <b>rbenv global</b>, determined by <b>~/.rbenv/version</b>
+
 then
 
 $ <b>rbenv install</b> <em>2.3.3</em>
