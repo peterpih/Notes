@@ -13,7 +13,7 @@ Rails will create a new migration file in db/migrate
 <pre>
 class UsefulMigrationName &lt; ActiveRecord::Migration[5.0]
   def change
-  ...
+    ...
   end
 end
 </pre>
