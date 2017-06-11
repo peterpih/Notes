@@ -58,13 +58,18 @@ Useful graph of SQL joins: [difference between join and inner join](http://stack
 <b>DROP TABLE</b> <em>table-name</em>
 </pre>
 
-###Dump a database
+<h2>Dump a database</h2>
 <pre>
 <em>creates dump file of table-name to output-file</em>
 <b>pg_dump -t</b> <em>table-name</em> <b>-f</b> <em>output-file  database-name</em>
     
 </pre>
 
-###Installing on Mac
+<h2>Installing on Mac</h2>
 
 $ <b>brew install postgres</b>
+
+<h2>Download database to local</h2>
+$ <b>heroku pg:backups:capture</b>    <em>/# creates a backup</em>   
+$ <b>heroku pg:backups:download</b>     <em>/# downloads back to latest.dump</em>   
+$ <b>pg_restore --verbose --clean --no-acl --no-owner -h localhost -U</b> <em>peterpih</em> <b>-d</b> <em>mom_development</em> <b>latest.dump</b>   
