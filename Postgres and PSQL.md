@@ -9,9 +9,17 @@ $ <b>`psql -c 'SELECT version();'`</b>
 (1 row)
 </pre>
 
-To run previous version of PostgreSQL  
+To run **previous version** of PostgreSQL  
+<pre>
 $ <b>cd /usr/local/Cellar/postgresql/9.4.11/bin</b>   
 $ <b>./postgres -D /usr/local/var/postgres</b>   <em># starts program</em>
+</pre>
+
+To run the **current** version of PostgreSQL
+<pre>
+$ <b>cd /usr/local/Cellar/postgres</b>   
+$ <b>./postgres -D /usr/local/var/postgres</b>   <em># starts program</em>
+</pre>
 
 Brew keeps versions in
 <pre>
@@ -69,11 +77,13 @@ Useful graph of SQL joins: [difference between join and inner join](http://stack
 
 $ <b>brew install postgres</b>
 
-<h2>Download database to local</h2>   
+<h2>Download database to local dev</h2>   
 <pre>
 $ <b>heroku pg:backups:capture</b>    <em># creates a backup</em>   
 $ <b>heroku pg:backups:download</b>   <em># downloads back to latest.dump</em>   
+</pre>
+<h2>Restore to local dev database</h2>
+<pre>
 $ pg_restore --verbose --clean --no-acl --no-owner -h localhost -U myuser -d mydb latest.dump   
-
 $ <b>pg_restore --verbose --clean --no-acl --no-owner -h localhost -U</b> <em>peterpih</em> <b>-d</b> <em>mom_development</em> <b>latest.dump</b>   
 </pre>
