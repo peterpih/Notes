@@ -8,6 +8,11 @@
 
 $ <b>rails generate migration</b> <em>UsefulMigrationName</em>  
 $ <b>rails g migration</b> <em>UsefulMigrationName</em>   
+<pre>
+Running via Spring preloader in process 17364
+      invoke  active_record
+      create    db/migrate/20170611152341_<em>useful_migration_name</em>.rb
+</pre>
 
 Rails will create a new migration file in db/migrate
 <pre>
@@ -26,17 +31,17 @@ end
 <b>change_column</b> <em>:table-name,  :old-column, :integer</em>   
 </pre>
 
-###Setting a Default Value
+<h2>Setting a Default Value For Column<h2>
 <pre>
 change_column :table-name, :column-name, :column-type, :default => 0
 </pre>
 
-###Rollback a Migration
+<h2>Rollback a Migration</h2>
 
 $ <b>rake db:rollback</b>   
 $ <b>rake db:rollback STEP=</b><em>3</em>         <em># rollback the last 3 migrations</em>
 
-###Delete A Migration (do after 'rake db:rollback')   
+<h2>Delete A Migration (do after 'rake db:rollback')</h2>   
 $ <b>rails destroy migration</b> <em>UsefulMigrationName</em>   
 
 ###Redo a Migration (rollback and re-migrate in one step)
