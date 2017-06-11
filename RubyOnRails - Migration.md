@@ -2,9 +2,9 @@
 
 [Migration for change column (SO)](http://stackoverflow.com/questions/2799774/rails-migration-for-change-column)
 
-###Always run rake db:migrate
+<h2>Always run rake db:migrate</h2>
 
-To create a Migration
+<h2>To create a Migration</h2>
 
 $ <b>rails generate migration</b> <em>UsefulMigrationName</em>  
 $ <b>rails g migration</b> <em>UsefulMigrationName</em>   
@@ -18,11 +18,12 @@ class UsefulMigrationName &lt; ActiveRecord::Migration[5.0]
 end
 </pre>
 
-###Renaming A Column
+<h2>Changeing A Column</h2>
 <pre>
 <b>rename_table</b>  <em>:old-table,  :new-table</em>   <em>( note _id_seq will automatically be renamed )</em>   
 <b>rename_column</b> <em>:table-name,  :old-column,  :new-column</em>   
 <b>remove_column</b> <em>:table-name,  :old-column</em>   
+<b>change_column</b> <em>:table-name,  :old-column, :integer</em>   
 </pre>
 
 ###Setting a Default Value
