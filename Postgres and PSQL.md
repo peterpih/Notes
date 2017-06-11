@@ -69,7 +69,7 @@ Useful graph of SQL joins: [difference between join and inner join](http://stack
 
 $ <b>brew install postgres</b>
 
-<h2>Download database to local</h2>
+<h2>Download database to local</h2>   
 $ <b>heroku pg:backups:capture</b>    <em>/# creates a backup</em>   
 $ <b>heroku pg:backups:download</b>     <em>/# downloads back to latest.dump</em>   
 $ <b>pg_restore --verbose --clean --no-acl --no-owner -h localhost -U</b> <em>peterpih</em> <b>-d</b> <em>mom_development</em> <b>latest.dump</b>   
