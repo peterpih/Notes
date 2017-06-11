@@ -23,7 +23,7 @@ $ <b>./postgres -D /usr/local/var/postgres</b>   <em># starts program</em>
 
 Brew keeps versions in
 <pre>
-<b>dir /usr/local/Cellar/postgresql</b>
+$ <b>dir /usr/local/Cellar/postgresql</b>
 ./	../	9.5.5/	9.6.1/	9.6.2/
 
 <b>/usr/local/Cellar/postgresql@9.4/9.4.11/bin</b> 502 >psql
