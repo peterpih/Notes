@@ -6,10 +6,10 @@ https://stackoverflow.com/questions/24109276/how-to-align-input-and-label-from-c
 https://stackoverflow.com/questions/24109276/how-to-align-input-and-label-from-collection-check-boxes/24109846
 
 <h2>Standard checkbox</h2>
-**type** makes _input_ a checkbox
-**name** makes multiple checkboxes a _group_
+type makes input a checkbox
+name makes multiple checkboxes a _group_
 <pre>
-&lt;input <b>type='checkbox'</b> name="firstname" value="John"&gt;First name:&lt;/label&gt;
+&lt;input <b>type='checkbox'</b> <b>name='firstname'</b> value="John"&gt;First name:&lt;/label&gt;
 </pre>
 
 <h2>Standard checkbox with selectable label</h2>  
