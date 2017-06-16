@@ -82,5 +82,13 @@ It will be necessary to add a logout link, login is handled by the <b>action_bef
 $lt;%= link_to 'Logout', destroy_user_session_path, method: :delete %&gt;
 </pre>
 
+<h2>Add Bootstrap</h2>
+<pre>
+gem 'devise'
+gem 'twitter-bootstrap-rails'
+</pre>
+
+$ bundle install --without production
+$ rails generate bootstrap_install <em>static</em>
 <h2>All set to go!</h2>
 
