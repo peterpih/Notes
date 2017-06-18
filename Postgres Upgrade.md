@@ -68,5 +68,5 @@ $ mv postgres9.4 postgres  # 9.6 since that is the latest version
 </pre>
 
 <h2>Dump the database</h2>
-$ <b>pg_dumpall -f</b> <em>9.4postgres.dummp</em>   
+$ <b>pg_dumpall -f</b> <em>9.4postgres.dump</em>   
 will create 9.4postgres.dump file in current directory  
