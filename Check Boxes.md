@@ -5,6 +5,16 @@ https://stackoverflow.com/questions/24109276/how-to-align-input-and-label-from-c
 
 https://stackoverflow.com/questions/24109276/how-to-align-input-and-label-from-collection-check-boxes/24109846
 
+<h2>Single checkbox</h2>
+<pre>
+  &lt;div class="field"&gt;
+      &lt;%= f.label <em>:model-label</em> <b>do</b> %&gt;
+      &lt;%= f.check_box <em>:model-label</em> %&gt;
+      <em>label-text-goes-here</em>
+    &lt;% end %&gt;
+  &lt;/div&gt;
+</pre>
+
 <h2>Standard checkbox</h2>
 type makes input a checkbox
 name makes multiple checkboxes a _group_
