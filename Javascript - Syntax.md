@@ -32,4 +32,7 @@ true
 
 <b>20 === "20"</b> - <em>both value and type must be the same</em>    
 false
+
+<b>||</b> - <em>logical OR</em>
+<b>&&</b> - <em>logical AND</em>
 </pre>
