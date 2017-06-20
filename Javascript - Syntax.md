@@ -27,6 +27,9 @@ array.<b>splice(<em>start, delete-count, additional-value1, additional-value2, .
 
 <h2Logical operators</h2>
 <pre>
-<b>==</b>
-<b>===</b> - <em>both value and type must be the same</em>
+<b>20 == "20" </b> - <em>"20" gets converted to a number and then is compared</em>
+true
+
+<b>20 === "20"</b> - <em>both value and type must be the same</em>    
+false
 </pre>
