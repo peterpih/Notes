@@ -37,5 +37,5 @@ false
 <b>&&</b> - <em>logical AND</em>
 </pre>
 
-<h2>[Operator precedence]</h2>   
+<h2>Operator precedence</h2>   
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
