@@ -39,3 +39,9 @@ false
 
 <h2>Operator precedence</h2>   
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+
+<h2>Loops>
+<pre>
+<b>for( var i=0; i<100; i++;){ ... }</b>
+<b>for in</b>
+</pre>
