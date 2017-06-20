@@ -23,4 +23,10 @@ array.splice(1,2);
 </pre>
 
 array.<b>push</b>  - <em>add tot he end of array </em>   
-array.<b>splice(<em>start, delete-count, additional-value1, additional-value2</em>);   
+array.<b>splice(<em>start, delete-count, additional-value1, additional-value2, ....</em>);   
+
+<h2Logical operators</h2>
+<pre>
+<b>==</b>
+<b>===</b> - <em>both value and type must be the same</em>
+</pre>
