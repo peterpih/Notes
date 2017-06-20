@@ -40,8 +40,17 @@ false
 <h2>Operator precedence</h2>   
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
 
-<h2>Loops>
+<h2>Loops</h2>
 <pre>
+Arrays   
 <b>for( var i=0; i<array.length; i++;){ ... }</b>
+
+Hashes  
+obj = {color: "read", height: 200, length: 100};   <em> the hash</em>    
+k = Object.keys( obj )   <em>get the keys fo the hash</em>    
+for (var i=0; i<k.length; i++){    
+ console.log( obj[k[i]] );    
+}
+
 <b>for in</b>
 </pre>
