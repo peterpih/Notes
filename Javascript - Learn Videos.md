@@ -1,5 +1,8 @@
 <h1>Video Code Camps:</h1>  
 
+[How To Add jQuery and Ajax To Your Rails App - Pragmatic Sutdio](https://www.youtube.com/watch?v=K-sns5tNdTY)
+
+
 https://www.linkedin.com/learning/learning-full-stack-javascript-development-mongodb-node-and-react?storeRef=voyager_feed_cymbii_learning&trk=n-feed-course-learning
 
 [Javascript Mini BootCamp](https://lambdaschool.com/mini-bootcamp/javascript)   
