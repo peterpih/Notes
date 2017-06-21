@@ -56,3 +56,6 @@ for (var i=0; i<k.length; i++){
 </pre>
 
 <h2>This keyword</h2>
+<pre>
+"use strict";
+</pre>
