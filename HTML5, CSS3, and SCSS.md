@@ -1,3 +1,6 @@
+<b>Tips:</b>   
+[Organizing CSS & Sass in Rails](http://www.mattboldt.com/organizing-css-and-sass-rails/)
+
 [<h2>W3.org Cascading Style Sheets - home page</h2>](https://www.w3.org/Style/CSS/)
 
 [<h2>W3 Tryit Editor</h2>](http://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
