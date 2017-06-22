@@ -1,3 +1,5 @@
+[Naive Bayes Explained](https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/)
+
 <pre>
 I<sup>t</sup>
 </pre>
