@@ -3,6 +3,7 @@
 <em># Gemfile</em>  
 
 gem 'devise'
+gem 'devise-bootstrap-views'
 </pre>
 <h2>Install Devise</h2>
 $ <b>rails generate devise:install</b>
@@ -14,7 +15,7 @@ Running via Spring preloader in process 29640
 
 Some setup you must do manually if you haven't yet:
 
-1. Ensure you have defined default url options in your environments files. Here
+- Ensure you have defined default url options in your environments files. Here
      is an example of default_url_options appropriate for a development environment
      in config/environments/development.rb:
 
