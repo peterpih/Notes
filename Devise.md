@@ -43,7 +43,7 @@ Some setup you must do manually if you haven't yet:
 </pre>
 
 <h2>Create User model</h2>
-$ <b>rails generate devise User</b>   
+$ <b>rails generate devise User</b>   <em>( note: capital 'U')</em>
 <em>automatically create migration and model</em>
 <pre>
 Running via Spring preloader in process 29767
