@@ -3,8 +3,8 @@ https://stackoverflow.com/questions/24379373/how-to-upgrade-postgresql-from-vers
 <h2>On Local Machine</h2>
 <b>To get the current database version number</b>   
 
-$ psql   
-\# SELECT version();  
+$ <b>psql</b>   
+\# <b>SELECT version();</b>  
 <pre>
                                                     version                                                     
 -----------------------------------------------------------------------------------------------------------------
@@ -14,7 +14,7 @@ $ psql
 </pre>
 
 <h2>Initialize new database</h2>
-$ initdb /usr/local/var/postgres9.6 -E utf8
+$ <b>initdb /usr/local/var/postgres9.6 -E utf8</b>
 <pre>
 The files belonging to this database system will be owned by user "peterpih".
 This user must also own the server process.
