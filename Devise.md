@@ -16,6 +16,7 @@ Running via Spring preloader in process 29640
       create  config/initializers/devise.rb
       create  config/locales/devise.en.yml
 ===============================================================================
+</pre>
 
 Some setup you must do manually if you haven't yet:
 
@@ -42,13 +43,12 @@ Some setup you must do manually if you haven't yet:
 4. You can copy Devise views (for customization) to your app by running:
 
        rails g devise:views
-
-===============================================================================
 </pre>
 
 <hr>
 
 <h2>Create User model</h2>
+
 $ <b>rails generate devise User</b>   <em>( note: capital 'U')</em>
 <em>automatically create migration and model</em>
 <pre>
