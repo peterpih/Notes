@@ -65,6 +65,10 @@ Running via Spring preloader in process 29767
 <hr>
 
 <h2>Migration</h2>
+
+<b>Before running migration make any edits necessary if you are using :confirmable</b>
+<b> see note in models/user.rb</b>
+
 $ <b>rake db:migrate</b>
 <pre>
 (in /Users/peterpih/udemy/finance-tracker)
