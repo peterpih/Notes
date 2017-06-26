@@ -31,3 +31,17 @@ $ <b>rails generate bootstrap:layout application</b>
 $ <b>rails generate devise:views:locale en</b>
 
 $ <b>rails generate devise:views:bootstrap_templates</b>
+<pre>
+      <b>create</b>  app/views/devise
+      <b>create</b>  app/views/devise/confirmations/new.html.erb
+      <b>create</b>  app/views/devise/mailer/confirmation_instructions.html.erb
+      <b>create</b>  app/views/devise/mailer/reset_password_instructions.html.erb
+      <b>create</b>  app/views/devise/mailer/unlock_instructions.html.erb
+      <b>create</b>  app/views/devise/passwords/edit.html.erb
+      <b>create</b>  app/views/devise/passwords/new.html.erb
+      <b>create</b>  app/views/devise/registrations/edit.html.erb
+      <b>create</b>  app/views/devise/registrations/new.html.erb
+      <b>create</b>  app/views/devise/sessions/new.html.erb
+      <b>create</b>  app/views/devise/shared/_links.html.erb
+      <b>create</b>  app/views/devise/unlocks/new.html.erb
+</pre>
