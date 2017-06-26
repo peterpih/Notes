@@ -15,7 +15,6 @@ $ <b>rails generate devise:install</b>
 Running via Spring preloader in process 29640
       create  config/initializers/devise.rb
       create  config/locales/devise.en.yml
-===============================================================================
 </pre>
 
 Some setup you must do manually if you haven't yet:
@@ -62,6 +61,8 @@ Running via Spring preloader in process 29767
       insert    app/models/user.rb
        route  devise_for :users
 </pre>
+
+<hr>
 
 <h2>Migration</h2>
 $ <b>rake db:migrate</b>
