@@ -66,8 +66,9 @@ Running via Spring preloader in process 29767
 
 <h2>Migration</h2>
 
-<b>Before running migration make any edits necessary if you are using :confirmable</b>
-<b> see note in models/user.rb</b>
+<b>NOTE:</b>
+<p>Before running <em>migration</em> make any edits necessary if you are using <b>:confirmable</b>  
+<b> see note at top in <em>models/user.rb</em></b>
 
 $ <b>rake db:migrate</b>
 <pre>
