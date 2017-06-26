@@ -5,6 +5,10 @@
 gem 'devise'
 gem 'devise-bootstrap-views'
 </pre>
+$ <b>bundle install</b>
+
+<hr>
+
 <h2>Install Devise</h2>
 $ <b>rails generate devise:install</b>
 <pre>
@@ -41,6 +45,8 @@ Some setup you must do manually if you haven't yet:
 
 ===============================================================================
 </pre>
+
+<hr>
 
 <h2>Create User model</h2>
 $ <b>rails generate devise User</b>   <em>( note: capital 'U')</em>
