@@ -1,16 +1,19 @@
 <h2>Adding Devise gem to your Gemfile</h2>
 <pre>
-<em># Gemfile</em>  
-
 gem 'devise'
 gem 'devise-bootstrap-views'
 </pre>
+
+then  
+
 $ <b>bundle install</b>
 
 <hr>
 
-<h2>Install Devise</h2>
+<h2>Install Devise</h2>  
+
 $ <b>rails generate devise:install</b>
+
 <pre>
 Running via Spring preloader in process 29640
       create  config/initializers/devise.rb
@@ -96,13 +99,24 @@ It will be necessary to add a logout link, login is handled by the <b>action_bef
 $lt;%= link_to 'Logout', destroy_user_session_path, method: :delete %&gt;
 </pre>
 
-<h2>Add Bootstrap</h2>
+<h2>Add Bootstrap to Gemfile</h2>
 <pre>
 gem 'devise'
 gem 'twitter-bootstrap-rails'
 </pre>
 
-$ bundle install --without production
-$ rails generate bootstrap_install <em>static</em>
+$ <b>bundle install --without production</b>   
+$ <b>rails generate bootstrap_install static</b>
+
+<hr>
+
+<h2>Add devise_bootstrap to application.css</h2>
+<pre>
+*= require devise_bootstrap_views   
+*= require tree .\
+*= require self
+</pre>
+</pre>
+
 <h2>All set to go!</h2>
 
