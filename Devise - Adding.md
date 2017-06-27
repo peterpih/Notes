@@ -16,7 +16,7 @@ devise :database_authenticatable, :registerable, :confirmable,
        :recoverable, :rememberable, :trackable, :validatable
 
   <b>has_one :payment</b>
-  <b>accepts_nested_attributed_for :payment</b>
+  <b>accepts_nested_attributes_for :payment</b>
 end
 </pre>
 
