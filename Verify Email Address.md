@@ -1,3 +1,5 @@
+Check out email-address gem: https://github.com/afair/email_address
+
 Several steps to verify an email address
 - verify MX record
 - verify server has the actual email address
