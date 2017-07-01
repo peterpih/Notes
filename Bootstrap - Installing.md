@@ -20,8 +20,8 @@ add the following <b>@import</b>s
 <em># app/assets/stylesheets/custom.css.scss</em>
 
 <em>changes to bootstrap's constants go <b>before</b> the imports</em>
-@import "bootstrap-sprockets";
-@import "bootstrap";
+<b>@import "bootstrap-sprockets";</b>
+<b>@import "bootstrap";</b>
 </pre>
 
 
@@ -48,10 +48,10 @@ add the following <b>@import</b>s
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-<b>//= require jquery
+//= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require bootstrap-sprockets</b>
+<b>//= require bootstrap-sprockets</b>
 //= require_tree .
 </pre>
 
