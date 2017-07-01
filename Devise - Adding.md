@@ -1,7 +1,7 @@
 <h2>Add to Gemfile</h2>
 
 <pre>
-gem Devise
+gem 'devise' 
 </pre>
 
 $ <b>bundle install --without production</b>
