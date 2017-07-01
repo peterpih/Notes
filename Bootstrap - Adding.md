@@ -45,3 +45,20 @@ $ <b>rails generate devise:views:bootstrap_templates</b>
       <b>create</b>  app/views/devise/shared/_links.html.erb
       <b>create</b>  app/views/devise/unlocks/new.html.erb
 </pre>
+
+<h2>Add to &lt;head&gt;</h2>
+
+<pre>
+ &lt;!-- Latest compiled and minified CSS --&gt;
+&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"&gt;
+</pre>
+
+<h2>Add just before end of &lt;body&gt;</h2>
+
+<pre>
+  &lt;!-- jQuery (necessary for Bootstrap's JavaScript plugins) --&gt;
+  &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"&gt;&lt;/script&gt;
+  &lt;!-- Include all compiled plugins (below), or include individual files as needed --&gt;
+  &lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;
+  &lt;/body&gt;
+</pre>
