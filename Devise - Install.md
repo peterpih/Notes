@@ -6,7 +6,7 @@ gem 'devise-bootstrap-views'
 
 then  
 
-$ <b>bundle install</b>
+$ <b>bundle install --without production</b>
 
 <hr>
 
