@@ -58,7 +58,7 @@ add the following <b>@import</b>s
 <b>application.css.sass</b>
 <pre>
 <h2>rename to .sass extension</h2>
-$ <b>ren application.css -> application.css.sass</b>
+$ <b>ren application.css -> application.css.scss</b>
 
 /* <b>before</b>
  ...
