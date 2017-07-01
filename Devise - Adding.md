@@ -8,7 +8,7 @@ $ <b>bundle install --without production</b>
 
 $ <b>rails generate devise:install</b>
 
-$ <b> rails generate devise:User</b> <em>(note capital 'U'ser)</em>
+$ <b> rails generate devise User</b> <em>(note capital 'U'ser)</em>
 
 <h2>Add to application_controller.rb</h2>
 
