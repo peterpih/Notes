@@ -52,8 +52,8 @@ class <b>Examples</b>Controller < ApplicationController
     end
   end
 
-  # DELETE /examples/1
-  # DELETE /examples/1.json
+  &#35; DELETE /examples/1
+  &#35; DELETE /examples/1.json
   def destroy
     @<b>example</b>.destroy
     respond_to do |format|
@@ -63,12 +63,12 @@ class <b>Examples</b>Controller < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
+    &#35; Use callbacks to share common setup or constraints between actions.
     def set_<b>example</b>
       @<b>example</b> = <b>Example</b>.find(params[:id])
     end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
+    &#35; Never trust parameters from the scary internet, only allow the white list through.
     def <b>example</b>_params
       params.require(:<b>example</b>).permit(:first, :second)
     end
