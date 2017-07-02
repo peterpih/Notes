@@ -47,7 +47,7 @@ class <b>Examples</b>Controller < ApplicationController
         format.json { render :show, status: :ok, location: @<b>example</b> }
       else
         format.html { render :edit }
-        format.json { render json: @example.errors, status: :unprocessable_entity }
+        format.json { render json: @<b>example</b>.errors, status: :unprocessable_entity }
       end
     end
   end
