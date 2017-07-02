@@ -1,76 +1,76 @@
 <pre>
-class <b>TestsController</b> < ApplicationController
-  <b>before_action</b> :set_test, only: [:show, :edit, :update, :destroy]
+class <b>Examples</b>Controller < ApplicationController
+  before_action :set_<b>example</b>, only: [:show, :edit, :update, :destroy]
 
-  # GET /tests
-  # GET /tests.json
-  def <b>index</b>
-    @tests = Test.all
+  # GET /examples
+  # GET /examples.json
+  def index
+    @<b>examples</b> = <b>Example</b>.all
   end
 
-  # GET /tests/1
-  # GET /tests/1.json
-  def <b>show</b>
+  # GET /examples/1
+  # GET /examples/1.json
+  def show
   end
 
-  # GET /tests/new
-  def <b>new</b>
-    @test = Test.new
+  # GET /examples/new
+  def new
+    @<b>example</b> = <b>Example</b>.new
   end
 
-  # GET /tests/1/edit
-  def <b>edit</b>
+  # GET /examples/1/edit
+  def edit
   end
 
-  # POST /tests
-  # POST /tests.json
-  def <b>create</b>
-    @test = Test.new(test_params)
+  # POST /examples
+  # POST /examples.json
+  def create
+    @<b>example</b> = <b>Example</b>.new(<b>example</b>_params)
 
     respond_to do |format|
-      if @test.save
-        format.html { redirect_to @test, notice: 'Test was successfully created.' }
-        format.json { render :show, status: :created, location: @test }
+      if @<b>example</b>.save
+        format.html { redirect_to @<b>example</b>, notice: 'Example was successfully created.' }
+        format.json { render :show, status: :created, location: @<b>example</b> }
       else
         format.html { render :new }
-        format.json { render json: @test.errors, status: :unprocessable_entity }
+        format.json { render json: @<b>example</b>.errors, status: :unprocessable_entity }
       end
     end
   end
 
-  # PATCH/PUT /tests/1
-  # PATCH/PUT /tests/1.json
-  def <b>update</b>
+  # PATCH/PUT /examples/1
+  # PATCH/PUT /examples/1.json
+  def update
     respond_to do |format|
-      if @test.update(test_params)
-        format.html { redirect_to @test, notice: 'Test was successfully updated.' }
-        format.json { render :show, status: :ok, location: @test }
+      if @<b>example</b>.update(<b>example</b>_params)
+        format.html { redirect_to @<b>example</b>, notice: 'Example was successfully updated.' }
+        format.json { render :show, status: :ok, location: @<b>example</b> }
       else
         format.html { render :edit }
-        format.json { render json: @test.errors, status: :unprocessable_entity }
+        format.json { render json: @example.errors, status: :unprocessable_entity }
       end
     end
   end
 
-  # DELETE /tests/1
-  # DELETE /tests/1.json
-  def <b>destroy</b>
-    @test.destroy
+  # DELETE /examples/1
+  # DELETE /examples/1.json
+  def destroy
+    @<b>example</b>.destroy
     respond_to do |format|
-      format.html { redirect_to tests_url, notice: 'Test was successfully destroyed.' }
+      format.html { redirect_to <b>examples</b>_url, notice: 'Example was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
 
-  <b>private</b>
+  private
     # Use callbacks to share common setup or constraints between actions.
-    def <b>set_test</b>
-      @test = Test.find(params[:id])
+    def set_<b>example</b>
+      @<b>example</b> = <b>Example</b>.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
-    def <b>test_params</b>
-      params.require(:test).permit(:first, :second)
+    def <b>example</b>_params
+      params.require(:<b>example</b>).permit(:first, :second)
     end
 end
 </pre>
