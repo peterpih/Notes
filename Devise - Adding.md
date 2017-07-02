@@ -55,7 +55,7 @@ $ <b> rails generate devise User</b> <em>(note capital 'U'ser)</em>
        route  devise_for :users
 </pre>
 
-<h2>Make any wanted customizaions to the model</h2>
+<h2>Make any wanted customizations to the model <em>before migration</em></h2>
 
 $ <b>rake db:migrate</b>
 
@@ -74,6 +74,8 @@ $ <b>rake db:migrate</b>
 <h2>Add to application_controller.rb to control access to logged-in users only</h2>
 
 <pre>
+<em># application_controller.rb</em>
+
 before_action :authenticate_user!
 </pre>
 
@@ -85,7 +87,8 @@ Overwrite /Users/peterpih/ror/impact_report/app/views/layouts/application.html.e
        force  app/views/layouts/application.html.erb
 </pre>
 
-You will need to put your original navbar back into <b>application.html.erb</b> and the header.
+You will need to put your original navbar back into <b>application.html.erb</b> and the header.  
+See <b>Bootstrap - Navbar</b> and <b>Bootstrap - Header</b> sections
 
 <h2>Add in Gemfile</h2>
 
