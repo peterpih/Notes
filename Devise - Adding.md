@@ -108,7 +108,22 @@ $ <b>bundle install --without production</b>
 
 $ <b>rails generate devise:views:locale en</b>
 
-$ <b>rails generate devise:views:bootstrap_templates</b>  <em>( to update to bootstrap format )</em>
+$ <b>rails generate devise:views:bootstrap_templates</b>  <em>( to update views to bootstrap format )</em>
+
+<pre>
+      create  app/views/devise
+      create  app/views/devise/confirmations/new.html.erb
+      create  app/views/devise/mailer/confirmation_instructions.html.erb
+      create  app/views/devise/mailer/reset_password_instructions.html.erb
+      create  app/views/devise/mailer/unlock_instructions.html.erb
+      create  app/views/devise/passwords/edit.html.erb
+      create  app/views/devise/passwords/new.html.erb
+      create  app/views/devise/registrations/edit.html.erb
+      create  app/views/devise/registrations/new.html.erb
+      create  app/views/devise/sessions/new.html.erb
+      create  app/views/devise/shared/_links.html.erb
+      create  app/views/devise/unlocks/new.html.erb
+</pre>
 
 <h2>Add to routes.rb</h2>
 
