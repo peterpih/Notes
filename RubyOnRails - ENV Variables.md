@@ -1,5 +1,9 @@
+<h2>Setup environment variables</h2>  
+
+"01" necessary since loading is in alphabetic order
+
 <pre>
-<em># config/initializers/dev_environment.rb</em>
+<em># config/initializers/01_environment.rb</em>
 
 unless Rails.env.production?
   ENV['EMAIL_USERNAME'] = '<em>username</em>'
@@ -8,9 +12,9 @@ unless Rails.env.production?
 end
 </pre>
 
-And don't forget to add to <b>.gitignore</b>
+<h2>Add to <b>.gitignore</b> to keep ENV variables private</h2>
 <pre>
 <em># .gitignore</em>
 
-config/initializers/dev_environment.rb
+config/initializers/01_environment.rb
 </pre>
