@@ -12,7 +12,7 @@ unless Rails.env.production?
 end
 </pre>
 
-<h2>Add to <b>.gitignore</b> to keep ENV variables private</h2>
+<h2>Add to .gitignore to keep ENV variables private</h2>
 <pre>
 <em># .gitignore</em>
 
