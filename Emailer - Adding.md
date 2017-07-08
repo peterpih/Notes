@@ -26,7 +26,7 @@ $ <b>rails generate mailer MyMailer</b>
 <em>Need to use <b>gmail</b> in development</em>
 
 <pre>
-<em># config/environments/development.rb</em>
+<em># config/environments/<b>development.rb</b></em>
 
   ActionMailer::Base.raise_delivery_errors = true
   ActionMailer::Base.perform_deliveries = true
@@ -47,7 +47,7 @@ $ <b>rails generate mailer MyMailer</b>
   <em>Need to use <b>SendGrid</b> on Heroku </em>
   
   <pre>
-<em># config/environments/production.rb</em>
+  <em># config/environments/<b>production.rb</b></em>
   
   ActionMailer::Base.raise_delivery_errors = true
   ActionMailer::Base.perform_deliveries = true
