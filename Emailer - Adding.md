@@ -41,6 +41,9 @@ $ <b>rails generate mailer MyMailer</b>
   </pre>
   
   <h2>To send email in production</h2>
+  
+  <em>Need to use <b>SendGrid</b> on Heroku </em>
+  
   <pre>
   <em># config/environments/production.rb</em>
   
