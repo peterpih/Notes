@@ -1,13 +1,14 @@
 <h2>Create a controller</h2>
+
 <pre>
 <em># email_controller.rb</em>
 
-class EmailController < ApplicationController
+  class EmailController < ApplicationController
 
-  def send_an_email
-    MyMailer.send_an_email(to: @user)
+    def send_an_email
+      MyMailer.send_an_email(to: @user)
+    end
   end
-end
 </pre>
 
 <h2>Create mailer</h2>
