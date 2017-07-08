@@ -23,7 +23,7 @@ $ <b>rails generate mailer MyMailer</b>
   class MyMailer &lt; ApplicationMailer
     default from: "<em>no_reply@gmail.com</em>"
 
-    def send_an_email(user)
+    def <b>send_an_email</b>(user)
       @user = user
       mail(to: @user.email, subject: 'Sample Email')
     end
