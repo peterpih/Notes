@@ -18,7 +18,7 @@
 $ <b>rails generate mailer MyMailer</b>
 
 <pre>
-<em># mailer/my_mailer.rb
+<em># mailer/my_mailer.rb</em>
 
   class MyMailer &lt; ApplicationMailer
     default from: "<em>no_reply@gmail.com</em>"
