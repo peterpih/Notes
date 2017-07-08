@@ -21,23 +21,24 @@ $ <b>rails generate mailer MyMailer</b>
 </pre>
 
 <h2>To send email in development</h2>
+
+<em>Need to use <b>gmail</b> in development</em>
+
 <pre>
 <em># config/environments/development.rb</em>
 
   ActionMailer::Base.raise_delivery_errors = true
   ActionMailer::Base.perform_deliveries = true
   ActionMailer::Base.delivery_method = :smtp
-  
-  &#35; SMTP settings for gmail
   ActionMailer::Base.smtp_settings = {
-    :address              => "smtp.gmail.com",
-    :port                 => 587,
-    :domain               => 'gmail.com',
-    :user_name            => ENV['EMAIL_USERNAME'],
-    :password             => ENV['EMAIL_PASSWORD'],
-    :authentication       => "plain",
-    :enable_starttls_auto => true
-  }
+    :address              =&gt; "smtp.gmail.com",
+    :port                 =&gt; 587,
+    :domain               =&gt; 'gmail.com',
+    :user_name            =&gt; ENV['EMAIL_USERNAME'],
+    :password             =&gt; ENV['EMAIL_PASSWORD'],
+    :authentication       =&gt; "plain",
+    :enable_starttls_auto =&gt; true
+    }
   </pre>
   
   <h2>To send email in production</h2>
@@ -45,18 +46,18 @@ $ <b>rails generate mailer MyMailer</b>
   <em>Need to use <b>SendGrid</b> on Heroku </em>
   
   <pre>
-  <em># config/environments/production.rb</em>
+<em># config/environments/production.rb</em>
   
   ActionMailer::Base.raise_delivery_errors = true
   ActionMailer::Base.perform_deliveries = true
   ActionMailer::Base.delivery_method = :smtp
   ActionMailer::Base.smtp_settings = {
-    :user_name => ENV['SENDGRID_USERNAME'],
-    :password => ENV['SENDGRID_PASSWORD'],
-    :domain => 'heroku.com',
-    :address => 'smtp.sendgrid.net',
-    :port => 587,
-    :authentication => :plain,
-    :enable_starttls_auto => true
+    :user_name =&gt; ENV['SENDGRID_USERNAME'],
+    :password =&gt; ENV['SENDGRID_PASSWORD'],
+    :domain =&gt; 'heroku.com',
+    :address =&gt; 'smtp.sendgrid.net',
+    :port =&gt; 587,
+    :authentication =&gt; :plain,
+    :enable_starttls_auto =&gt; true
   }
   </pre>
