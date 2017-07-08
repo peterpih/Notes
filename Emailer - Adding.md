@@ -42,20 +42,22 @@ $ <b>rails generate mailer MyMailer</b>
 <em>Need to use <b>gmail</b> in development</em>
 
 <pre>
-<em># config/environments/<b>development.rb</b></em>
+<em># config/initializers/<b>mail.rb</b></em>
 
+if Rails.env.development?
   ActionMailer::Base.raise_delivery_errors = true
   ActionMailer::Base.perform_deliveries = true
   ActionMailer::Base.delivery_method = :smtp
   ActionMailer::Base.smtp_settings = {
     :address              =&gt; "smtp.gmail.com",
     :port                 =&gt; 587,
-    :domain               =&gt; 'gmail.com',
+    :domain               =&gt; '<b>gmail.com</b>',
     :user_name            =&gt; ENV['EMAIL_USERNAME'],
     :password             =&gt; ENV['EMAIL_PASSWORD'],
     :authentication       =&gt; "plain",
     :enable_starttls_auto =&gt; true
-    }
+  }
+end
   </pre>
   
   <h2>To send email in production</h2>
@@ -63,8 +65,9 @@ $ <b>rails generate mailer MyMailer</b>
   <em>Need to use <b>SendGrid</b> on Heroku </em>
   
   <pre>
-  <em># config/environments/<b>production.rb</b></em>
+  <em># config/initializers/<b>mail.rb</b></em>
   
+if Rails.env.production?
   ActionMailer::Base.raise_delivery_errors = true
   ActionMailer::Base.perform_deliveries = true
   ActionMailer::Base.delivery_method = :smtp
@@ -72,7 +75,7 @@ $ <b>rails generate mailer MyMailer</b>
     :user_name =&gt; ENV['SENDGRID_USERNAME'],
     :password =&gt; ENV['SENDGRID_PASSWORD'],
     :domain =&gt; 'heroku.com',
-    :address =&gt; 'smtp.sendgrid.net',
+    :address =&gt; '<b>smtp.sendgrid.net</b>',
     :port =&gt; 587,
     :authentication =&gt; :plain,
     :enable_starttls_auto =&gt; true
