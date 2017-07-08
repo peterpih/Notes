@@ -6,7 +6,9 @@
   class EmailController < ApplicationController
 
     def send_an_email
-      MyMailer.send_an_email(to: @user)
+      MyMailer.<b>send_an_email</b>(to: @user)
+      flash[:notice] = 'Successfully emailed.'
+      redirect_to root_path
     end
   end
 </pre>
@@ -15,9 +17,23 @@
 
 $ <b>rails generate mailer MyMailer</b>
 
-<h2>Create email forms</h2>
 <pre>
-# views/my_mailer/send_an_email.html.erb
+<em># mailer/my_mailer.rb
+
+  class MyMailer &lt; ApplicationMailer
+    default from: "<em>no_reply@gmail.com</em>"
+
+    def send_an_email(user)
+      @user = user
+      mail(to: @user.email, subject: 'Sample Email')
+    end
+  end
+</pre>
+
+<h2>Create email forms</h2>
+
+<pre>
+# views/my_mailer/<b>send_an_email</b>.html.erb
 
 </pre>
 
