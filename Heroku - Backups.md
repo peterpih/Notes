@@ -1,6 +1,6 @@
 [<h1>Heroku PGBackups</h1>](https://devcenter.heroku.com/articles/heroku-postgres-backups)
 
-<h2>Do a backup (now)</b>
+<h2>Do a backup (now)</h2>
 
 $ <b>heroku pg:backups:capture</b>
 <pre>
