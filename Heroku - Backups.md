@@ -1,4 +1,19 @@
-<h2>Scedule the backup</h2>
+[<h1>Heroku PGBackups</h1>](https://devcenter.heroku.com/articles/heroku-postgres-backups)
+
+<h2>Do a backup (now)</b>
+
+$ <b>heroku pg:backups:capture</b>
+<pre>
+Starting backup of postgresql-silhouetted-69904... done
+
+Use Ctrl-C at any time to stop monitoring progress; the backup will continue running.
+Use heroku pg:backups:info to check progress.
+Stop a running backup with heroku pg:backups:cancel.
+
+Backing up DATABASE to b006... done
+</pre>
+
+<h2>Schedule a backup</h2>
 
 $ <b>heroku pg:backups:schedule DATABASE_URL --at '02:00 America/Chicago'</b>
 
